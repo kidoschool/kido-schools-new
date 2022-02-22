@@ -31,7 +31,7 @@
     <section class="p-text py-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-9">
+                <div class="col-lg-6">
                     <div class="data text-center">
                         <p>We’re integrating advances in design, technology and pedagogy and creating the highest quality nurseries and preschools across the world. Magical places, where children play, learn, grow and thrive. We’ve combined classical philosophies like Montessori and Reggio Emilia with latest research and created the most advanced early years program anywhere. Our exceptional people, program and nurseries nurture and enhance every child’s innate curiosity, creativity, and ability href be a lifelong learner. Since 2014, over 15,000 families across the world have entrusted their children href Kido nurseries for our customised and unique early childhood education and care programs.</p>
                     </div>
