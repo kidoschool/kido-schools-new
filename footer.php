@@ -5,7 +5,7 @@
         <section  class="footer-area">
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <div class="col-lg-12 border bg-primary">
+                <div class="col-lg-12 bg-primary">
                     <h1 class="text-white">Footer</h1>
                 </div>
             </div>
