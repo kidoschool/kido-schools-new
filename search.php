@@ -109,7 +109,7 @@
                         </div> 
                         <div class="google-rating d-flex justify-content-between pt-3">
                             <div class="google-rating-logo">
-                                <img src="images/logo.svg" alt="" width="150" class="img-fluid">
+                                <img src="images/daycare.svg" alt="" width="150" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
                                 <small class="float-right font-weight-bold"><i class="fas fa-star text-danger mr-2"></i>5.0 Rating</small>
@@ -147,7 +147,7 @@
                         </div> 
                         <div class="google-rating d-flex justify-content-between pt-3">
                             <div class="google-rating-logo">
-                                <img src="images/logo.svg" alt="" width="150" class="img-fluid">
+                                <img src="images/daycare.svg" alt="" width="150" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
                                 <small class="float-right font-weight-bold"><i class="fas fa-star text-danger mr-2"></i>5.0 Rating</small>
@@ -185,7 +185,7 @@
                         </div> 
                         <div class="google-rating d-flex justify-content-between pt-3">
                             <div class="google-rating-logo">
-                                <img src="images/logo.svg" alt="" width="150" class="img-fluid">
+                                <img src="images/daycare.svg" alt="" width="150" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
                                 <small class="float-right font-weight-bold"><i class="fas fa-star text-danger mr-2"></i>5.0 Rating</small>
@@ -223,7 +223,7 @@
                         </div> 
                         <div class="google-rating d-flex justify-content-between pt-3">
                             <div class="google-rating-logo">
-                                <img src="images/logo.svg" alt="" width="150" class="img-fluid">
+                                <img src="images/daycare.svg" alt="" width="150" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
                                 <small class="float-right font-weight-bold"><i class="fas fa-star text-danger mr-2"></i>5.0 Rating</small>
