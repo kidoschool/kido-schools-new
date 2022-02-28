@@ -1,14 +1,8 @@
 <?php include 'header.php';?>
-<div class="container-fluid">
+    <section>
+        <div class="container-fluid">
             <div class="row">
-                <!-- <div class="banner">
-                    <div class="under-const border p-4 bg-white"> 
-                    <h2>Website under construction</h2>
-                    <p>Visit Our Kido School Website</p>
-                    <a href="https://kido.school/en/" class="btn btn-sm btn-primary" target="_blank">Visit Website</a>
-                    </div>
-                  </div> -->
-                  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="images/Website-Hero-1.jpg" class="d-block w-100" alt="...">

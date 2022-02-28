@@ -21,7 +21,7 @@
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-lg-12 bg-primary">
-                    <h1 class="text-white">Kido</h1>
+                    <h1 class="text-white py-2">Kido</h1>
                 </div>
             </div>
         </div>
