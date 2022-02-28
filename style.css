@@ -3,7 +3,7 @@ body{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    padding-top: 50px;
+    padding-top: 60px;
     line-height: 1.5;
     background-color: #fff;
 }
@@ -96,12 +96,12 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
 }
 
 .nursery-listing-box{
-    height: 220px;
+    height: 230px;
 }
 
 .nursery-list-img{
     width: 100%;
-    height: 200px;
+    height: 180px;
     border-radius: 5%;
 }
 
@@ -128,6 +128,12 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
 #carouselExampleSlidesOnly{
   width: 100%;
 }
+.padding-0{
+  padding-right:0;
+  /* padding-left:0; */
+}
+
+
 @media only screen and (max-width: 600px) {
     .nursery-listing-box {
         height: 410px;
