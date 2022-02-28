@@ -181,11 +181,7 @@
                         </div> 
                         <div class="google-rating d-flex justify-content-between pt-2">
                             <div class="google-rating-logo">
-<<<<<<< HEAD
                                 <img src="images/daycare.svg" alt="" width="150" class="img-fluid">
-=======
-                                <img src="images/daycare.svg" alt="" width="140" class="img-fluid">
->>>>>>> bd93fac773c70c3660f503bedca732b33b547ec2
                             </div>
                             <div class="google-rating-star">
                                 <small class="float-right font-weight-bold"><i class="fas fa-star text-primary mr-2"></i></i><i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i>5 Rating</small>
@@ -245,11 +241,7 @@
                         </div> 
                         <div class="google-rating">
                             <div class="google-rating-logo">
-<<<<<<< HEAD
                                 <img src="images/daycare.svg" alt="" width="150" class="img-fluid">
-=======
-                                <img src="images/daycare.svg" alt="" width="140" class="img-fluid">
->>>>>>> bd93fac773c70c3660f503bedca732b33b547ec2
                             </div>
                             <div class="google-rating-star">
                                 <small class="font-weight-bold"><i class="fas fa-star text-primary mr-2"></i></i><i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i>5 Rating</small>
