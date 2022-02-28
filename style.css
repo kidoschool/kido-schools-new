@@ -126,6 +126,9 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+#carouselExampleSlidesOnly{
+  width: 100%;
+}
 .padding-0{
   padding-right:0;
   /* padding-left:0; */
