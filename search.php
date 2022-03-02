@@ -251,7 +251,7 @@
                 </div>
                 </div>
             </div>
-            <div class="nursery-listing-box">
+            <!-- <div class="nursery-listing-box">
                 <hr>
                 <div class="row">
                 <div class="nursery-img-box col-lg-6">
@@ -288,7 +288,7 @@
                     </div>
                 </div>
                 </div>
-            </div>
+            </div> -->
            </div>
            <div class="col-lg-5">
             <div class="map">

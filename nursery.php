@@ -9,6 +9,14 @@
                     <div class="rating d-flex justify-content-between">
                     <div class="google-rating">
                         <div class="google-rating-logo">
+                            <img src="images/daycare.svg" alt="" width="140" class="img-fluid">
+                        </div>
+                        <div class="google-rating-star">
+                            <small class="font-weight-bold"><i class="fas fa-star text-primary mr-2"></i></i><i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i>5 Rating</small>
+                        </div>
+                    </div>
+                    <div class="google-rating">
+                        <div class="google-rating-logo">
                             <img src="images/google.png" alt="" width="40" class="img-fluid">
                         </div>
                         <div class="google-rating-star">
@@ -20,17 +28,9 @@
                             <img src="images/offset.png" alt="" width="40" class="img-fluid">
                         </div>
                         <div class="google-rating-star">
-                            <small class="font-weight-bold"><i class="fas fa-star text-primary mr-2"></i><i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i>5 Rating</small>
+                            <small class="font-weight-bold">Coming Soon</small>
                         </div>
                     </div> 
-                    <div class="google-rating">
-                        <div class="google-rating-logo">
-                            <img src="images/daycare.svg" alt="" width="140" class="img-fluid">
-                        </div>
-                        <div class="google-rating-star">
-                            <small class="font-weight-bold"><i class="fas fa-star text-primary mr-2"></i></i><i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i>5 Rating</small>
-                        </div>
-                    </div>
                     </div>
                 </div>
             </div>
