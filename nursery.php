@@ -9,18 +9,18 @@
                     <div class="rating d-flex justify-content-between">
                     <div class="google-rating">
                         <div class="google-rating-logo">
-                            <img src="images/daycare.svg" alt="" width="140" class="img-fluid">
+                            <img src="images/google.png" alt="" width="40" class="img-fluid">
                         </div>
                         <div class="google-rating-star">
-                            <small class="font-weight-bold"><i class="fas fa-star text-primary mr-2"></i></i><i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i>5 Rating</small>
+                            <small class="font-weight-bold"><i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i></small>
                         </div>
                     </div>
                     <div class="google-rating">
                         <div class="google-rating-logo">
-                            <img src="images/google.png" alt="" width="40" class="img-fluid">
+                            <img src="images/daycare.svg" alt="" width="140" class="img-fluid">
                         </div>
                         <div class="google-rating-star">
-                            <small class="font-weight-bold"><i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i>4 Rating</small>
+                            <small class="font-weight-bold">4.5 Rating</small>
                         </div>
                     </div>
                     <div class="google-rating">
@@ -39,7 +39,7 @@
 </section>
 <section class="nursery-gallery-grid pt-5">
     <div class="container">
-        <div class="row">
+        <div class="row desktop-nur-gallery">
             <div class="col-lg-6 padding-0">
                 <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="img-fluid" alt="...">
             </div>
@@ -62,6 +62,43 @@
                 <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="img-fluid mt-2" alt="..."> 
             </div>
         </div>
+            <div class="row mobile-nur-gallery">
+            <div class="col-lg-12">
+                <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="d-block nursery-list-img" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="d-block nursery-list-img" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="https://kido.school/wp-content/uploads/2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="d-block nursery-list-img" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls1" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls1" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="sticky-contact">
+        <div class="p-2 shadow">
+            <p><i class="fas fa-envelope text-white" title="Email"></i></p>
+            <p><i class="fas fa-phone text-white" title="phone"></i></p>
+            <p><i class="fab fa-facebook-f text-white" title="facebook"></i></p>
+            <p><i class="fab fa-instagram text-white" title="Instagram"></i></p>
+            <p><i class="fa fa-download text-white" title="Download Brochure"></i></p>
+        </div>
     </div>
 </section>
 <section class="nursery-data pt-5">
@@ -80,6 +117,10 @@
                     <p>Each preschool classroom is bright, warm and spacious, keeping your child engaged in a program that’s designed just for them.</p>
                     <p>Our programs are for children between the ages of 8 months and 5 years, including preschool extended days and full days.</p>
                     <p>Give us a call and we can chat about our Bandra Preschool in more detail, or arrange a tour so you can see what the place is like!</p>
+                </div>
+                <div class="Brochure-download mt-4">
+                    <h2>Our Brochure</h2>
+                    <a class="text-primary"><i class="fa fa-download pr-3"></i>Download Our Brochure</a>
                 </div>
                 <div class="school-details mt-4">
                     <h2>School details</h2>

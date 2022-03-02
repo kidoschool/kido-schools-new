@@ -129,6 +129,11 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
 #carouselExampleSlidesOnly{
   width: 100%;
 }
+
+.mobile-nur-gallery{
+  display: none;
+}
+
 .padding-0{
   padding-right:0;
   /* padding-left:0; */
@@ -143,10 +148,36 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
   top: 0;
 }
 
+.fa-star{
+  font-size: 8px;
+}
+
+.sticky-contact{
+  /* display: none; */
+  position: fixed;
+  bottom: 200px;
+  right: 2px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #00346b;
+  color: #fff;
+  cursor: pointer;
+}
+
 
 @media only screen and (max-width: 600px) {
     .nursery-listing-box {
         height: 410px;
+    }
+
+    .desktop-nur-gallery{
+      display: none;
+    }
+
+    .mobile-nur-gallery{
+      display: block;
     }
 }
 

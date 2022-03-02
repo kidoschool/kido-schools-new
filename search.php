@@ -53,7 +53,6 @@
         </div>
     </div>
 </section>
-
 <section class="nursery-body">
    <div class="container-fluid">
        <div class="row justify-content-center">
@@ -89,36 +88,36 @@
                     <div class="d-flex justify-content-between">
                     <div><h5 class="text-secondary">India</h5></div>
                     <div>
-                        <i class="fa fa-phone text-success" aria-hidden="true" style="cursor : pointer"></i>
-                        <i class="fa fa-envelope text-danger ml-2" aria-hidden="true" style="cursor : pointer"></i>
+                        <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
+                        <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
                     </div>
                     </div>
                     <h3>Bandra International Preschool & Day Care</h3>
                     <small id="demo">Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft ...</small>
                     
-                    <div class="rating-box">
-                        <div class="google-rating d-flex justify-content-between pt-2">
+                    <div class="rating d-flex justify-content-between mt-3">
+                        <div class="google-rating">
                             <div class="google-rating-logo">
-                                <img src="images/google.png" alt="" width="40" class="img-fluid">
+                                <img src="images/google.png" alt="" width="50" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
-                                <small class="float-right font-weight-bold"><i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i>4 Rating</small>
+                                <small class="font-weight-bold"><i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary"></i></small>
+                            </div>
+                        </div> 
+                        <div class="google-rating">
+                            <div class="google-rating-logo">
+                                <img src="images/daycare.svg" alt="" width="120" class="img-fluid">
+                            </div>
+                            <div class="google-rating-star">
+                                <small class="font-weight-bold">4.5 Rating</small>
                             </div>
                         </div>
-                        <div class="google-rating d-flex justify-content-between pt-2">
+                        <div class="google-rating">
                             <div class="google-rating-logo">
                                 <img src="images/offset.png" alt="" width="40" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
-                                <small class="float-right font-weight-bold"><i class="fas fa-star text-primary mr-2"></i><i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i>5 Rating</small>
-                            </div>
-                        </div> 
-                        <div class="google-rating d-flex justify-content-between pt-2">
-                            <div class="google-rating-logo">
-                                <img src="images/daycare.svg" alt="" width="150" class="img-fluid">
-                            </div>
-                            <div class="google-rating-star">
-                                <small class="float-right font-weight-bold"><span class="text-primary">Coming Soon</span></small>
+                                <small class="font-weight-bold">Very Good</small>
                             </div>
                         </div>
                     </div>
@@ -155,36 +154,36 @@
                     <div class="d-flex justify-content-between">
                         <div><h5 class="text-secondary">India</h5></div>
                         <div>
-                            <i class="fa fa-phone text-success" aria-hidden="true" style="cursor : pointer"></i>
-                            <i class="fa fa-envelope text-danger ml-2" aria-hidden="true" style="cursor : pointer"></i>
+                            <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
+                            <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
                         </div>
                     </div>
                     <h3>Bandra International Preschool & Day Care</h3>
                     <small id="demo">Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft ...</small>
                     
-                    <div class="rating-box">
-                        <div class="google-rating d-flex justify-content-between pt-2">
+                    <div class="rating d-flex justify-content-between mt-3">
+                        <div class="google-rating">
                             <div class="google-rating-logo">
-                                <img src="images/google.png" alt="" width="40" class="img-fluid">
+                                <img src="images/google.png" alt="" width="50" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
-                                <small class="float-right font-weight-bold"><i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i>4 Rating</small>
+                                <small class="font-weight-bold"><i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> </small>
+                            </div>
+                        </div> 
+                        <div class="google-rating">
+                            <div class="google-rating-logo">
+                                <img src="images/daycare.svg" alt="" width="120" class="img-fluid">
+                            </div>
+                            <div class="google-rating-star">
+                                <small class="font-weight-bold">4.5 Rating</small>
                             </div>
                         </div>
-                        <div class="google-rating d-flex justify-content-between pt-2">
+                        <div class="google-rating">
                             <div class="google-rating-logo">
                                 <img src="images/offset.png" alt="" width="40" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
-                                <small class="float-right font-weight-bold"><i class="fas fa-star text-primary mr-2"></i><i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i>5 Rating</small>
-                            </div>
-                        </div> 
-                        <div class="google-rating d-flex justify-content-between pt-2">
-                            <div class="google-rating-logo">
-                                <img src="images/daycare.svg" alt="" width="150" class="img-fluid">
-                            </div>
-                            <div class="google-rating-star">
-                                <small class="float-right font-weight-bold"><i class="fas fa-star text-primary mr-2"></i></i><i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i>5 Rating</small>
+                                <small class="font-weight-bold">Excellent</small>
                             </div>
                         </div>
                     </div>
@@ -195,40 +194,54 @@
                 <hr>
                 <div class="row">
                 <div class="nursery-img-box col-lg-5 mt-3">
-                    <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                            <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="d-block nursery-list-img" alt="...">
+                            <img src="https://kido.school/wp-content/uploads//2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="d-block nursery-list-img" alt="...">
                             </div>
                             <div class="carousel-item">
                             <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="d-block nursery-list-img" alt="...">
                             </div>
                             <div class="carousel-item">
-                            <img src="https://kido.school/wp-content/uploads/2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="d-block nursery-list-img" alt="...">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="d-block nursery-list-img" alt="...">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls1" data-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls2" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls1" data-slide="next">
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls2" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </button>
                     </div>
                 </div>
                 <div class="col-lg-7">
-                    <h5 class="text-secondary">India</h5>
+                    <div class="d-flex justify-content-between">
+                        <div><h5 class="text-secondary">India</h5></div>
+                        <div>
+                            <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
+                            <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
+                        </div>
+                    </div>
                     <h3>Bandra International Preschool & Day Care</h3>
                     <small id="demo">Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft ...</small>
                     
-                    <div class="rating d-flex justify-content-between">
+                    <div class="rating d-flex justify-content-between mt-3">
                         <div class="google-rating">
                             <div class="google-rating-logo">
-                                <img src="images/google.png" alt="" width="40" class="img-fluid">
+                                <img src="images/google.png" alt="" width="50" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
-                                <small class="font-weight-bold"><i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> 4 Rating</small>
+                                <small class="font-weight-bold"><i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i></small>
+                            </div>
+                        </div> 
+                        <div class="google-rating">
+                            <div class="google-rating-logo">
+                                <img src="images/daycare.svg" alt="" width="120" class="img-fluid">
+                            </div>
+                            <div class="google-rating-star">
+                                <small class="font-weight-bold">4.5 Rating</small>
                             </div>
                         </div>
                         <div class="google-rating">
@@ -236,59 +249,13 @@
                                 <img src="images/offset.png" alt="" width="40" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
-                                <small class="font-weight-bold"><i class="fas fa-star text-primary mr-2"></i><i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i>5 Rating</small>
-                            </div>
-                        </div> 
-                        <div class="google-rating">
-                            <div class="google-rating-logo">
-                                <img src="images/daycare.svg" alt="" width="150" class="img-fluid">
-                            </div>
-                            <div class="google-rating-star">
-                                <small class="font-weight-bold"><i class="fas fa-star text-primary mr-2"></i></i><i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i> <i class="fas fa-star text-primary mr-2"></i>5 Rating</small>
+                                <small class="font-weight-bold">Excellent</small>
                             </div>
                         </div>
                     </div>
                 </div>
                 </div>
             </div>
-            <!-- <div class="nursery-listing-box">
-                <hr>
-                <div class="row">
-                <div class="nursery-img-box col-lg-6">
-                    <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" alt="" class="img-fluid nursery-list-img">
-                </div>
-                <div class="col-lg-6">
-                    <h5 class="text-secondary">India</h5>
-                    <h3>Bandra International Preschool & Day Care</h3>
-                    <div class="rating-box">
-                        <div class="google-rating d-flex justify-content-between">
-                            <div class="google-rating-logo">
-                                <img src="images/google.png" alt="" width="50" class="img-fluid">
-                            </div>
-                            <div class="google-rating-star">
-                                <small class="float-right font-weight-bold"><i class="fas fa-star text-primary mr-2"></i>5.0 Rating</small>
-                            </div>
-                        </div>
-                        <div class="google-rating d-flex justify-content-between pt-3">
-                            <div class="google-rating-logo">
-                                <img src="images/offset.png" alt="" width="50" class="img-fluid">
-                            </div>
-                            <div class="google-rating-star">
-                                <small class="float-right font-weight-bold"><i class="fas fa-star text-primary mr-2"></i>5.0 Rating</small>
-                            </div>
-                        </div> 
-                        <div class="google-rating d-flex justify-content-between pt-3">
-                            <div class="google-rating-logo">
-                                <img src="images/daycare.svg" alt="" width="150" class="img-fluid">
-                            </div>
-                            <div class="google-rating-star">
-                                <small class="float-right font-weight-bold"><i class="fas fa-star text-primary mr-2"></i>5.0 Rating</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div> -->
            </div>
            <div class="col-lg-5">
             <div class="map">
