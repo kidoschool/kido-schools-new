@@ -41,7 +41,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 padding-0">
-                <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid" alt="...">
+                <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="img-fluid" alt="...">
             </div>
             <!-- <div class="col-lg-6">
                 <div class="row">
@@ -54,12 +54,12 @@
                 </div>
             </div> -->
             <div class="col-lg-3 padding-0">
-                <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid" alt="...">
+                <img src="https://kido.school/wp-content/uploads/2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="img-fluid" alt="...">
                 <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid mt-2" alt="..."> 
             </div>
             <div class="col-lg-3 padding-0">
                 <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid" alt="...">
-                <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid mt-2" alt="..."> 
+                <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="img-fluid mt-2" alt="..."> 
             </div>
         </div>
     </div>
@@ -70,6 +70,11 @@
             <div class="col-lg-7">
                 <div class="nursery-desc">
                     <h2>Welcome to Kido Bandra, Mumbai</h2>
+                    <div class="nur-cat d-flex justify-content-between my-4">
+                        <div class="lang text-center"><img src="images/age-range.svg" alt="" width="50"><h6>Age range</h6><small>8 months to 5 years</small></div>
+                        <div class="lang text-center"><img src="images/language.svg" alt="" width="50"><h6>Languages taught</h6><small>English, Spanish and Hindi</small></div>
+                        <div class="lang text-center"><img src="images/hours.svg" alt="" width="50"><h6>Opening hours</h6><small>9:00 am to 7:00 pm</small></div>
+                    </div>
                     <p>Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft space in the heart of Bandra, off Carter Road and near Khar & Santa Cruz.</p>
                     <p>It’s a palace of imagination – complete with a large play area, themed spaces, and an indoor stage for drama, music, and dance. Between the reading nooks and creative corners, our international preschool is also furnished with science and tech bays – so children can learn whilst playing with a diverse range of advanced equipment.</p>
                     <p>Each preschool classroom is bright, warm and spacious, keeping your child engaged in a program that’s designed just for them.</p>
@@ -94,7 +99,8 @@
                         <button class="btn-sm btn btn-primary" type="button"><i class="fas fa-phone text-white pr-3"></i>Give us a call</button>
                         <button class="btn-sm btn btn-primary" type="button"><i class="fab fa-facebook-f text-white pr-3"></i>Facebook</button>
                         <button class="btn-sm btn btn-primary" type="button"><i class="fab fa-instagram text-white pr-3"></i>Instagram</button>
-                        </div>
+                        <button class="btn-sm btn btn-primary" type="button"><i class="fa fa-download text-white pr-3"></i>Download Our Brochure</button>
+                    </div>
                     </div>
                 </div>
             </div>
