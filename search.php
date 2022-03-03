@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<section class="nursery-head pt-4 pb-1 fixed-top mt-5 bg-white">
+<section class="nursery-head pt-4 pb-1 fixed-top bg-white">
    <div class="container-fluid">
        <div class="row justify-content-center">
            <div class="col-lg-3">
@@ -85,7 +85,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7">
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between mt-2">
                     <div><h5 class="text-secondary">India</h5></div>
                     <div>
                         <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>

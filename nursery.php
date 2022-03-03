@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<section class="nursery-head-title pt-5">
+<section class="nursery-head-title mt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
@@ -37,22 +37,12 @@
         </div>
     </div>
 </section>
-<section class="nursery-gallery-grid pt-5">
+<section class="nursery-gallery-grid mt-5">
     <div class="container">
         <div class="row desktop-nur-gallery">
             <div class="col-lg-6 padding-0">
                 <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="img-fluid" alt="...">
             </div>
-            <!-- <div class="col-lg-6">
-                <div class="row">
-                    <div class="col-lg-6"><img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid" alt="..."></div>
-                    <div class="col-lg-6"><img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid" alt="..."></div>
-                </div>
-                <div class="row mt-3">
-                    <div class="col-lg-6"><img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid" alt="..."></div>
-                    <div class="col-lg-6"><img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid" alt="..."></div>
-                </div>
-            </div> -->
             <div class="col-lg-3 padding-0">
                 <img src="https://kido.school/wp-content/uploads/2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="img-fluid" alt="...">
                 <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid mt-2" alt="..."> 
@@ -101,12 +91,12 @@
         </div>
     </div>
 </section>
-<section class="nursery-data pt-5">
+<section class="nursery-data mt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-7">
                 <div class="nursery-desc">
-                    <h2>Welcome to Kido Bandra, Mumbai</h2>
+                    <h2 class="nury-head-title mb-4">Welcome to Kido Bandra, Mumbai</h2>
                     <div class="nur-cat d-flex justify-content-between my-4">
                         <div class="lang text-center"><img src="images/age-range.svg" alt="" width="50"><h6>Age range</h6><small>8 months to 5 years</small></div>
                         <div class="lang text-center"><img src="images/language.svg" alt="" width="50"><h6>Languages taught</h6><small>English, Spanish and Hindi</small></div>
@@ -118,12 +108,12 @@
                     <p>Our programs are for children between the ages of 8 months and 5 years, including preschool extended days and full days.</p>
                     <p>Give us a call and we can chat about our Bandra Preschool in more detail, or arrange a tour so you can see what the place is like!</p>
                 </div>
-                <div class="Brochure-download mt-4">
-                    <h2>Our Brochure</h2>
+                <div class="Brochure-download mt-5">
+                    <h2 class="nury-head-title mb-4">Our Brochure</h2>
                     <a class="text-primary"><i class="fa fa-download pr-3"></i>Download Our Brochure</a>
                 </div>
-                <div class="school-details mt-4">
-                    <h2>School details</h2>
+                <div class="school-details mt-5">
+                    <h2 class="nury-head-title mb-4">School details</h2>
                     <p>Curriculum <span class="font-weight-bold">EYFS, Kïdo</span></p>
                     <p>Hours <span class="font-weight-bold">7:30 am - 6:30 pm</span></p>
                     <p>Schedule <span class="font-weight-bold">Part time, Full time, 51 weeks/year</span></p>
@@ -148,12 +138,263 @@
         </div>
     </div>
 </section>
-<section class="map-sec py-5">
+<section class="map-sec mt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
+            <h2 class="nury-head-title mb-4">Location</h2>
             <div class="map-area">
                     <div id="googleMap" style="width:100%;height:500px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="near-by-nursery my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+            <h2 class="nury-head-title mb-4">Other Nursery Nearby</h2>
+            <div class="card-deck">
+                <div class="other-nury-list card shadow">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="d-block nursery-list-img" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="d-block nursery-list-img" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="https://kido.school/wp-content/uploads/2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="d-block nursery-list-img" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between mt-2">
+                            <div><h5 class="text-secondary">India</h5></div>
+                            <div>
+                                <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
+                                <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
+                            </div>
+                        </div>
+                    <h5 class="card-title">Bandra International Preschool & Day Care</h5>
+                    <p class="card-text"><small id="demo">Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft ...</small></p>
+                    <div class="rating mt-3">
+                        <div class="google-rating d-flex justify-content-between mt-2">
+                            <div class="google-rating-logo">
+                                <img src="images/google.png" alt="" width="50" class="img-fluid">
+                            </div>
+                            <div class="google-rating-star">
+                                <small class="font-weight-bold"><i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary"></i></small>
+                            </div>
+                        </div> 
+                        <div class="google-rating d-flex justify-content-between mt-2">
+                            <div class="google-rating-logo">
+                                <img src="images/daycare.svg" alt="" width="120" class="img-fluid">
+                            </div>
+                            <div class="google-rating-star">
+                                <small class="font-weight-bold">4.5 Rating</small>
+                            </div>
+                        </div>
+                        <div class="google-rating d-flex justify-content-between mt-2">
+                            <div class="google-rating-logo">
+                                <img src="images/offset.png" alt="" width="40" class="img-fluid">
+                            </div>
+                            <div class="google-rating-star">
+                                <small class="font-weight-bold">Very Good</small>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="other-nury-list card shadow">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="d-block nursery-list-img" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="d-block nursery-list-img" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="https://kido.school/wp-content/uploads/2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="d-block nursery-list-img" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between mt-2">
+                            <div><h5 class="text-secondary">India</h5></div>
+                            <div>
+                                <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
+                                <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
+                            </div>
+                        </div>
+                    <h5 class="card-title">Bandra International Preschool & Day Care</h5>
+                    <p class="card-text"><small id="demo">Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft ...</small></p>
+                    <div class="rating mt-3">
+                        <div class="google-rating d-flex justify-content-between mt-2">
+                            <div class="google-rating-logo">
+                                <img src="images/google.png" alt="" width="50" class="img-fluid">
+                            </div>
+                            <div class="google-rating-star">
+                                <small class="font-weight-bold"><i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary"></i></small>
+                            </div>
+                        </div> 
+                        <div class="google-rating d-flex justify-content-between mt-2">
+                            <div class="google-rating-logo">
+                                <img src="images/daycare.svg" alt="" width="120" class="img-fluid">
+                            </div>
+                            <div class="google-rating-star">
+                                <small class="font-weight-bold">4.5 Rating</small>
+                            </div>
+                        </div>
+                        <div class="google-rating d-flex justify-content-between mt-2">
+                            <div class="google-rating-logo">
+                                <img src="images/offset.png" alt="" width="40" class="img-fluid">
+                            </div>
+                            <div class="google-rating-star">
+                                <small class="font-weight-bold">Very Good</small>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="other-nury-list card shadow">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="d-block nursery-list-img" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="d-block nursery-list-img" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="https://kido.school/wp-content/uploads/2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="d-block nursery-list-img" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between mt-2">
+                            <div><h5 class="text-secondary">India</h5></div>
+                            <div>
+                                <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
+                                <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
+                            </div>
+                        </div>
+                    <h5 class="card-title">Bandra International Preschool & Day Care</h5>
+                    <p class="card-text"><small id="demo">Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft ...</small></p>
+                    <div class="rating mt-3">
+                        <div class="google-rating d-flex justify-content-between mt-2">
+                            <div class="google-rating-logo">
+                                <img src="images/google.png" alt="" width="50" class="img-fluid">
+                            </div>
+                            <div class="google-rating-star">
+                                <small class="font-weight-bold"><i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary"></i></small>
+                            </div>
+                        </div> 
+                        <div class="google-rating d-flex justify-content-between mt-2">
+                            <div class="google-rating-logo">
+                                <img src="images/daycare.svg" alt="" width="120" class="img-fluid">
+                            </div>
+                            <div class="google-rating-star">
+                                <small class="font-weight-bold">4.5 Rating</small>
+                            </div>
+                        </div>
+                        <div class="google-rating d-flex justify-content-between mt-2">
+                            <div class="google-rating-logo">
+                                <img src="images/offset.png" alt="" width="40" class="img-fluid">
+                            </div>
+                            <div class="google-rating-star">
+                                <small class="font-weight-bold">Very Good</small>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="other-nury-list card shadow">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="d-block nursery-list-img" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="d-block nursery-list-img" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="https://kido.school/wp-content/uploads/2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="d-block nursery-list-img" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between mt-2">
+                            <div><h5 class="text-secondary">India</h5></div>
+                            <div>
+                                <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
+                                <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
+                            </div>
+                        </div>
+                    <h5 class="card-title">Bandra International Preschool & Day Care</h5>
+                    <p class="card-text"><small id="demo">Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft ...</small></p>
+                    <div class="rating mt-3">
+                        <div class="google-rating d-flex justify-content-between mt-2">
+                            <div class="google-rating-logo">
+                                <img src="images/google.png" alt="" width="50" class="img-fluid">
+                            </div>
+                            <div class="google-rating-star">
+                                <small class="font-weight-bold"><i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary"></i></small>
+                            </div>
+                        </div> 
+                        <div class="google-rating d-flex justify-content-between mt-2">
+                            <div class="google-rating-logo">
+                                <img src="images/daycare.svg" alt="" width="120" class="img-fluid">
+                            </div>
+                            <div class="google-rating-star">
+                                <small class="font-weight-bold">4.5 Rating</small>
+                            </div>
+                        </div>
+                        <div class="google-rating d-flex justify-content-between mt-2">
+                            <div class="google-rating-logo">
+                                <img src="images/offset.png" alt="" width="40" class="img-fluid">
+                            </div>
+                            <div class="google-rating-star">
+                                <small class="font-weight-bold">Very Good</small>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>

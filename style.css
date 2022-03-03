@@ -68,6 +68,42 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
   background-color: #00346b !important;
 }
 
+/*--------section header start---------*/
+
+.nav-link{color: #fff!important; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
+.bg-color{background: #00356b!important; }
+
+.dropdown-item{color: #00356b!important; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff!important;
+  text-decoration: none;
+  background-color: #00356b;
+}
+
+.navbar input::placeholder{
+ font-size: 14px;
+}
+
+.navbar input{
+ border-radius: 120px
+ }
+
+#search select {font-size: 14px;}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
+
+@media screen and (max-width: 480px) {
+    .home_nav{padding-left: 8px;}
+}
+
+/*--------section header end---------*/
+
 .banner{
   background-image: url(images/Website-Hero-1.jpg);
   width: 100%;
@@ -88,7 +124,7 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
 }
 
 .nursery-body{
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 .map{
@@ -108,6 +144,7 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
 
 .nursery-head{
   border-bottom: 1px solid rgb(235, 226, 226);
+  margin-top: 80px;
 }
 
 .nursery-head .form-control {
@@ -145,7 +182,7 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
 
 .nursery-contact{
   position: sticky;
-  top: 0;
+  top: 100px
 }
 
 .fa-star{
@@ -166,10 +203,63 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
   cursor: pointer;
 }
 
+.near-by-nursery .card{
+  border-radius: 20px;
+}
+
+/*--------footer-area start---------*/
+.footer-area{
+  background-color: #00356b;
+} 
+
+.icon-info i{
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-area a{ 
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.footer-bottom p{ 
+    color: #fff;
+}
+
+.footer-info p {
+  font-size: 13px;
+  color: #fff;
+}
+
+.footer-info li {
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.footer-widget h4.widget-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+
+.bottom-line {
+  border-bottom: 1px solid #bfc4db;
+}
+
+/*--------footer-area end---------*/
+
+
 
 @media only screen and (max-width: 600px) {
     .nursery-listing-box {
         height: 410px;
+    }
+
+    .nursery-body {
+      padding-top: 250px;
     }
 
     .desktop-nur-gallery{

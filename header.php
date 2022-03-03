@@ -15,16 +15,43 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <!-- header start -->
-    <header>
-        <nav class="fixed-top">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-lg-12 bg-primary">
-                    <h1 class="text-white py-2">Kido</h1>
+<header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-color fixed-top">
+          <a class="navbar-brand pl-4" href="index.php"><img src="images/kido-logo.jpg" alt="logo"/></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
+            <li class="nav-item">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Search Based on Country code">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-5" activeclass="selected" href="search.php">Our Nursery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link pl-4 dropdown-toggle" href="/about-us" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/about-us">About</a>
+                  <a class="dropdown-item" href="/programs">Programs</a>
+                  <a class="dropdown-item" href="/news-events">Blogs</a>
                 </div>
-            </div>
-        </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-4" href="/contact-us">events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-4" href="/contact-us">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-4" href="/careers">Careers</a>
+              </li> 
+            </ul>
+          </div>
         </nav>
-    </header>
+      </header>
     <!-- header end -->
