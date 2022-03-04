@@ -260,8 +260,8 @@
            <div class="col-lg-5">
             <div class="map">
                 <div id="googleMap" style="width:100%;height:100vh;"></div>
-           </div>
-           </div>
+            </div>
+            </div>
        </div>
    </div>
 </section>
