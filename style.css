@@ -114,6 +114,55 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
   /* padding: 380px 0px; */
 }
 
+.banner-tarea{
+  position: absolute;
+  top: 70%;
+  right: 60%;
+}
+
+.banner-text{
+  font-weight: 600;
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 30px;
+  text-transform: lowercase;
+  text-shadow: 2px 2px #444;
+}
+
+a.btn-banner {
+  border: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  border-radius: 30px;
+  letter-spacing: .20px;
+  padding: 12px 40px;
+  background-color: #fff;
+  color: #00356b;
+  text-decoration: none;
+}
+
+ a.btn-banner:hover {
+  background: #bd5319;
+  color: #fff;
+} 
+
+.btn-outline-primary{
+  color: #00356b;
+  border-color: #00356b;
+  width: 155px;
+  font-size: 15px;
+}
+
+.btn-outline-primary:hover {
+  color: #bd5319;
+  background-color: transparent;
+  border-color: #bd5319;
+}
+
+.getlocation-btn{
+  overflow-x: auto;
+}
+
 .under-const{
     width: 60%;
     text-align: center;
@@ -206,6 +255,75 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
 .near-by-nursery .card{
   border-radius: 20px;
 }
+/* testimonial------------- */
+.testimonial .carousel {
+	padding: 0 70px;
+}
+.testimonial .carousel .carousel-item {
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	overflow: hidden;
+	min-height: 290px;
+}
+.testimonial .carousel .carousel-item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.testimonial .carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.testimonial .carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.testimonial .carousel .overview {	
+	font-style: italic;
+}
+.testimonial .carousel .overview b {
+	text-transform: uppercase;
+	color: #00346b;
+}
+.testimonial .carousel-control-prev, .carousel-control-next {
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	top: 50%;
+	background: none;
+}
+.testimonial .carousel-control-prev i, .carousel-control-next i {
+	font-size: 68px;
+	line-height: 42px;
+	position: absolute;
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.testimonial .carousel-indicators {
+	bottom: -40px;
+}
+.testimonial .carousel-indicators li, .carousel-indicators li.active {
+	width: 12px;
+	height: 12px;
+	margin: 1px 3px;
+	border-radius: 50%;
+	border: none;
+}
+.testimonial .carousel-indicators li {	
+	background: #74a1d1;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.testimonial .carousel-indicators li.active {	
+	background: #00346b;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
 
 /*--------footer-area start---------*/
 .footer-area{
@@ -254,6 +372,26 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
 
 
 @media only screen and (max-width: 600px) {
+
+    h1, .h1 {
+        font-size: 1.5em;
+    }
+
+    .banner-text{
+        font-weight: 600;
+        font-size: 26px;
+        color: #fff;
+        margin-bottom: 30px;
+        text-transform: lowercase;
+        text-shadow: 2px 2px #444;
+      }
+
+    .banner-tarea {
+        position: absolute;
+        top: 60%;
+        right: 10%;
+    }
+
     .nursery-listing-box {
         height: 410px;
     }
