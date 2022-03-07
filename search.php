@@ -2,10 +2,10 @@
 <section class="nursery-head pt-4 pb-1 fixed-top bg-white">
    <div class="container-fluid">
        <div class="row justify-content-center">
-           <div class="col-lg-3">
+           <!-- <div class="col-lg-3">
                <div class="header">
                    <div class="form-group">
-                        <!-- <label for="exampleFormControlSelect1">Example select</label> -->
+                        <label for="exampleFormControlSelect1">Example select</label>
                         <select class="form-control" id="exampleFormControlSelect1">
                         <option>Select Country</option>
                         <option>2</option>
@@ -15,8 +15,8 @@
                         </select>
                     </div>
                </div>
-            </div>
-            <div class="col-lg-3">
+            </div> -->
+            <div class="col-lg-4">
                <div class="header">
                    <div class="form-group">
                         <!-- <label for="exampleFormControlSelect1">Example select</label> -->
@@ -30,7 +30,7 @@
                     </div>
                </div>
             </div>   
-            <div class="col-lg-3">
+            <div class="col-lg-4">
                <div class="header">
                    <div class="form-group">
                         <!-- <label for="exampleFormControlSelect1">Example select</label> -->
@@ -44,7 +44,7 @@
                     </div>
                </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4">
             <div class="form-group">
                 <!-- <label for="exampleFormControlInput1">Email address</label> -->
                 <input type="number" class="form-control" id="pincode" placeholder="enter pin code">
@@ -57,7 +57,7 @@
    <div class="container-fluid">
        <div class="row justify-content-center">
            <div class="col-lg-7 py-4">
-            <h5>Explore our global network. We found 12 nurseries & preschools</h5>
+            <h5 class="head-blue">Explore our global network. We found 12 nurseries & preschools</h5>
             <div class="nursery-listing-box">
                 <hr>
                 <div class="row">
@@ -109,7 +109,7 @@
                                 <img src="images/daycare.svg" alt="" width="120" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
-                                <small class="font-weight-bold">4.5 Rating</small>
+                                <small class="font-weight-bold"><span class="day-care-rate">4.5</span></small>
                             </div>
                         </div>
                         <div class="google-rating">
@@ -175,7 +175,7 @@
                                 <img src="images/daycare.svg" alt="" width="120" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
-                                <small class="font-weight-bold">4.5 Rating</small>
+                                <small class="font-weight-bold"><span class="day-care-rate">4.5</span></small>
                             </div>
                         </div>
                         <div class="google-rating">
@@ -241,7 +241,7 @@
                                 <img src="images/daycare.svg" alt="" width="120" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
-                                <small class="font-weight-bold">4.5 Rating</small>
+                                <small class="font-weight-bold"><span class="day-care-rate">4.5</span></small>
                             </div>
                         </div>
                         <div class="google-rating">

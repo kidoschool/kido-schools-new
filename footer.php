@@ -79,6 +79,7 @@
         };
         var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     }
+    
 </script> 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIJkPLyzo5XZODdhxAa_XYbk2ESQpJyZw&callback=myMap"></script>
 
