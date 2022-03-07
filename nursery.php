@@ -20,7 +20,7 @@
                             <img src="images/daycare.svg" alt="" width="140" class="img-fluid">
                         </div>
                         <div class="google-rating-star">
-                            <small class="font-weight-bold">4.5 Rating</small>
+                            <small class="font-weight-bold"><span class="day-care-rate">4.5</span></small>
                         </div>
                     </div>
                     <div class="google-rating">
