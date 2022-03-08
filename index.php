@@ -64,7 +64,7 @@
                 <div class="col-lg-4 offset-lg-1">
                     <div class="data">
                         <video width="450" id="vid"  class="img-fluid" controls autoPlay loop muted>
-                            <source src="https://storage.googleapis.com/kido-assets/testimonial-imgbanner-video-Mp4.mp4" type="video/mp4"/>
+                            <source src="https://storage.googleapis.com/kido-assets/banner-video-Mp4.mp4" type="video/mp4"/>
                             Your browser does not support HTML video.
                         </video> 
                     </div>
