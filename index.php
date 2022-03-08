@@ -9,28 +9,28 @@
                             <h2 class="banner-text">early years, reimagined</h2>
                             <a href="/" class="btn-banner">Find a nursery near you</a>
                         </div>
-                            <img src="images/Website-Hero-1.jpg" class="banner-hero-img" alt="...">
+                            <img src="https://storage.googleapis.com/kido-assets/Website-Hero-1.jpg" class="banner-hero-img" alt="banner-img">
                         </div>
                         <div class="carousel-item">
                         <div class="banner-tarea">
                             <h2 class="banner-text">early years, reimagined</h2>
                             <a href="/" class="btn-banner">Find a nursery near you</a>
                         </div>
-                        <img src="https://demo.kido.school/wp-content/uploads/2021/04/Website-Hero-2.jpg" class="banner-hero-img" alt="...">
+                        <img src="https://storage.googleapis.com/kido-assets/Website-Hero-2.jpg" class="banner-hero-img" alt="banner-img">
                         </div>
                         <div class="carousel-item">
                         <div class="banner-tarea">
                             <h2 class="banner-text">early years, reimagined</h2>
                             <a href="/" class="btn-banner">Find a nursery near you</a>
                         </div>
-                        <img src="https://demo.kido.school/wp-content/uploads/2021/04/Website-Hero-4.jpg" class="banner-hero-img" alt="...">
+                        <img src="https://storage.googleapis.com/kido-assets/Website-Hero-3.jpg" class="banner-hero-img" alt="banner-img">
                         </div>
                         <div class="carousel-item">
                         <div class="banner-tarea">
                             <h2 class="banner-text">early years, reimagined</h2>
                             <a href="/" class="btn-banner">Find a nursery near you</a>
                         </div>
-                        <img src="https://demo.kido.school/wp-content/uploads/2021/04/Website-Hero-3.jpg" class="banner-hero-img" alt="...">
+                        <img src="https://storage.googleapis.com/kido-assets/Website-Hero-4.jpg" class="banner-hero-img" alt="banner-img">
                         </div>
                     </div>
                     </div>
@@ -64,7 +64,7 @@
                 <div class="col-lg-4 offset-lg-1">
                     <div class="data">
                         <video width="450" id="vid"  class="img-fluid" controls autoPlay loop muted>
-                            <source src="images/banner-video-Mp4.mp4" type="video/mp4"/>
+                            <source src="https://storage.googleapis.com/kido-assets/testimonial-imgbanner-video-Mp4.mp4" type="video/mp4"/>
                             Your browser does not support HTML video.
                         </video> 
                     </div>
@@ -106,17 +106,17 @@
 				<!-- Wrapper for carousel items -->
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<div class="img-box"><img src="images/Parent-Testimonial-1.jpg" class="img-fluid" alt=""></div>
+						<div class="img-box"><img src="https://storage.googleapis.com/kido-assets/Parent-Testimonial-1.jpg" class="img-fluid" alt="testimonial-img"></div>
 						<p class="testimonial text-center">Both my children go to nursery and are very happy there.</p>
 						<p class="overview float-right"><b>Parent</b>, Parent, Chiswick</p>
 					</div>
 					<div class="carousel-item">
-						<div class="img-box"><img src="images/Parent-Testimonial-2.jpg" class="img-fluid" alt=""></div>
+						<div class="img-box"><img src="https://storage.googleapis.com/kido-assets/Parent-Testimonial-2.jpg" class="img-fluid" alt="testimonial-img"></div>
 						<p class="testimonial text-center">This is hands down the best nursery we have visited.</p>
 						<p class="overview float-right"><b>Parent</b>, Parent, Windsor</p>
 					</div>
 					<div class="carousel-item">
-						<div class="img-box"><img src="images/Parent-Testimonial-1.jpg" class="img-fluid" alt=""></div>
+						<div class="img-box"><img src="https://storage.googleapis.com/kido-assets/Parent-Testimonial-1.jpg" class="img-fluid" alt="testimonial-img"></div>
 						<p class="testimonial text-center">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
 						<p class="overview float-right"><b>Michael Holz</b>, Seo Analyst</p>
 					</div>

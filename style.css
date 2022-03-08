@@ -68,6 +68,36 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
   background-color: #00346b !important;
 }
 
+a.btn-banner {
+  border: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  border-radius: 30px;
+  letter-spacing: .20px;
+  padding: 12px 40px;
+  background: #bd5319;
+  color: #fff;
+  text-decoration: none;
+}
+
+ a.btn-banner:hover {
+  background-color: #fff;
+  color: #00356b;
+} 
+
+.btn-outline-primary{
+  color: #00356b;
+  border-color: #00356b;
+  width: 155px;
+  font-size: 15px;
+}
+
+.btn-outline-primary:hover {
+  color: #bd5319;
+  background-color: transparent;
+  border-color: #bd5319;
+}
+
 /*--------section header start---------*/
 
 .nav-link{color: #fff!important; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
@@ -148,37 +178,6 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
   color: #00346b;
   font-size: 1.2em;
   font-family: 'Quicksand', sans-serif;
-}
-
-
-a.btn-banner {
-  border: none;
-  font-size: 1.1em;
-  font-weight: 500;
-  border-radius: 30px;
-  letter-spacing: .20px;
-  padding: 12px 40px;
-  background: #bd5319;
-  color: #fff;
-  text-decoration: none;
-}
-
- a.btn-banner:hover {
-  background-color: #fff;
-  color: #00356b;
-} 
-
-.btn-outline-primary{
-  color: #00356b;
-  border-color: #00356b;
-  width: 155px;
-  font-size: 15px;
-}
-
-.btn-outline-primary:hover {
-  color: #bd5319;
-  background-color: transparent;
-  border-color: #bd5319;
 }
 
 .getlocation-btn{
@@ -364,6 +363,37 @@ a.btn-banner {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.modal{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.modal-dialog-full-width {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width:none !important;
+
+}
+
+.modal-content-full-width  {
+  height: auto !important;
+  min-height: 100% !important;
+  border-radius: 0 !important;
+  background-color: #fff !important 
+}
+
+.show-more-btn{
+    position: absolute;
+    top: 565px;
+    right: 80px;
+    background: #fff;
+    color: #00356b;
+    border-color: #00356b;
+    width: 155px;
+    font-size: 13px;
+}
 /*--------footer-area start---------*/
 .footer-area{
   background-color: #00356b;
@@ -464,5 +494,21 @@ a.btn-banner {
       justify-content: center;
       align-items: center;
     }
+
+    .show-more-btn {
+      position: absolute;
+      top: 450px;
+      right: 32px;
+      background: #fff;
+      color: #00356b;
+      border-color: #00356b;
+      width: 155px;
+      font-size: 13px;
+  } 
+
+  .padding-0{
+      padding-right:0;
+      padding-left:0;
+  }
 }
 

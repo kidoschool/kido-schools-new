@@ -98,7 +98,7 @@
                     <div class="rating d-flex justify-content-between mt-3">
                         <div class="google-rating">
                             <div class="google-rating-logo">
-                                <img src="images/google.png" alt="" width="50" class="img-fluid">
+                                <img src="https://storage.googleapis.com/kido-assets/google.png" alt="" width="50" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
                                 <small class="font-weight-bold"><i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary"></i></small>
@@ -106,7 +106,7 @@
                         </div> 
                         <div class="google-rating">
                             <div class="google-rating-logo">
-                                <img src="images/daycare.svg" alt="" width="120" class="img-fluid">
+                                <img src="https://storage.googleapis.com/kido-assets/daycare.svg" alt="" width="120" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
                                 <small class="font-weight-bold"><span class="day-care-rate">4.5</span></small>
@@ -114,7 +114,7 @@
                         </div>
                         <div class="google-rating">
                             <div class="google-rating-logo">
-                                <img src="images/offset.png" alt="" width="40" class="img-fluid">
+                                <img src="https://storage.googleapis.com/kido-assets/offset.png" alt="" width="40" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
                                 <small class="font-weight-bold">Very Good</small>
@@ -164,7 +164,7 @@
                     <div class="rating d-flex justify-content-between mt-3">
                         <div class="google-rating">
                             <div class="google-rating-logo">
-                                <img src="images/google.png" alt="" width="50" class="img-fluid">
+                                <img src="https://storage.googleapis.com/kido-assets/google.png" alt="" width="50" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
                                 <small class="font-weight-bold"><i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> </small>
@@ -172,7 +172,7 @@
                         </div> 
                         <div class="google-rating">
                             <div class="google-rating-logo">
-                                <img src="images/daycare.svg" alt="" width="120" class="img-fluid">
+                                <img src="https://storage.googleapis.com/kido-assets/daycare.svg" alt="" width="120" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
                                 <small class="font-weight-bold"><span class="day-care-rate">4.5</span></small>
@@ -180,7 +180,7 @@
                         </div>
                         <div class="google-rating">
                             <div class="google-rating-logo">
-                                <img src="images/offset.png" alt="" width="40" class="img-fluid">
+                                <img src="https://storage.googleapis.com/kido-assets/offset.png" alt="" width="40" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
                                 <small class="font-weight-bold">Excellent</small>
@@ -230,7 +230,7 @@
                     <div class="rating d-flex justify-content-between mt-3">
                         <div class="google-rating">
                             <div class="google-rating-logo">
-                                <img src="images/google.png" alt="" width="50" class="img-fluid">
+                                <img src="https://storage.googleapis.com/kido-assets/google.png" alt="" width="50" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
                                 <small class="font-weight-bold"><i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i> <i class="fas fa-star text-primary mr-1"></i></small>
@@ -238,7 +238,7 @@
                         </div> 
                         <div class="google-rating">
                             <div class="google-rating-logo">
-                                <img src="images/daycare.svg" alt="" width="120" class="img-fluid">
+                                <img src="https://storage.googleapis.com/kido-assets/daycare.svg" alt="" width="120" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
                                 <small class="font-weight-bold"><span class="day-care-rate">4.5</span></small>
@@ -246,7 +246,7 @@
                         </div>
                         <div class="google-rating">
                             <div class="google-rating-logo">
-                                <img src="images/offset.png" alt="" width="40" class="img-fluid">
+                                <img src="https://storage.googleapis.com/kido-assets/offset.png" alt="" width="40" class="img-fluid">
                             </div>
                             <div class="google-rating-star">
                                 <small class="font-weight-bold">Excellent</small>
