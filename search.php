@@ -61,7 +61,7 @@
             <div class="nursery-listing-box">
                 <hr>
                 <div class="row">
-                <div class="nursery-img-box col-lg-5 mt-3">
+                <div class="nursery-img-box col-md-6 col-lg-5 mt-3">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -84,7 +84,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 col-md-6">
                     <div class="d-flex justify-content-between mt-2">
                     <div><h5 class="text-secondary">India</h5></div>
                     <div>
@@ -127,7 +127,7 @@
             <div class="nursery-listing-box">
                 <hr>
                 <div class="row">
-                <div class="nursery-img-box col-lg-5 mt-3">
+                <div class="nursery-img-box col-lg-5 col-md-6 mt-3">
                     <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -150,7 +150,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 col-md-6">
                     <div class="d-flex justify-content-between">
                         <div><h5 class="text-secondary">India</h5></div>
                         <div>
@@ -193,7 +193,7 @@
             <div class="nursery-listing-box">
                 <hr>
                 <div class="row">
-                <div class="nursery-img-box col-lg-5 mt-3">
+                <div class="nursery-img-box col-md-6 col-lg-5 mt-3">
                     <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -216,7 +216,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 col-md-6">
                     <div class="d-flex justify-content-between">
                         <div><h5 class="text-secondary">India</h5></div>
                         <div>

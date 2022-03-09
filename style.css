@@ -148,7 +148,7 @@ a.btn-banner {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 100vw;
   height: auto;
 }
 
@@ -384,10 +384,16 @@ a.btn-banner {
   background-color: #fff !important 
 }
 
-.show-more-btn{
+/* .show-more-position{
     position: absolute;
     top: 565px;
     right: 80px;
+} */
+
+.nursery-gallery-grid .show-more-btn{
+    position: absolute;
+    top: 270px;
+    right: 10px;
     background: #fff;
     color: #00356b;
     border-color: #00356b;
@@ -438,7 +444,11 @@ a.btn-banner {
 
 /*--------footer-area end---------*/
 
-
+@media only screen and (max-width: 770px) {
+    .nursery-body {
+      padding-top: 212px;
+    }
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -495,10 +505,10 @@ a.btn-banner {
       align-items: center;
     }
 
-    .show-more-btn {
+    .mobile-nur-gallery .show-more-btn {
       position: absolute;
-      top: 450px;
-      right: 32px;
+      top: 135px;
+      right: 30px;
       background: #fff;
       color: #00356b;
       border-color: #00356b;

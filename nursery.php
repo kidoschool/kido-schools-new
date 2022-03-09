@@ -50,6 +50,11 @@
             <div class="col-lg-3 padding-0">
                 <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid" alt="...">
                 <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="img-fluid mt-2" alt="..."> 
+                <div class="show-more-position">
+                    <button id="modalActivate" type="button" class="show-more-btn btn btn-sm" data-toggle="modal" data-target="#exampleModalPreview">
+                    <i class="fa fa-th mr-3" aria-hidden="true"></i>Show all photos
+                    </button>
+                </div>
             </div>
         </div>
         <div class="row mobile-nur-gallery">
@@ -75,12 +80,23 @@
                         <span class="sr-only">Next</span>
                     </button>
                 </div>
+                <div class="show-more-position">
+                    <button id="modalActivate" type="button" class="show-more-btn btn btn-sm" data-toggle="modal" data-target="#exampleModalPreview">
+                    <i class="fa fa-th mr-3" aria-hidden="true"></i>Show all photos
+                    </button>
+                </div>
             </div>
         </div>
     </div>
-    <button id="modalActivate" type="button" class="show-more-btn btn btn-sm" data-toggle="modal" data-target="#exampleModalPreview">
-    <i class="fa fa-th mr-3" aria-hidden="true"></i>Show all photos
-    </button>
+</section>
+
+<section class="pop-up-gallery">
+  <!-- Modal start -->
+    <!-- <div class="show-more-position">
+        <button id="modalActivate" type="button" class="show-more-btn btn btn-sm" data-toggle="modal" data-target="#exampleModalPreview">
+        <i class="fa fa-th mr-3" aria-hidden="true"></i>Show all photos
+        </button>
+    </div> -->
     <!-- Modal -->
     <div class="modal fade right" id="exampleModalPreview" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
         <div class="modal-dialog-full-width modal-dialog momodel modal-fluid" role="document">
@@ -114,7 +130,9 @@
             </div>
         </div>
     </div>    
+    <!-- Modal start -->
 </section>
+
 <section>
     <div class="sticky-contact">
         <div class="p-2 shadow">
