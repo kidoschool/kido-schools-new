@@ -55,6 +55,22 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
 }
 
 .btn-primary{
+  background-color: #bd5319;
+  border-color: #bd5319;
+  border-radius: 25px;
+  padding: 10px 20px;
+  line-height: 128%;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.btn-primary:hover{
+  background-color: #5f712d;
+  border-color: #5f712d;
+  color: #fff;
+}
+
+.btn-secondary{
   background-color: #00346b;
   border-color: #00346b;
   border-radius: 25px;
@@ -64,8 +80,10 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
   width: 100%;
 }
 
-.bg-primary{
-  background-color: #00346b !important;
+.btn-secondary:hover{
+  background-color: #bd5319 !important;
+  border-color: #bd5319;
+  color: #fff;
 }
 
 a.btn-banner {
@@ -81,8 +99,8 @@ a.btn-banner {
 }
 
  a.btn-banner:hover {
-  background-color: #fff;
-  color: #00356b;
+  background-color: #5f712d;
+  color: #fff;
 } 
 
 .btn-outline-primary{
@@ -96,6 +114,10 @@ a.btn-banner {
   color: #bd5319;
   background-color: transparent;
   border-color: #bd5319;
+}
+
+.text-secondary{
+    color: #bd5319 !important;
 }
 
 /*--------section header start---------*/
@@ -440,6 +462,80 @@ a.btn-banner {
 
 .bottom-line {
   border-bottom: 1px solid #bfc4db;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #962A30;
+  color: #fff!important;
+}
+
+
+.nav-pills .nav-link, .nav-pills .show>.nav-link {
+    background-color: #fbefef;
+    color: #000!important;
+}
+
+
+.card-header{
+  background-color: #fff;
+  padding: 10px 20px;
+  font-weight: 400;
+  position: relative;
+  width: 100%;
+  border: 0;
+}
+
+.btn-link {
+  font-weight: 600;
+  color: #444;
+  text-decoration: none;
+  font-size: 0.7em;
+}
+
+.btn-link:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+.btn-link.focus, .btn-link:focus {
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.card-header1 button:after{
+  font-family: "FontAwesome";
+  /* content: "\f068"; */
+  content:"\2212";
+  position: absolute;
+  right: 20px;
+  font-size: 25px;
+  top: 45%;
+  line-height: 1;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.card-header1 button.collapsed:after {
+  /* content: "\f067"; */
+  content:"\2b";
+}
+
+/* li.what-we-teach-list:before{
+  content: "\002A";
+} */
+
+a.faq-link{
+ text-decoration: none;
+ color: #1d73c9;
+ font-weight: 600;
+}
+
+.faq-select select {
+  width: auto;
+  padding: 5px 30px 5px 10px;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 /*--------footer-area end---------*/

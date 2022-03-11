@@ -1,4 +1,68 @@
 <?php include 'header.php';?>
+<?php
+    $reviews = [
+  [
+    "comment"=>"Fantastic nursery with great facilities, nice open spaces for the kids. Staff were great with kids and we felt that our son really developed here. They really took a personal touch with him. We moved our son from a local nursery to here and we're glad we did!",
+    "user"=>"Geraldine S, (Mother of child)",
+  ],
+  [
+    "comment"=>"Although some activities can't be carried out due to the current pandemic, Kido ensures our daughter has her day full of sensory play, learning activities and social interactions. The baby room staff is outstanding, they all love our daughter so much and she loves them. At pick-up she is always giving cuddles and smiling. We also enjoy the live updates via the app and the varied menu during the week. It is comforting to know she is at Kido while we are at work.",
+    "user"=>"Vaida V, (Mother of child)",
+  ]
+  ];
+
+  $faqs = [
+    [
+        "id"=>"1",
+        "question"=>"What are your preschool timings?",
+        "answer"=>"We are open from 9:00 am to 7:00 pm, Monday to Friday (program timings may vary between locations).",
+    ],
+    [
+        "id"=>"2",
+        "question"=>"What are the Age Groups?",
+        "answer"=>"Our Kido Preschools caters to children in the age groups of 15 months to 6 years. Some centres offer Infant care from 6 months onwards, please check with respective centres.",
+    ],
+    [
+        "id"=>"3",
+        "question"=>"Do you offer Lunch and Snacks?",
+        "answer"=>"We provide meals at selective Kido Centres. This will be outsourced from a third party vendor and not by Kido.",
+    ],  
+    [
+        "id"=>"4",
+        "question"=>"What is your fee structure?",
+        "answer"=>"Our fee structure may vary from city to city - based on the preschool program opted for. Please speak to our Parent Relationship Manager for more information.",
+    ],  
+    [
+        "id"=>"5",
+        "question"=>"How can I book a tour?",
+        "answer"=>"Parents can book a tour by contacting us.",
+    ]
+    ];
+
+?>
+
+
+
+<!-- <?php
+// foreach ($faqs as $k => $v) {
+// "<div class='card1 student-well-being'>
+//     <div class='card-header card-header1 bg-light' id='headingOne'>
+//         <h2 class='card-text mb-0'>
+//         <button class='btn btn-link btn-block text-left collapsed' type='button' data-toggle='collapse' data-target='#collapseOne' aria-expanded='true' aria-controls='collapseOne'>
+//             What are your preschool timings?
+//         </button>
+//         </h2>
+//     </div>
+//     <div id='collapseOne' class='collapse' aria-labelledby='headingOne' data-parent='#accordionExample'>
+//     <div class='card-body bg-white'>
+//         <p class='pl-3'>We are open from 9:00 am to 7:00 pm, Monday to Friday (program timings may vary between locations).</p>
+//     </div>
+//     </div>
+//     <hr/>
+// </div>"
+// }
+?> -->
+
 <section class="nursery-head-title mt-5">
     <div class="container">
         <div class="row">
@@ -173,17 +237,28 @@
                     <p>Nutrition <span class="font-weight-bold">Breakfast, Lunch, Snacks</span></p>
                     <p>Outdoor Space <span class="font-weight-bold">Yes</span></p>
                 </div>
+                <div class="reviews mt-5">
+                    <h2 class="nury-head-title head-text-blue mb-4">Reviews</h2>
+                    <div class="review-data mt-2">
+                        <?php
+                        foreach ($reviews as $k => $v) {
+                            echo "<p><small>".$v["comment"]."</small></p>";
+                            echo "<i class='text-secondary'><small><b>".$v["user"]."</b></small></i><hr>";
+                        }
+                        ?>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-4 offset-lg-1">
                 <div class="nursery-contact">
                     <div class="nur-cont border p-4 shadow text-center bg-white">
                         <h3 class="my-4">Contact Bandra International Preschool & Day Care</h3>
                         <div class="mt-3">
-                        <button class="btn btn-primary btn-sm" type="button"><i class="fas fa-envelope text-white pr-3"></i>Send Message</button>
-                        <button class="btn-sm btn btn-primary" type="button"><i class="fas fa-phone text-white pr-3"></i>Give us a call</button>
-                        <button class="btn-sm btn btn-primary" type="button"><i class="fab fa-facebook-f text-white pr-3"></i>Facebook</button>
-                        <button class="btn-sm btn btn-primary" type="button"><i class="fab fa-instagram text-white pr-3"></i>Instagram</button>
-                        <button class="btn-sm btn btn-primary" type="button"><i class="fa fa-download text-white pr-3"></i>Download Our Brochure</button>
+                        <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-envelope text-white pr-3"></i>Send Message</button>
+                        <button class="btn-sm btn btn-secondary" type="button"><i class="fas fa-phone text-white pr-3"></i>Give us a call</button>
+                        <button class="btn-sm btn btn-secondary" type="button"><i class="fab fa-facebook-f text-white pr-3"></i>Facebook</button>
+                        <button class="btn-sm btn btn-secondary" type="button"><i class="fab fa-instagram text-white pr-3"></i>Instagram</button>
+                        <button class="btn-sm btn btn-secondary" type="button"><i class="fa fa-download text-white pr-3"></i>Download Our Brochure</button>
                     </div>
                     </div>
                 </div>
@@ -191,18 +266,94 @@
         </div>
     </div>
 </section>
-<!-- <section class="life-kido mt-5">
+<section class="faq mt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-            <h2 class="nury-head-title mb-4">Life at Kido</h2>
-            <div class="gallery-area">
-                    
+            <h2 class="nury-head-title head-text-blue mb-4">FAQs</h2>
+                <div class="gallery-area">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card1 student-well-being">
+                            <div class="card-header card-header1 bg-light" id="headingOne">
+                                <h2 class="card-text mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What are your preschool timings?
+                                </button>
+                                </h2>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body bg-white">
+                                <p class="pl-3">We are open from 9:00 am to 7:00 pm, Monday to Friday (program timings may vary between locations).</p>
+                            </div>
+                            </div>
+                            <hr/>
+                        </div>
+                        <div class="card1 admissions">
+                            <div class="card-header card-header1 bg-light" id="headingTwo">
+                            <h2 class="card-text mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    What are the Age Groups?
+                                </button>
+                            </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body bg-white">
+                                <p class="pl-3">Our Kido Preschools caters to children in the age groups of 15 months to 6 years. Some centres offer Infant care from 6 months onwards, please check with respective centres.</p>
+                            </div>
+                            </div>
+                            <hr/>
+                        </div>
+                        <div class="card1 academic">
+                            <div class="card-header card-header1 bg-light" id="headingThree">
+                            <h2 class="card-text mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Do you offer Lunch and Snacks?
+                                </button>
+                            </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body bg-white">
+                                <p class="pl-3">We provide meals at selective Kido Centres. This will be outsourced from a third party vendor and not by Kido.</p>
+                            </div>
+                            </div>
+                            <hr/>
+                        </div>
+                        <div class="card1 general">
+                            <div class="card-header card-header1 bg-light" id="headingFour">
+                            <h2 class="card-text mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    What is your fee structure?
+                                </button>
+                            </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body bg-white">
+                                <p class="pl-3">Our fee structure may vary from city to city - based on the preschool program opted for. Please speak to our Parent Relationship Manager for more information.</p>
+                            </div>
+                            </div>
+                            <hr/>
+                        </div>
+                        <div class="card1 ">
+                            <div class="card-header card-header1 bg-light" id="headingFive">
+                            <h2 class="card-text mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    How can I book a tour?
+                                </button>
+                            </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                            <div class="card-body bg-white">
+                                <p class="pl-3">Parents can book a tour by contacting us.</p>
+                            </div>
+                            </div>
+                            <hr/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section> -->
+</section>
 <section class="map-sec mt-5">
     <div class="container">
         <div class="row">
