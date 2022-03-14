@@ -310,10 +310,10 @@
 </section>
 <?php include 'footer.php';?>
 <script type="text/javascript">
-$(document).ready(function () {
-    $("#review-more-btn").click(function () {
-        $("#review-data-more").toggle();
-        $(this).text($(this).text() == 'Show More' ? 'Show less' : 'Show More')
+jQuery(document).ready(function () {
+    jQuery("#review-more-btn").click(function () {
+        jQuery("#review-data-more").toggle();
+        jQuery(this).text(jQuery(this).text() == 'Show More' ? 'Show less' : 'Show More')
     });
 });
 </script>
