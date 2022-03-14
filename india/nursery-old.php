@@ -1,48 +1,58 @@
-
-
+<?php include 'header.php';?>
 <?php
-/**
- * Template Name: Kido Nursery Page
- * Template Post Type: post, page
- *
- * @package WordPress
- * @subpackage Twenty_Twenty
- * @since Twenty Twenty 1.0
- */
-// get_template_part( 'singular' );
-//  include 'header.php';
-// get_header();
+    $reviews = [
+  [
+    "comment"=>"Fantastic nursery with great facilities, nice open spaces for the kids. Staff were great with kids and we felt that our son really developed here. They really took a personal touch with him. We moved our son from a local nursery to here and we're glad we did!",
+    "user"=>"Geraldine S, (Mother of child)",
+  ],
+  [
+    "comment"=>"Although some activities can't be carried out due to the current pandemic, Kido ensures our daughter has her day full of sensory play, learning activities and social interactions. The baby room staff is outstanding, they all love our daughter so much and she loves them. At pick-up she is always giving cuddles and smiling. We also enjoy the live updates via the app and the varied menu during the week. It is comforting to know she is at Kido while we are at work.",
+    "user"=>"Vaida V, (Mother of child)",
+  ]
+  ];
 
-include 'header.php';
-
-$json = '{"galimg":["https://storage.googleapis.com/kido-assets/211159_IMG_4436.jpg","https://storage.googleapis.com/kido-assets/282021_2544.jpg"],"ageRange":"","lang_taught":"","opening_hours":"9AM to 6PM","play_area":"Yes","transportation":"No","paragraph_title":"ashfchasjch","description":"                  Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft space in the heart of Bandra, off Carter Road and near Khar & Santa Cruz.<br/><br/>Itu2019s a palace of imagination u2013 complete with a large play area, themed spaces, and an indoor stage for drama, music, and dance. Between the reading nooks and creative corners, our international preschool is also furnished with science and tech bays u2013 so children can learn whilst playing with a diverse range of advanced equipment.<br/><br/>Each preschool classroom is bright, warm and spacious, keeping your child engaged in a program thatu2019s designed just for them.<br/><br/>Our programs are for children between the ages of 8 months and 5 years, including preschool extended days and full days.<br/><br/>Give us a call and we can chat about our Bandra Preschool in more detail, or arrange a tour so you can see what the place is like!             ","brochure_link":"hjashdjadhh","curriculum":"csasacasc","hours":"hjhasjdhj","schedule":"hasdjhasd","nutrition":"hasjdhjmnmxczn","outdoor_space":"zbxncbnshgad","address":"sadasdyuyu","country":"United Kingdom","city":"London","state":"","lattitude":"asdbcbasn","longitude":"bzbzxgh","google":"3","dayNurseries":"9.7","offsted":"Nice","reviews":[{"name":"Test","comment":"Temp"},{"name":"hgasghdaghs","comment":"ta Cruz.<br/><br/>Itu2019s a palace of imagination u2013 complete with a large play area, themed spaces, and an indoor stage for drama, music, and dance. Between the reading nooks and creative corners, our international preschool is also furnished with science and tech bays u2013 so children can learn whilst playing with a diverse range of advanced equipment.<br/><br/>Each preschool classroom is bright, warm and spacious, keeping your child engaged in a program th"},{"name":"Naksck kjaskcja kasd","comment":"iverse range of advanced equipment.<br/><br/>Each preschool classroom is bright, warm and spacious, keeping your child engaged in a program thatu2019s designed just for them.<br/><br/>Our programs are for children between the ages of 8 months and 5 years, including preschool extended days and full days.<br/><br/>Give us a call and we can chat a"},{"name":"Bbbnasdgagshd asghdghasd","comment":"ying with a diverse range of advanced equipment.<br/><br/>Each preschool classroom is bright, warm and spacious, k"}]}';
-
-    // echo "<pre>";
-    // print_r($post->post_content);
-    // echo "</pre>";
-    // die;
-
-$post_cont =  json_decode($json);
-// $post_cont =  json_decode($post->post_content);
-// $reviews = $post_cont->reviews;
-    // echo "<pre>";
-    // print_r($post_cont);
-    // echo "</pre>";
-    // die;
-
+  $faqs = [
+    [
+        "id"=>"collapse1",
+        "cardid"=>"heading1",
+        "question"=>"What are your preschool timings?",
+        "answer"=>"We are open from 9:00 am to 7:00 pm, Monday to Friday (program timings may vary between locations).",
+    ],
+    [
+        "id"=>"collapse2",
+        "cardid"=>"heading2",
+        "question"=>"What are the Age Groups?",
+        "answer"=>"Our Kido Preschools caters to children in the age groups of 15 months to 6 years. Some centres offer Infant care from 6 months onwards, please check with respective centres.",
+    ],
+    [
+        "id"=>"collapse3",
+        "cardid"=>"heading3",
+        "question"=>"Do you offer Lunch and Snacks?",
+        "answer"=>"We provide meals at selective Kido Centres. This will be outsourced from a third party vendor and not by Kido.",
+    ],  
+    [
+        "id"=>"collapse4",
+        "cardid"=>"heading4",
+        "question"=>"What is your fee structure?",
+        "answer"=>"Our fee structure may vary from city to city - based on the preschool program opted for. Please speak to our Parent Relationship Manager for more information.",
+    ],  
+    [
+        "id"=>"collapse5",
+        "cardid"=>"heading5",
+        "question"=>"How can I book a tour?",
+        "answer"=>"Parents can book a tour by contacting us.",
+    ]
+    ];
 
 ?>
+
 <section class="nursery-head-title mt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
                 <div class="title">
-                    <h1 class="head-text-blue">Kido Camden Nursery & Day Care</h1>
-                    <p>
-                       <?php echo strlen($post_cont->country) ? $post_cont->country."," : ""; ?>
-                       <?php echo strlen($post_cont->state) ? $post_cont->state."," : ""; ?> 
-                       <?php echo strlen($post_cont->city) ? $post_cont->city : ""; ?>
-                    </p>
+                    <h1 class="head-text-blue">Bandra International Preschool & Day Care</h1>
+                    <p>India, Maharashtra, Mumbai</p>
                     <div class="rating d-flex justify-content-between">
                     <div class="google-rating">
                         <div class="google-rating-logo">
@@ -157,11 +167,11 @@ $post_cont =  json_decode($json);
                     </div>
                 </div>
                 <div class="modal-footer-full-width  modal-footer">
-                    <!-- <button type="button" class="btn btn-danger btn-md btn-rounded" data-dismiss="modal">Close</button> -->
                 </div>
             </div>
         </div>
     </div>    
+    <!-- Modal start -->
 </section>
 
 <section>
@@ -180,24 +190,21 @@ $post_cont =  json_decode($json);
         <div class="row">
             <div class="col-lg-7">
                 <div class="nursery-desc">
-
+                    <h2 class="nury-head-title head-text-blue mb-4">Welcome to Kido Bandra, Mumbai</h2>
                     <div class="nur-cat d-flex justify-content-between my-4">
-                        <?php if(strlen($post_cont->ageRange)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/age-range.svg" alt="" width="50"><h6>Age range</h6><small><?php echo $post_cont->ageRange; ?></small></div> <?php }; ?>
-                        <?php if(strlen($post_cont->lang_taught)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/language.svg" alt="" width="50"><h6>Languages taught</h6><small><?php echo $post_cont->lang_taught; ?></small></div> <?php } ?>
-                        <?php if(strlen($post_cont->opening_hours)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/hours.svg" alt="" width="50"><h6>Opening hours</h6><small><?php echo $post_cont->opening_hours; ?></small></div> <?php } ?>
-                        <?php if(strlen($post_cont->play_area)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/Outdoor-Space-03.svg" alt="" width="50"><h6>Outdoor Play Area</h6><small><?php echo $post_cont->play_area; ?></small></div> <?php } ?>
-                        <?php if(strlen($post_cont->transportation)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/transportation1.svg" alt="" width="50"><h6>Transportation</h6><small><?php echo $post_cont->transportation; ?></small></div> <?php } ?>
+                        <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/age-range.svg" alt="icons" width="40"><h6>Age range</h6><small>8 months to 5 years</small></div>
+                        <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/language.svg" alt="icons" width="40"><h6>Languages taught</h6><small>English, Spanish and Hindi</small></div>
+                        <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/hours.svg" alt="icons" width="40"><h6>Opening hours</h6><small>9:00 am to 7:00 pm</small></div>
                     </div>
-                    <p>
-                        <?php 
-                        echo $post_cont->description;
-                        ?>
-                    </p>
-
+                    <p>Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft space in the heart of Bandra, off Carter Road and near Khar & Santa Cruz.</p>
+                    <p>It’s a palace of imagination – complete with a large play area, themed spaces, and an indoor stage for drama, music, and dance. Between the reading nooks and creative corners, our international preschool is also furnished with science and tech bays – so children can learn whilst playing with a diverse range of advanced equipment.</p>
+                    <p>Each preschool classroom is bright, warm and spacious, keeping your child engaged in a program that’s designed just for them.</p>
+                    <p>Our programs are for children between the ages of 8 months and 5 years, including preschool extended days and full days.</p>
+                    <p>Give us a call and we can chat about our Bandra Preschool in more detail, or arrange a tour so you can see what the place is like!</p>
                 </div>
                 <div class="Brochure-download mt-5">
                     <h2 class="nury-head-title head-text-blue mb-4">Our Brochure</h2>
-                    <a class="btn-sm btn btn-primary "><i class="fa fa-download pr-3"></i>Download Our Brochure</a>
+                    <a class="btn-sm btn btn-primary"><i class="fa fa-download pr-3"></i>Download Our Brochure</a>
                 </div>
                 <div class="school-details mt-5">
                     <h2 class="nury-head-title head-text-blue mb-4">School details</h2>
@@ -207,24 +214,21 @@ $post_cont =  json_decode($json);
                     <p>Nutrition <span class="font-weight-bold">Breakfast, Lunch, Snacks</span></p>
                     <p>Outdoor Space <span class="font-weight-bold">Yes</span></p>
                 </div>
-
-
-
                 <div class="reviews mt-5">
                     <h2 class="nury-head-title head-text-blue mb-4">Reviews</h2>
                     <div class="review-data mt-2">
                         <?php
-                        foreach ($post_cont->reviews as $k => $v) {
-                            echo "<p><small>".$v->comment."</small></p>";
-                            echo "<i class='text-secondary'><small><b>".$v->name."</b></small></i><hr>";
+                        foreach ($reviews as $k => $v) {
+                            echo "<p><small>".$v["comment"]."</small></p>";
+                            echo "<i class='text-secondary'><small><b>".$v["user"]."</b></small></i><hr>";
                         }
                         ?>
                     </div>
                     <div class="review-data mt-2" id="review-data-more" style="display:none">
                         <?php
-                        foreach ($post_cont->reviews as $k => $v) {
-                            echo "<p><small>".$v->comment."</small></p>";
-                            echo "<i class='text-secondary'><small><b>".$v->name."</b></small></i><hr>";
+                        foreach ($reviews as $k => $v) {
+                            echo "<p><small>".$v["comment"]."</small></p>";
+                            echo "<i class='text-secondary'><small><b>".$v["user"]."</b></small></i><hr>";
                         }
                         ?>
                     </div>
@@ -232,13 +236,11 @@ $post_cont =  json_decode($json);
                         <a id="review-more-btn" class="link-primary">Show More</a>
                     </div>
                 </div>
-
-
             </div>
             <div class="col-lg-4 offset-lg-1">
                 <div class="nursery-contact">
                     <div class="nur-cont border p-4 shadow text-center bg-white">
-                        <h3 class="my-4">Contact <?php echo $post->post_title; ?></h3>
+                        <h3 class="my-4">Contact Bandra International Preschool & Day Care</h3>
                         <div class="mt-3">
                         <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-envelope text-white pr-3"></i>Send Message</button>
                         <button class="btn-sm btn btn-secondary" type="button"><i class="fas fa-phone text-white pr-3"></i>Give us a call</button>
@@ -252,18 +254,38 @@ $post_cont =  json_decode($json);
         </div>
     </div>
 </section>
-<!-- <section class="life-kido mt-5">
+<section class="faq mt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-            <h2 class="nury-head-title mb-4">Life at Kido</h2>
-            <div class="gallery-area">
-                    
+            <h2 class="nury-head-title head-text-blue mb-4">FAQs</h2>
+                <div class="gallery-area">
+                    <div class="accordion" id="accordionExample">
+                        <?php
+                            foreach ($faqs as $k => $v) {
+                                echo "<div class='card1 student-well-being'>
+                                        <div class='card-header card-header1 bg-light' id=".$v["cardid"].">
+                                            <h2 class='card-text mb-0'>
+                                            <button class='btn btn-link btn-block text-left collapsed' type='button' data-toggle='collapse' data-target=#".$v["id"]." aria-expanded='true' aria-controls=".$v["id"].">
+                                                ".$v["question"]."
+                                            </button>
+                                            </h2>
+                                        </div>
+                                        <div id=".$v["id"]." class='collapse' aria-labelledby=".$v["cardid"]." data-parent='#accordionExample'>
+                                        <div class='card-body bg-white'>
+                                            <p class='pl-3'>".$v["answer"]."</p>
+                                        </div>
+                                        </div>
+                                        <hr/>
+                                    </div>";
+                            }
+                        ?>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section> -->
+</section>
 <section class="map-sec mt-5">
     <div class="container">
         <div class="row">
@@ -288,10 +310,10 @@ $post_cont =  json_decode($json);
 </section>
 <?php include 'footer.php';?>
 <script type="text/javascript">
-$(document).ready(function () {
-    $("#review-more-btn").click(function () {
-        $("#review-data-more").toggle();
-        $(this).text($(this).text() == 'Show More' ? 'Show less' : 'Show More')
+jQuery(document).ready(function () {
+    jQuery("#review-more-btn").click(function () {
+        jQuery("#review-data-more").toggle();
+        jQuery(this).text(jQuery(this).text() == 'Show More' ? 'Show less' : 'Show More')
     });
 });
 </script>

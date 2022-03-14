@@ -434,6 +434,11 @@ a.btn-banner {
   width: 100%;
   height: 250px;
 }
+
+
+.we-teach-data{
+  height: 100%;
+}
 /*--------footer-area start---------*/
 .footer-area{
   background-color: #00356b;
