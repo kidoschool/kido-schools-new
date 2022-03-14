@@ -13,55 +13,38 @@
 
   $faqs = [
     [
-        "id"=>"1",
+        "id"=>"collapse1",
+        "cardid"=>"heading1",
         "question"=>"What are your preschool timings?",
         "answer"=>"We are open from 9:00 am to 7:00 pm, Monday to Friday (program timings may vary between locations).",
     ],
     [
-        "id"=>"2",
+        "id"=>"collapse2",
+        "cardid"=>"heading2",
         "question"=>"What are the Age Groups?",
         "answer"=>"Our Kido Preschools caters to children in the age groups of 15 months to 6 years. Some centres offer Infant care from 6 months onwards, please check with respective centres.",
     ],
     [
-        "id"=>"3",
+        "id"=>"collapse3",
+        "cardid"=>"heading3",
         "question"=>"Do you offer Lunch and Snacks?",
         "answer"=>"We provide meals at selective Kido Centres. This will be outsourced from a third party vendor and not by Kido.",
     ],  
     [
-        "id"=>"4",
+        "id"=>"collapse4",
+        "cardid"=>"heading4",
         "question"=>"What is your fee structure?",
         "answer"=>"Our fee structure may vary from city to city - based on the preschool program opted for. Please speak to our Parent Relationship Manager for more information.",
     ],  
     [
-        "id"=>"5",
+        "id"=>"collapse5",
+        "cardid"=>"heading5",
         "question"=>"How can I book a tour?",
         "answer"=>"Parents can book a tour by contacting us.",
     ]
     ];
 
 ?>
-
-
-
-<!-- <?php
-// foreach ($faqs as $k => $v) {
-// "<div class='card1 student-well-being'>
-//     <div class='card-header card-header1 bg-light' id='headingOne'>
-//         <h2 class='card-text mb-0'>
-//         <button class='btn btn-link btn-block text-left collapsed' type='button' data-toggle='collapse' data-target='#collapseOne' aria-expanded='true' aria-controls='collapseOne'>
-//             What are your preschool timings?
-//         </button>
-//         </h2>
-//     </div>
-//     <div id='collapseOne' class='collapse' aria-labelledby='headingOne' data-parent='#accordionExample'>
-//     <div class='card-body bg-white'>
-//         <p class='pl-3'>We are open from 9:00 am to 7:00 pm, Monday to Friday (program timings may vary between locations).</p>
-//     </div>
-//     </div>
-//     <hr/>
-// </div>"
-// }
-?> -->
 
 <section class="nursery-head-title mt-5">
     <div class="container">
@@ -156,11 +139,6 @@
 
 <section class="pop-up-gallery">
   <!-- Modal start -->
-    <!-- <div class="show-more-position">
-        <button id="modalActivate" type="button" class="show-more-btn btn btn-sm" data-toggle="modal" data-target="#exampleModalPreview">
-        <i class="fa fa-th mr-3" aria-hidden="true"></i>Show all photos
-        </button>
-    </div> -->
     <!-- Modal -->
     <div class="modal fade right" id="exampleModalPreview" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
         <div class="modal-dialog-full-width modal-dialog momodel modal-fluid" role="document">
@@ -189,7 +167,6 @@
                     </div>
                 </div>
                 <div class="modal-footer-full-width  modal-footer">
-                    <!-- <button type="button" class="btn btn-danger btn-md btn-rounded" data-dismiss="modal">Close</button> -->
                 </div>
             </div>
         </div>
@@ -227,7 +204,7 @@
                 </div>
                 <div class="Brochure-download mt-5">
                     <h2 class="nury-head-title head-text-blue mb-4">Our Brochure</h2>
-                    <a class="btn-sm btn btn-primary w-50"><i class="fa fa-download pr-3"></i>Download Our Brochure</a>
+                    <a class="btn-sm btn btn-primary    "><i class="fa fa-download pr-3"></i>Download Our Brochure</a>
                 </div>
                 <div class="school-details mt-5">
                     <h2 class="nury-head-title head-text-blue mb-4">School details</h2>
@@ -246,6 +223,17 @@
                             echo "<i class='text-secondary'><small><b>".$v["user"]."</b></small></i><hr>";
                         }
                         ?>
+                    </div>
+                    <div class="review-data mt-2" id="review-data-more" style="display:none">
+                        <?php
+                        foreach ($reviews as $k => $v) {
+                            echo "<p><small>".$v["comment"]."</small></p>";
+                            echo "<i class='text-secondary'><small><b>".$v["user"]."</b></small></i><hr>";
+                        }
+                        ?>
+                    </div>
+                    <div>
+                        <a id="review-more-btn" class="link-primary">Show More</a>
                     </div>
                 </div>
             </div>
@@ -273,81 +261,25 @@
             <h2 class="nury-head-title head-text-blue mb-4">FAQs</h2>
                 <div class="gallery-area">
                     <div class="accordion" id="accordionExample">
-                        <div class="card1 student-well-being">
-                            <div class="card-header card-header1 bg-light" id="headingOne">
-                                <h2 class="card-text mb-0">
-                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    What are your preschool timings?
-                                </button>
-                                </h2>
-                            </div>
-                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div class="card-body bg-white">
-                                <p class="pl-3">We are open from 9:00 am to 7:00 pm, Monday to Friday (program timings may vary between locations).</p>
-                            </div>
-                            </div>
-                            <hr/>
-                        </div>
-                        <div class="card1 admissions">
-                            <div class="card-header card-header1 bg-light" id="headingTwo">
-                            <h2 class="card-text mb-0">
-                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    What are the Age Groups?
-                                </button>
-                            </h2>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body bg-white">
-                                <p class="pl-3">Our Kido Preschools caters to children in the age groups of 15 months to 6 years. Some centres offer Infant care from 6 months onwards, please check with respective centres.</p>
-                            </div>
-                            </div>
-                            <hr/>
-                        </div>
-                        <div class="card1 academic">
-                            <div class="card-header card-header1 bg-light" id="headingThree">
-                            <h2 class="card-text mb-0">
-                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Do you offer Lunch and Snacks?
-                                </button>
-                            </h2>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                            <div class="card-body bg-white">
-                                <p class="pl-3">We provide meals at selective Kido Centres. This will be outsourced from a third party vendor and not by Kido.</p>
-                            </div>
-                            </div>
-                            <hr/>
-                        </div>
-                        <div class="card1 general">
-                            <div class="card-header card-header1 bg-light" id="headingFour">
-                            <h2 class="card-text mb-0">
-                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    What is your fee structure?
-                                </button>
-                            </h2>
-                            </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                            <div class="card-body bg-white">
-                                <p class="pl-3">Our fee structure may vary from city to city - based on the preschool program opted for. Please speak to our Parent Relationship Manager for more information.</p>
-                            </div>
-                            </div>
-                            <hr/>
-                        </div>
-                        <div class="card1 ">
-                            <div class="card-header card-header1 bg-light" id="headingFive">
-                            <h2 class="card-text mb-0">
-                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    How can I book a tour?
-                                </button>
-                            </h2>
-                            </div>
-                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                            <div class="card-body bg-white">
-                                <p class="pl-3">Parents can book a tour by contacting us.</p>
-                            </div>
-                            </div>
-                            <hr/>
-                        </div>
+                        <?php
+                            foreach ($faqs as $k => $v) {
+                                echo "<div class='card1 student-well-being'>
+                                        <div class='card-header card-header1 bg-light' id=".$v["cardid"].">
+                                            <h2 class='card-text mb-0'>
+                                            <button class='btn btn-link btn-block text-left collapsed' type='button' data-toggle='collapse' data-target=#".$v["id"]." aria-expanded='true' aria-controls=".$v["id"].">
+                                                ".$v["question"]."
+                                            </button>
+                                            </h2>
+                                        </div>
+                                        <div id=".$v["id"]." class='collapse' aria-labelledby=".$v["cardid"]." data-parent='#accordionExample'>
+                                        <div class='card-body bg-white'>
+                                            <p class='pl-3'>".$v["answer"]."</p>
+                                        </div>
+                                        </div>
+                                        <hr/>
+                                    </div>";
+                            }
+                        ?>
                     </div>
                 </div>
             </div>
@@ -377,3 +309,11 @@
     </div>
 </section>
 <?php include 'footer.php';?>
+<script type="text/javascript">
+$(document).ready(function () {
+    $("#review-more-btn").click(function () {
+        $("#review-data-more").toggle();
+        $(this).text($(this).text() == 'Show More' ? 'Show less' : 'Show More')
+    });
+});
+</script>
