@@ -75,7 +75,7 @@ $post_cont =  json_decode($json);
 </section>
 <section class="nursery-gallery-grid mt-5">
     <div class="container">
-        <div class="row desktop-nur-gallery">
+        <!-- <div class="row desktop-nur-gallery">
             <div class="col-lg-6 padding-0">
                 <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="img-fluid" alt="...">
             </div>
@@ -92,20 +92,38 @@ $post_cont =  json_decode($json);
                     </button>
                 </div>
             </div>
+        </div> -->
+        <div class="row desktop-nur-gallery">
+            <div class="col-lg-6 padding-0">
+                <img src="<?php echo $post_cont->galimg[0]; ?>" class="lg-nur-gal-img" alt="">
+            </div>
+            <div class="col-lg-3 padding-0">
+                <img src="<?php echo isset($post_cont->galimg[1]) ? $post_cont->galimg[1] : "https://www.pacificfoodmachinery.com.au/media/catalog/product/placeholder/default/no-product-image-400x400.png"; ?>" class="nur-gal-imgs" alt="">
+                <img src="<?php echo isset($post_cont->galimg[2]) ? $post_cont->galimg[2] : "https://www.pacificfoodmachinery.com.au/media/catalog/product/placeholder/default/no-product-image-400x400.png"; ?>" class="nur-gal-imgs mt-2" alt="">
+            </div>
+            <div class="col-lg-3 padding-0">
+                <img src="<?php echo isset($post_cont->galimg[3]) ? $post_cont->galimg[3] : "https://www.pacificfoodmachinery.com.au/media/catalog/product/placeholder/default/no-product-image-400x400.png"; ?>" class="nur-gal-imgs" alt="">
+                <img src="<?php echo isset($post_cont->galimg[4]) ? $post_cont->galimg[4] : "https://www.pacificfoodmachinery.com.au/media/catalog/product/placeholder/default/no-product-image-400x400.png"; ?>" class="nur-gal-imgs mt-2" alt="">
+                <div class="show-more-position">
+                    <button id="modalActivate" type="button" class="show-more-btn btn btn-sm" data-toggle="modal" data-target="#exampleModalPreview">
+                    <i class="fa fa-th mr-3" aria-hidden="true"></i>Show all photos
+                    </button>
+                </div>
+            </div>
         </div>
         <div class="row mobile-nur-gallery">
             <div class="col-lg-12">
                 <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="d-block nursery-list-img" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="d-block nursery-list-img" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="https://kido.school/wp-content/uploads/2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="d-block nursery-list-img" alt="...">
-                        </div>
+
+                    <?php
+                        foreach ($post_cont->galimg as $k => $v) {
+                            $act = ($k == 0) ? "active" : "";
+                            echo '<div class="carousel-item '.$act.'">
+                                    <img src="'.$v.'" class="d-block nursery-list-img" alt="...">
+                                </div>';
+                        }
+                    ?>
                     </div>
                     <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls1" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>

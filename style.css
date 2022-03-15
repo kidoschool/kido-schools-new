@@ -22,7 +22,7 @@ h5, h6, .h5, .h6{font-size: 1em; }
 
 p,li {color: #666; font-size: 1em; text-align: justify;}
 span{color: #666; font-weight: 600;}
-a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
+a {color: #666; text-decoration: none !important;  transition: 0.3s; cursor: pointer;}
 
 #myBtn {
     display: none;
@@ -392,6 +392,16 @@ a.btn-banner {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.lg-nur-gal-img{
+  width: 555px;
+  height: 348px;
+}
+
+.nur-gal-imgs{
+  width: 270px;
+  height: 170px;
+}
+
 .modal{
   margin: 0 !important;
   padding: 0 !important;
@@ -421,7 +431,7 @@ a.btn-banner {
 
 .nursery-gallery-grid .show-more-btn{
     position: absolute;
-    top: 270px;
+    top: 309px;
     right: 10px;
     background: #fff;
     color: #00356b;

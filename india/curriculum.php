@@ -12,7 +12,7 @@
       <div class="container">
         <div class="row justify-content-center py-3">
           <div class="col-lg-10 text-center">
-            <h1 class="head-text-blue mb-4">Days at Kïdo</h1>
+            <h1 class="head-text-blue mb-4">Days at Kido India</h1>
             <p class="description text-center">Our international team of experts has created a comprehensive pedagogy, known as the Kïdo Early Years Program. This innovative system incorporates the best practices from teaching philosophies from around the world, such as Montessori, Reggio Emilia and the theory of Multiple Intelligences. The result is a play-based learning experience that combines child and teacher-led activities with free and structured play in inspirational settings. The program is customised to the developmental ability of each child. We modify our curriculum for each country we operate in, to adhere to their existing national curriculum frameworks. In the UK, the Kïdo curriculum is modified to adhere to the EYFS framework.</p>
           </div>
        </div>

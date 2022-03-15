@@ -29,10 +29,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
             <li class="nav-item">
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Search Nurseries">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Search Preschool">
               </li>
               <li class="nav-item">
-                <a class="nav-link pl-5" activeclass="selected" href="search.php">Our PreSchool</a>
+                <a class="nav-link pl-5" activeclass="selected" href="search.php">Our Preschool</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link pl-4 dropdown-toggle" href="about.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

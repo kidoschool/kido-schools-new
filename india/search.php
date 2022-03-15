@@ -57,7 +57,7 @@
    <div class="container-fluid">
        <div class="row justify-content-center">
            <div class="col-lg-7 py-4">
-            <h5 class="head-blue">Explore our global network. We found 12 nurseries & preschools</h5>
+            <h5 class="head-blue">Explore our global network. We found 8 preschools</h5>
             <div class="nursery-listing-box">
                 <hr>
                 <div class="row">

@@ -302,7 +302,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="nury-head-title head-text-blue mb-4">Other Nurseries Nearby</h2>
+                <h2 class="nury-head-title head-text-blue mb-4">Other Preschools Nearby</h2>
                     <?php include 'nearby-nurseries.php';?>
             </div>
         </div>
