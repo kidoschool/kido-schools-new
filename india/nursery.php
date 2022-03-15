@@ -17,18 +17,13 @@ include 'header.php';
 
 $json = '{"galimg":["https://storage.googleapis.com/kido-assets/211159_IMG_4436.jpg","https://storage.googleapis.com/kido-assets/282021_2544.jpg"],"ageRange":"","lang_taught":"","opening_hours":"9AM to 6PM","play_area":"Yes","transportation":"No","paragraph_title":"ashfchasjch","description":"                  Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft space in the heart of Bandra, off Carter Road and near Khar & Santa Cruz.<br/><br/>Itu2019s a palace of imagination u2013 complete with a large play area, themed spaces, and an indoor stage for drama, music, and dance. Between the reading nooks and creative corners, our international preschool is also furnished with science and tech bays u2013 so children can learn whilst playing with a diverse range of advanced equipment.<br/><br/>Each preschool classroom is bright, warm and spacious, keeping your child engaged in a program thatu2019s designed just for them.<br/><br/>Our programs are for children between the ages of 8 months and 5 years, including preschool extended days and full days.<br/><br/>Give us a call and we can chat about our Bandra Preschool in more detail, or arrange a tour so you can see what the place is like!             ","brochure_link":"hjashdjadhh","curriculum":"csasacasc","hours":"hjhasjdhj","schedule":"hasdjhasd","nutrition":"hasjdhjmnmxczn","outdoor_space":"zbxncbnshgad","address":"sadasdyuyu","country":"United Kingdom","city":"London","state":"","lattitude":"asdbcbasn","longitude":"bzbzxgh","google":"3","dayNurseries":"9.7","offsted":"Nice","reviews":[{"name":"Test","comment":"Temp"},{"name":"hgasghdaghs","comment":"ta Cruz.<br/><br/>Itu2019s a palace of imagination u2013 complete with a large play area, themed spaces, and an indoor stage for drama, music, and dance. Between the reading nooks and creative corners, our international preschool is also furnished with science and tech bays u2013 so children can learn whilst playing with a diverse range of advanced equipment.<br/><br/>Each preschool classroom is bright, warm and spacious, keeping your child engaged in a program th"},{"name":"Naksck kjaskcja kasd","comment":"iverse range of advanced equipment.<br/><br/>Each preschool classroom is bright, warm and spacious, keeping your child engaged in a program thatu2019s designed just for them.<br/><br/>Our programs are for children between the ages of 8 months and 5 years, including preschool extended days and full days.<br/><br/>Give us a call and we can chat a"},{"name":"Bbbnasdgagshd asghdghasd","comment":"ying with a diverse range of advanced equipment.<br/><br/>Each preschool classroom is bright, warm and spacious, k"}]}';
 
-    // echo "<pre>";
-    // print_r($post->post_content);
-    // echo "</pre>";
-    // die;
-
 $post_cont =  json_decode($json);
 // $post_cont =  json_decode($post->post_content);
 // $reviews = $post_cont->reviews;
-    // echo "<pre>";
-    // print_r($post_cont);
-    // echo "</pre>";
-    // die;
+    echo "<pre>";
+    print_r($post_cont);
+    echo "</pre>";
+    die;
 
 
 ?>
@@ -268,6 +263,38 @@ $post_cont =  json_decode($json);
         </div>
     </div>
 </section> -->
+<section class="faq mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+            <h2 class="nury-head-title head-text-blue mb-4">FAQs</h2>
+                <div class="gallery-area">
+                    <div class="accordion" id="accordionExample">
+                        <?php
+                            foreach ($post_cont->faqs as $k => $v) {
+                                echo "<div class='card1 student-well-being'>
+                                        <div class='card-header card-header1 bg-light' id='heading".$k."'>
+                                            <h2 class='card-text mb-0'>
+                                            <button class='btn btn-link btn-block text-left collapsed' type='button' data-toggle='collapse' data-target='#collapse".$k."' aria-expanded='true' aria-controls='collapse".$k."'>
+                                                ".$v->name."
+                                            </button>
+                                            </h2>
+                                        </div>
+                                        <div id='collapse".$k."' class='collapse' aria-labelledby='heading".$k."' data-parent='#accordionExample'>
+                                        <div class='card-body bg-white'>
+                                            <p class='pl-3'>".$v->comment."</p>
+                                        </div>
+                                        </div>
+                                        <hr/>
+                                    </div>";
+                            }
+                        ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="map-sec mt-5">
     <div class="container">
         <div class="row">

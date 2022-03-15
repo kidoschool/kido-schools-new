@@ -32,15 +32,15 @@
                   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Search Nurseries">
               </li>
               <li class="nav-item">
-                <a class="nav-link pl-5" activeclass="selected" href="search.php">Our Nurseries</a>
+                <a class="nav-link pl-5" activeclass="selected" href="search.php">Our PreSchool</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link pl-4 dropdown-toggle" href="/about-us" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link pl-4 dropdown-toggle" href="about.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 About
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/about-us">About</a>
-                  <a class="dropdown-item" href="curriculum.php">Programs</a>
+                  <a class="dropdown-item" href="about.php">About</a>
+                  <a class="dropdown-item" href="curriculum.php">Curriculum</a>
                   <a class="dropdown-item" href="/news-events">Blogs</a>
                 </div>
               </li>
