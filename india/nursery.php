@@ -215,16 +215,20 @@ $post_cont =  json_decode($json);
                     <div class="review-data mt-2">
                         <?php
                         foreach ($post_cont->reviews as $k => $v) {
-                            echo "<p><small>".$v->comment."</small></p>";
-                            echo "<i class='text-secondary'><small><b>".$v->name."</b></small></i><hr>";
+                            if($k < 2){
+                                echo "<p><small>".$v->comment."</small></p>";
+                                echo "<i class='text-secondary'><small><b>".$v->name."</b></small></i><hr>";
+                            }
                         }
                         ?>
                     </div>
                     <div class="review-data mt-2" id="review-data-more" style="display:none">
                         <?php
                         foreach ($post_cont->reviews as $k => $v) {
-                            echo "<p><small>".$v->comment."</small></p>";
-                            echo "<i class='text-secondary'><small><b>".$v->name."</b></small></i><hr>";
+                            if($k > 1){
+                                echo "<p><small>".$v->comment."</small></p>";
+                                echo "<i class='text-secondary'><small><b>".$v->name."</b></small></i><hr>";
+                            }
                         }
                         ?>
                     </div>
