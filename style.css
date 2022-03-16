@@ -565,6 +565,12 @@ a.faq-link{
   margin-left: 20px;
 }
 
+.career-banner-btn{
+  position: absolute;
+  top: 545px;
+  right: 335px;
+}
+
 /*--------footer-area end---------*/
 
 @media only screen and (max-width: 770px) {

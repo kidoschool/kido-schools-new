@@ -48,7 +48,7 @@
                 <a class="nav-link pl-4" href="/contact-us">Events</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link pl-4" href="/careers">Careers</a>
+                <a class="nav-link pl-4" href="careers.php">Careers</a>
               </li> 
               <li class="nav-item">
                 <a class="nav-link pl-4" href="/contact-us">Contact</a>
