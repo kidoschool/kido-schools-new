@@ -161,16 +161,29 @@ $post_cont =  json_decode($json);
                     <div class="container">
                         <div class="row full-width-gallery">
                             <div class="col-lg-12 padding-0 mb-2">
-                                <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="img-fluid" alt="...">
+                                <img src="<?php echo $post_cont->galimg[0]; ?>" class="img-fluid" alt="...">
+                                <!-- <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="img-fluid" alt="..."> -->
                             </div>
-                            <div class="col-lg-6 padding-0 mt-2">
+                            <!-- <div class="col-lg-6 padding-0 mt-2">
                                 <img src="https://kido.school/wp-content/uploads/2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="img-fluid" alt="...">
                                 <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid mt-2" alt="..."> 
                             </div>
                             <div class="col-lg-6 padding-0 mt-2">
                                 <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid" alt="...">
                                 <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="img-fluid mt-2" alt="..."> 
-                            </div>
+                            </div> -->
+                        </div>
+                        <div class="row">
+                        <?php
+                            foreach ($post_cont->galimg as $k => $v) {
+                                echo '<div class="col-lg-6 padding-0 mt-3">
+                                        <img src="'.$v.'" class="img-fluid" alt="...">
+                                    </div>';
+                            }
+                        ?>
+                            <!-- <div class="col-lg-6 padding-0 mt-3">
+                                <img src="https://kido.school/wp-content/uploads/2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="img-fluid" alt="...">
+                            </div> -->
                         </div>
                     </div>
                 </div>

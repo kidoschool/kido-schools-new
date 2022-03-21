@@ -31,7 +31,7 @@
 
             <div class="row pt-5">
               <div class="col-lg-4">
-                <div class="card">
+                <div class="card shadow">
                   <img class="card-img-top-khome img-fluid" src="../images/programs-card-img1.jpg" alt="kido highlights"/>
                   <div class="card-body text-center">
                     <div class="d-flex justify-content-center">
@@ -61,7 +61,7 @@
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="card">
+                <div class="card shadow">
                   <img class="card-img-top-khome img-fluid" src="../images/programs-card-img2.jpg" alt="kido highlights"/>
                   <div class="card-body text-center">
                     <div class="d-flex justify-content-center">
@@ -91,7 +91,7 @@
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="card">
+                <div class="card shadow">
                   <img class="card-img-top-khome img-fluid" src="../images/programs-card-img3.jpg" alt="kido highlights"/>
                   <div class="card-body text-center">
                     <div class="d-flex justify-content-center">
@@ -121,7 +121,7 @@
                 </div>
               </div>
               <div class="col-lg-4  py-4">
-                <div class="card">
+                <div class="card shadow">
                   <img class="card-img-top-khome img-fluid" src="../images/programs-card-img4.jpg" alt="kido highlights"/>
                   <div class="card-body text-center">
                     <div class="d-flex justify-content-center">
@@ -151,7 +151,7 @@
                 </div>
               </div>
               <div class="col-lg-4  py-4">
-                <div class="card">
+                <div class="card shadow">
                   <img class="card-img-top-khome img-fluid" src="../images/programs-card-img5.jpg" alt="kido highlights"/>
                   <div class="card-body text-center">
                     <div class="d-flex justify-content-center">
@@ -181,7 +181,7 @@
                 </div>
               </div>
               <div class="col-lg-4  py-4">
-                <div class="card">
+                <div class="card shadow">
                   <img class="card-img-top-khome img-fluid" src="../images/programs-card-img6.jpg" alt="kido highlights"/>
                   <div class="card-body text-center">
                     <div class="d-flex justify-content-center">
@@ -226,14 +226,14 @@
             <p class="description text-center">We divide our school year into six cycles, each lasting six weeks. At the end of each cycle, parents are given a portfolio of their child’s work. In the UK, the Kïdo curriculum is modified to adhere to the EYFS framework and does not offer all of the elements listed here. Discoverers enjoy their own dedicated learning system. For the other levels, weeks are divided into two different types of day:</p>
                 <div class="row justify-content-center pt-4">
                   <div class="col-lg-6">
-                    <div class="we-teach-data bg-light border p-4">
+                    <div class="we-teach-data bg-white border shadow p-4">
                         <img src="../images/programs-icon1.svg" class="img-fluid" width="50"/>
                         <h3 class="teact-head pt-4 pb-2">Skills Days</h3>
                         <p>These days are dedicated to our proprietary programs in math, literacy, STEM, art and much else. We use different learning stations for each activity, and combine sensory play, guided learning and workbook activities.</p>
                     </div>
                   </div>
                   <div class="col-lg-6">
-                    <div class="we-teach-data bg-light border p-4">
+                    <div class="we-teach-data bg-white border shadow p-4">
                         <img src="../images/programs-icon2.svg" class="img-fluid" width="50"/>
                         <h3 class="teact-head pt-4 pb-2">Explorer Days</h3>
                         <p>Children tackle adult-led project, problem and inquiry-based learning programs, which integrate the knowledge they learn during the Skills Days. Over the course of six weeks, children will develop a project through arts and crafts, math, science, literacy or music-related activities.</p>
