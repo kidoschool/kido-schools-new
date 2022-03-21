@@ -175,7 +175,7 @@ $post_cont =  json_decode($json);
                         </div>
                         <div class="row">
                         <?php
-                            foreach ($post_cont->galimg as $k => $v) {
+                            foreach (array_slice($post_cont,1,2)->galimg as $k => $v) {
                                 echo '<div class="col-lg-6 padding-0 mt-3">
                                         <img src="'.$v.'" class="img-fluid" alt="...">
                                     </div>';
