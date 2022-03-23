@@ -74,7 +74,7 @@ $uri_segments = explode('/', $uri_path);
                                 echo "<h1 class='head-text-blue mb-4'>".$v["section1-head"]."</h1>";
                             }
                         ?> -->
-                        <h1 class="head-text-blue mb-4">Welcome to Kido India</h1>
+                        <h1 class="head-text-blue mb-4">Welcome to Kido UK</h1>
                         <p class="text-center">We’re integrating advances in design, technology and pedagogy and creating the highest quality nurseries and preschools across the world. Magical places, where children play, learn, grow and thrive. We’ve combined classical philosophies like Montessori and Reggio Emilia with latest research and created the most advanced early years program anywhere. Our exceptional people, program and nurseries nurture and enhance every child’s innate curiosity, creativity, and ability to be a lifelong learner. Since 2014, over 15,000 families across the world have entrusted their children to Kido nurseries for our customised and unique early childhood education and care programs</p>
                 </div>
             </div>
@@ -107,7 +107,7 @@ $uri_segments = explode('/', $uri_path);
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="data text-center">
-                        <h1 class="head-text-blue mb-4">Kido India Awards Badges</h1>
+                        <h1 class="head-text-blue mb-4">Kido UK Awards Badges</h1>
                         <div class="d-flex justify-content-center pt-4">
                             <div class="col-lg-3"><img src="../images/day-nurseries-award.png" class="img-fluid" alt=""></div>
                             <div class="col-lg-3"><img src="../images/ofsted-award.png" width="120" class="img-fluid" alt=""></div>

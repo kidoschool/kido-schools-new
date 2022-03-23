@@ -402,6 +402,16 @@ a.btn-banner {
   height: 170px;
 }
 
+.lg-inner-nur-gal-img{
+  width: 1125px;
+  height: 633px;
+}
+
+.inner-nur-gal-img{
+  width: 555px;
+  height: 312px;
+}
+
 .modal{
   margin: 0 !important;
   padding: 0 !important;
@@ -658,6 +668,16 @@ a.faq-link{
   .padding-0{
       padding-right:0;
       padding-left:0;
+  }
+
+  .lg-inner-nur-gal-img{
+    width: 100%;
+    height: auto;
+  }
+  
+  .inner-nur-gal-img{
+    width: 100%;
+    height: 312px;
   }
 }
 

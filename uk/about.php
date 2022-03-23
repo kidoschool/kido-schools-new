@@ -3,7 +3,7 @@
     <section class="about-banner">
       <div class="container-fluid">
         <div class="row justify-content-center">
-            <img src="../images/About-banner.jpg" class="banner-hero-img" alt="about-banner"/>
+            <img src="../images/About-banner.jpg" class="img-fluid w-100" alt="about-banner"/>
        </div>
       </div>
     </section>
@@ -12,7 +12,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-10">
-          <h1 class="head-text-blue text-center mb-4">About kido India</h1>
+          <h1 class="head-text-blue text-center mb-4">About kido UK</h1>
             <div class="about-para">
                 <p class="text-center">We are owned and operated by a group of parents from all over the world. Our founders were unhappy with the quality of the early childhood education available in their cities, so they got together to build a truly 21st century program.</p>
                 <p class="text-center">We now have schools around the globe, which bring together the world’s best early years practices to deliver the finest preschool experience for children and parents alike.</p>
@@ -93,7 +93,7 @@
                 <div class="card shadow" style="width:100%;height:95%;">
                   <img class="card-img-top" src="../images/about-person8.png" alt="pedagogical leaders"/>
                   <div class="card-body text-center">
-                    <small class="card-title">Anjali Motiani, Curriculum Coordinator, India</small>
+                    <small class="card-title">Anjali Motiani, Curriculum Coordinator, Uk</small>
                   </div>
                 </div>
               </div>
