@@ -2,51 +2,21 @@
 <section class="nursery-head pt-4 pb-1 fixed-top bg-white">
    <div class="container-fluid">
        <div class="row justify-content-center">
-           <!-- <div class="col-lg-3">
+            <div class="col-lg-6">
                <div class="header">
                    <div class="form-group">
-                        <label for="exampleFormControlSelect1">Example select</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                        <option>Select Country</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        </select>
-                    </div>
-               </div>
-            </div> -->
-            <div class="col-lg-4">
-               <div class="header">
-                   <div class="form-group">
-                        <!-- <label for="exampleFormControlSelect1">Example select</label> -->
-                        <select class="form-control" id="exampleFormControlSelect1">
-                        <option>Select State</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        </select>
-                    </div>
-               </div>
-            </div>   
-            <div class="col-lg-4">
-               <div class="header">
-                   <div class="form-group">
-                        <!-- <label for="exampleFormControlSelect1">Example select</label> -->
                         <select class="form-control" id="exampleFormControlSelect1">
                         <option>Select City</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+                        <option>Mumbai</option>
+                        <option>Pune</option>
+                        <option>Banglore</option>
+                        <option>Gurugram</option>
                         </select>
                     </div>
                </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-6">
             <div class="form-group">
-                <!-- <label for="exampleFormControlInput1">Email address</label> -->
                 <input type="number" class="form-control" id="pincode" placeholder="enter pin code">
             </div>
             </div>
@@ -57,7 +27,7 @@
    <div class="container-fluid">
        <div class="row justify-content-center">
            <div class="col-lg-7 py-4">
-            <h5 class="head-blue">Explore our global network. We found 8 preschools</h5>
+            <h5 class="head-blue">Explore our India network.</h5>
             <div class="nursery-listing-box">
                 <hr>
                 <div class="row">

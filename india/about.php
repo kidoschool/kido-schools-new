@@ -104,7 +104,20 @@
       </div>
     </section>
 
-    <section class="our-program bg-light py-5">
+    <section class="our-global-map py-5">
+      <div class="container">
+      <h1 class="head-text-blue text-center mb-4">Our Global Network</h1>
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <div class="map">
+                  <div id="googleMap" style="width:100%;height:100vh;"></div>
+              </div>
+            </div>
+       </div>
+      </div>
+    </section>
+
+    <section class="our-program py-5">
       <div class="container">
       <h1 class="head-text-blue text-center mb-2">Our Curriculum</h1>
         <div class="row justify-content-center">

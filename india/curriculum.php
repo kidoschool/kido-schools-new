@@ -19,6 +19,99 @@
       </div>
     </section> 
 
+    <section>
+    <div class="container">
+      <div class="row">
+        <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                <div class="MultiCarousel-inner">
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Kido-Greenwich_internal-scaled.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                        <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2019/09/Crouch-End-Centre-Pages-2-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2020/04/Windsor-Centre-Pages-Header-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2020/04/Golders-Green-Centre-Pages-Header-3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2021/08/Large-shutterstock_238308907.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-info leftLst"><</button>
+                <button class="btn btn-info rightLst">></button>
+            </div>
+      </div>
+    </div>
+    </section>
+
 
     <section class="who-we-teach pt-5">
       <div class="container">
