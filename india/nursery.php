@@ -76,24 +76,6 @@ $post_cont =  json_decode($json);
 </section>
 <section class="nursery-gallery-grid mt-5">
     <div class="container">
-        <!-- <div class="row desktop-nur-gallery">
-            <div class="col-lg-6 padding-0">
-                <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="img-fluid" alt="...">
-            </div>
-            <div class="col-lg-3 padding-0">
-                <img src="https://kido.school/wp-content/uploads/2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="img-fluid" alt="...">
-                <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid mt-2" alt="..."> 
-            </div>
-            <div class="col-lg-3 padding-0">
-                <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid" alt="...">
-                <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="img-fluid mt-2" alt="..."> 
-                <div class="show-more-position">
-                    <button id="modalActivate" type="button" class="show-more-btn btn btn-sm" data-toggle="modal" data-target="#exampleModalPreview">
-                    <i class="fa fa-th mr-3" aria-hidden="true"></i>Show all photos
-                    </button>
-                </div>
-            </div>
-        </div> -->
         <div class="row desktop-nur-gallery">
             <div class="col-lg-6 padding-0">
                 <img src="<?php echo $post_cont->galimg[0]; ?>" class="lg-nur-gal-img" alt="">
@@ -145,44 +127,49 @@ $post_cont =  json_decode($json);
     </div>
 </section>
 
+
 <section class="pop-up-gallery">
   <!-- Modal start -->
     <!-- Modal -->
     <div class="modal fade right" id="exampleModalPreview" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
         <div class="modal-dialog-full-width modal-dialog momodel modal-fluid" role="document">
             <div class="modal-content-full-width modal-content">
-                <div class=" modal-header-full-width  modal-header text-center">
-                    <h2 class="modal-title head-text-blue w-100" id="exampleModalPreviewLabel">Bandra International Preschool & Day Care</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span style="font-size: 1.3em;" aria-hidden="true">&times;</span>
-                    </button>
-                </div>
                 <div class="modal-body">
-                    <div class="container">
-                        <div class="row full-width-gallery">
-                            <div class="col-lg-12 padding-0 mb-2">
-                                <img src="<?php echo $post_cont->galimg[0]; ?>" class="lg-inner-nur-gal-img" alt="...">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span style="font-size: 2em;" class="text-white" aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                        <div class="col-lg-12 text-center">
+                            <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+
+                                <?php
+                                    foreach ($post_cont->galimg as $k => $v) {
+                                        $act = ($k == 0) ? "active" : "";
+                                        echo '<div class="carousel-item '.$act.'">
+                                                <img src="'.$v.'" class="inner-nur-gal-img" alt="...">
+                                            </div>';
+                                    }
+                                ?>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls2" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#carouselExampleControls2" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
                             </div>
                         </div>
-                        <div class="row">
-                        <?php
-                            foreach (array_slice($post_cont->galimg, 1) as $k => $v) {
-                                echo '<div class="col-lg-6 padding-0 mt-3">
-                                        <img src="'.$v.'" class="inner-nur-gal-img" alt="...">
-                                    </div>';
-                            }
-                        ?>
-                        </div>
                     </div>
-                </div>
-                <div class="modal-footer-full-width  modal-footer">
-                    <!-- <button type="button" class="btn btn-danger btn-md btn-rounded" data-dismiss="modal">Close</button> -->
+                    </div>
                 </div>
             </div>
         </div>
     </div>    
 </section>
-
 <section>
     <div class="sticky-contact">
         <div class="p-2 shadow">

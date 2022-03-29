@@ -1,4 +1,4 @@
-<div class="card-deck">
+<div class="card-deck desktop-view">
     <div class="other-nury-list card shadow">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">

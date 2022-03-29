@@ -62,7 +62,7 @@ $uri_segments = explode('/', $uri_path);
         </div>
     </section> 
 
-    <section class="welcome-text pt-5">
+    <section class="welcome-text py-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
@@ -92,19 +92,19 @@ $uri_segments = explode('/', $uri_path);
         </div>
     </section>
 
-    <section class="welcome-text pt-5">
+    <section class="welcome-text py-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-10">
+                <div class="col-lg-12">
                     <div class="data text-center">
-                        <video width="1000" id="vid"  class="img-fluid" controls autoPlay loop muted>
+                        <video width="1200" id="vid"  class="img-fluid" controls autoPlay loop muted>
                             <source src="https://storage.googleapis.com/kido-assets/banner-video-Mp4.mp4" type="video/mp4"/>
                             Your browser does not support HTML video.
                         </video> 
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center mt-4">
+            <div class="row justify-content-center mt-5">
                 <div class="col-lg-10">
                     <div class="data text-center">
                         <h1 class="head-text-blue mb-4">Our Pedagogy</h1>
@@ -113,6 +113,54 @@ $uri_segments = explode('/', $uri_path);
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="photo-gallery py-5">
+    <div class="container">
+      <div class="row">
+        <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                <div class="MultiCarousel-inner">
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Kido-Greenwich_internal-scaled.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                        <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2019/09/Crouch-End-Centre-Pages-2-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2020/04/Windsor-Centre-Pages-Header-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2020/04/Golders-Green-Centre-Pages-Header-3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2021/08/Large-shutterstock_238308907.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                            <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-info leftLst"><</button>
+                <button class="btn btn-info rightLst">></button>
+            </div>
+      </div>
+    </div>
     </section>
 
     <section class="near-by-nursery py-5">
