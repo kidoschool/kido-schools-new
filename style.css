@@ -463,60 +463,6 @@ a.btn-banner {
 .we-teach-data{
   height: 100%;
 }
-/*--------footer-area start---------*/
-.footer-area{
-  background-color: #00356b;
-} 
-
-.icon-info i{
-    font-size: 20px;
-    color: #fff;
-}
-
-.footer-area a{ 
-    color: #fff;
-    text-decoration: none;
-    font-size: 13px;
-}
-
-.footer-bottom p{ 
-    color: #fff;
-}
-
-.footer-info p {
-  font-size: 13px;
-  color: #fff;
-}
-
-.footer-info li {
-    padding-bottom: 10px;
-    font-size: 13px;
-    color: #fff;
-}
-
-.footer-widget h4.widget-title {
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: 600;
-}
-
-.bottom-line {
-  border-bottom: 1px solid #bfc4db;
-}
-
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  background-color: #962A30;
-  color: #fff!important;
-}
-
-
-.nav-pills .nav-link, .nav-pills .show>.nav-link {
-    background-color: #fbefef;
-    color: #000!important;
-}
-
 
 .card-header{
   background-color: #fff;
@@ -590,24 +536,69 @@ a.faq-link{
 }
 
 .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
-    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
-        .MultiCarousel .MultiCarousel-inner .item { float: left;}
-        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center;}
-    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
-    .MultiCarousel .leftLst { left:0; }
-    .MultiCarousel .rightLst { right:0; }
-    
-        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
-        .MultiCarousel img {
-          width: 200px;
-          height: 200px;
-          object-fit: cover;
-        }
-        .MultiCarousel .btn-info{
-          color: #fff;
-          background-color: #bd5319;
-          border-color: #bd5319;
-        }
+.MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+.MultiCarousel .MultiCarousel-inner .item { float: left;}
+.MultiCarousel .MultiCarousel-inner .item > div { text-align: center;}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+.MultiCarousel .leftLst { left:0; }
+.MultiCarousel .rightLst { right:0; }
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+.MultiCarousel img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.MultiCarousel .btn-info{
+  color: #fff;
+  background-color: #bd5319;
+  border-color: #bd5319;
+}
+
+.mobile-view{
+  display: none;
+}
+/*--------footer-area start---------*/
+.footer-area{
+  background-color: #00356b;
+} 
+
+.icon-info i{
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-area a{ 
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.footer-bottom p{ 
+    color: #fff;
+}
+
+.footer-info p {
+  font-size: 13px;
+  color: #fff;
+}
+
+.footer-info li {
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.footer-widget h4.widget-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+
+.bottom-line {
+  border-bottom: 1px solid #bfc4db;
+}
+
 /*--------footer-area end---------*/
 
 @media screen and (min-width: 1900px) {
@@ -723,5 +714,13 @@ a.faq-link{
     height: 300px;
     object-fit: cover;
 }
+
+  .desktop-view{
+    display: none;
+  }
+  .mobile-view{
+    display: block;
+  }
+
 }
 

@@ -262,18 +262,20 @@ $post_cont =  json_decode($json);
         </div>
     </div>
 </section>
-<!-- <section class="life-kido mt-5">
+
+<section class="map-sec mt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-            <h2 class="nury-head-title mb-4">Life at Kido</h2>
-            <div class="gallery-area">
-                    
+            <h2 class="nury-head-title head-text-blue mb-4">Location</h2>
+            <div class="map-area">
+                    <div id="googleMap" style="width:100%;height:500px;"></div>
                 </div>
             </div>
         </div>
     </div>
-</section> -->
+</section>
+
 <section class="faq mt-5">
     <div class="container">
         <div class="row">
@@ -306,18 +308,7 @@ $post_cont =  json_decode($json);
         </div>
     </div>
 </section>
-<section class="map-sec mt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-            <h2 class="nury-head-title head-text-blue mb-4">Location</h2>
-            <div class="map-area">
-                    <div id="googleMap" style="width:100%;height:500px;"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <section class="near-by-nursery my-5">
     <div class="container">
         <div class="row">
