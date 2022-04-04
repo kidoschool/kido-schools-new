@@ -109,7 +109,7 @@
                     </div>
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
+                        <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="exampleModalLabel">Group Coaching Session: Re-discovering me</h5>
@@ -117,10 +117,20 @@
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div class="modal-body">
-                                <div class="d-flex">
-                                <div class="evt-modal-img" style="background-image: url('../images/event-card-img.jpg');"></div>
-                                </div>
+                            <div class="modal-body evt-modal-body row">
+                                <!-- <div class="row"> -->
+                                <div class="evt-modal-img col-lg-6" style="background-image: url('../images/event-card-img.jpg');"></div>
+                                <div class="col-lg-6 mt-2">
+                                    <h6 class="text-secondary">ONLINE EVENT</h6>
+                                    <p>Introducing children to your life makes you re-evaluate everything! What is important often changes with the introduction of someone else to live for and most of us are too busy thinking about them to really consider ourselves! Becoming a parent brings new skills as well as challenges. Reflecting on you, what you want and what the ‘new you’ can bring to the world is a great way to be really intentional about how you want to live your life.
+                                    This playful group coaching and reflection session will help you to:
+                                    - Revisit who you are, what is important to you & what mark you want to make on the world.
+                                    - Define your values, and the way you want to live.
+                                    - Use this as your ‘North Star’ for decision making, life and work.</p>
+                                    <p class="card-text my-3"><small class="text-muted speaker"><i>Jessamine Ringer </i></small></p>
+                                    <p class="card-text my-3"><small class="text-muted speaker-info">Jessamine is mum of 2 beautiful girls and lives and works in London. With a history of working in senior positions in HR & L&D in both start up and scale up environments and after her second maternity leave, Jessamine launched her business as a leadership and life coach & facilitator. She is passionate about helping people achieve what matters to them and specialises in developing confidence, and navigating the transition from having children into a balanced and satisfying working life.</small></p>
+                                </div>    
+                            <!-- </div> -->
                             </div>
                             </div>
                         </div>

@@ -570,7 +570,21 @@ a.faq-link{
 .owl-nav{text-align:right}
 .owl-carousel .owl-stage{display: flex;}
 
-.evt-modal-img{height:initial;background-size:cover;background-position: center;}
+.evt-modal-img{
+  height:initial;
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  object-fit: cover;
+}
+
+.evt-modal-body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  /* padding: 1rem; */
+  padding: 0em 1em;
+}
 /*--------footer-area start---------*/
 .footer-area{
   background-color: #00356b;
