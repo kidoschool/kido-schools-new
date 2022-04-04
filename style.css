@@ -20,7 +20,7 @@ h3, .h3 {font-size: 1.15em;}
 h4, .h4 {font-size: 1.1em;}
 h5, h6, .h5, .h6{font-size: 1em; }
 
-p,li {color: #666; font-size: 1em; text-align: justify;}
+p,li {color: #444; font-size: 1em; text-align: justify;}
 span{color: #666; font-weight: 600;}
 a {color: #666; text-decoration: none !important;  transition: 0.3s; cursor: pointer;}
 
@@ -114,7 +114,7 @@ a.btn-banner {
   color: #00356b;
   border-color: #00356b;
   width: 155px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .btn-outline-primary:hover {
@@ -557,6 +557,20 @@ a.faq-link{
 .mobile-view{
   display: none;
 }
+
+.owl-nav .owl-prev,.owl-nav .owl-next{
+  height: 47px;width: 47px;background-position: 0 0;cursor: pointer;margin:10px 5px;
+}
+.owl-nav .owl-prev{
+  background: url(https://kido.school/wp-content/uploads/2021/icons/slider_arrow_left.svg)!important;
+}
+.owl-nav .owl-next{
+  background: url(https://kido.school/wp-content/uploads/2021/icons/slider_arrow_right.svg)!important;
+}
+.owl-nav{text-align:right}
+.owl-carousel .owl-stage{display: flex;}
+
+.evt-modal-img{height:initial;background-size:cover;background-position: center;}
 /*--------footer-area start---------*/
 .footer-area{
   background-color: #00356b;
@@ -721,6 +735,18 @@ a.faq-link{
   .mobile-view{
     display: block;
   }
+
+  .footer-area{
+    background-color: #00356b;
+    text-align: center;
+  } 
+
+  .footer-info li {
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
 
 }
 

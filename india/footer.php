@@ -4,7 +4,7 @@
   <footer>
   <section class="footer-area">
           <div class="container">
-                <div class="row py-4">
+                <div class="row justify-content-center py-4">
                     <div class="col-md-5 my-1">
                             <div class="footer-widget footer-info">
                                 <h4 class="widget-title pb-3">GLOBAL OFFICES</h4>
@@ -72,7 +72,7 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
-
+<script src="https://storage.googleapis.com/kido-assets/owl.carousel.min.js"></script>
 <script>
     function myMap() {
     var mapProp= {
@@ -190,11 +190,27 @@
 
 });
 
+$(document).ready(function(){
+
+// var loop_or_not =  data.length > 3 ? true : false;
+
+$('.upcoming-evnts').owlCarousel({
+    loop:true,margin:25,nav: true,dots:true,
+    responsive:{0:{items:1},600:{items:2},1000:{items:3},1300:{items:3}},
+});
+
+$('.past-evnts').owlCarousel({
+    loop:true,margin:25,nav: true,dots:true,
+    responsive:{0:{items:1},600:{items:2},1000:{items:3},1300:{items:3}},
+});
+
+});
+
 
     
 </script> 
 <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIJkPLyzo5XZODdhxAa_XYbk2ESQpJyZw&callback=myMap"></script> -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVtvix8ZhA1BRZLHS_DRSJtFsmQ8FQdf0&callback=myMap"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVtvix8ZhA1BRZLHS_DRSJtFsmQ8FQdf0&callback=myMap"></script> -->
 </body>
 
  </html>

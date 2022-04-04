@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 
-<section class="main-banner">
+    <section class="main-banner">
       <div class="container-fluid">
         <div class="row justify-content-center">
             <img src="../images/Our-Programs-banner.jpg"  class="banner-hero-img" alt="contact-banner"/>
