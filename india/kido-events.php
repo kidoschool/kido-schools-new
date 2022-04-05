@@ -108,7 +108,7 @@
                         </div>
                     </div>
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade upcoming-events" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                             <div class="modal-header">
@@ -118,19 +118,32 @@
                                 </button>
                             </div>
                             <div class="modal-body evt-modal-body row">
-                                <!-- <div class="row"> -->
                                 <div class="evt-modal-img col-lg-6" style="background-image: url('../images/event-card-img.jpg');"></div>
                                 <div class="col-lg-6 mt-2">
-                                    <h6 class="text-secondary">ONLINE EVENT</h6>
+                                    <div class="d-flex justify-content-between my-3">
+                                        <h6 class="text-secondary">ONLINE EVENT</h6>
+                                        <a href="https://us06web.zoom.us/webinar/register/WN_nOhbLGJbSHC2sqLbojL9fA" target="_blank" class="btn btn-outline-primary btn-sm">Book Now</a>
+                                    </div>   
+                                    <div class="modal-text modal_dtm my-3">
+                                        <select name="" class="form-control" id="modal_dtm_sel">
+                                            <option selected="">Wed Apr 6  02:00 PM - 02:45 PM London Time</option>
+                                            <option>Wed Apr 06 8:00AM - 8:45AM US Central</option>
+                                            <option>Wed Apr 06 2:00PM - 2:45PM London Time</option>
+                                            <option>Wed Apr 06 5:00PM - 5:45PM Dubai Time</option>
+                                            <option>Wed Apr 06 6:30PM - 7:15PM India Time</option>
+                                            <option>Wed Apr 06 9:00PM - 9:45PM Hong Kong</option>
+                                        </select>
+                                    </div>
                                     <p>Introducing children to your life makes you re-evaluate everything! What is important often changes with the introduction of someone else to live for and most of us are too busy thinking about them to really consider ourselves! Becoming a parent brings new skills as well as challenges. Reflecting on you, what you want and what the ‘new you’ can bring to the world is a great way to be really intentional about how you want to live your life.
                                     This playful group coaching and reflection session will help you to:
                                     - Revisit who you are, what is important to you & what mark you want to make on the world.
                                     - Define your values, and the way you want to live.
                                     - Use this as your ‘North Star’ for decision making, life and work.</p>
-                                    <p class="card-text my-3"><small class="text-muted speaker"><i>Jessamine Ringer </i></small></p>
-                                    <p class="card-text my-3"><small class="text-muted speaker-info">Jessamine is mum of 2 beautiful girls and lives and works in London. With a history of working in senior positions in HR & L&D in both start up and scale up environments and after her second maternity leave, Jessamine launched her business as a leadership and life coach & facilitator. She is passionate about helping people achieve what matters to them and specialises in developing confidence, and navigating the transition from having children into a balanced and satisfying working life.</small></p>
+                                    <p class="card-text my-3"><small class="text-primary speaker"><i><b>Jessamine Ringer</b></i></small></p>
+                                    <p class="card-text my-3">
+                                        <small class="text-muted speaker-info">Jessamine is mum of 2 beautiful girls and lives and works in London. With a history of working in senior positions in HR & L&D in both start up and scale up environments and after her second maternity leave, Jessamine launched her business as a leadership and life coach & facilitator. She is passionate about helping people achieve what matters to them and specialises in developing confidence, and navigating the transition from having children into a balanced and satisfying working life.</small>
+                                    </p>
                                 </div>    
-                            <!-- </div> -->
                             </div>
                             </div>
                         </div>
@@ -150,7 +163,6 @@
                 <div class="data">
                     <h1 class="head-text-blue text-center mb-4">Past Events</h1>
                     <div class="owl-carousel past-evnts">
-                    <!-- <div class="card-deck my-5"> -->
                         <div class="card shadow-sm">
                             <img src="../images/event-card-img.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -167,7 +179,7 @@
                                 <h6 class="head-blue subj my-3">Group Coaching Session: Re-discovering me</h6>
                                 <small class="desc"> Introducing children to your life makes you re-evaluate everything! […]</small>
                                 <p class="card-text my-3"><small class="text-muted speaker"><i>Jessamine Ringer </i></small></p>
-                                <button class="btn-outline-primary btn btn-sm">Read More</button>
+                                <button class="btn-outline-primary btn btn-sm" data-toggle="modal" data-target="#exampleModal1">Read More</button>
                             </div>
                         </div>
                         <div class="card shadow-sm">
@@ -227,8 +239,49 @@
                                 <button class="btn-outline-primary btn btn-sm">Read More</button>
                             </div>
                         </div>
-                    <!-- </div> -->
                     </div>
+                        <!-- Modal -->
+                        <div class="modal fade upcoming-events" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Group Coaching Session: Re-discovering me</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body evt-modal-body row">
+                                <div class="evt-modal-img col-lg-6" style="background-image: url('../images/event-card-img.jpg');"></div>
+                                <div class="col-lg-6 mt-2">
+                                    <div class="d-flex justify-content-between my-3">
+                                        <h6 class="text-secondary">ONLINE EVENT</h6>
+                                        <!-- <a href="https://us06web.zoom.us/webinar/register/WN_nOhbLGJbSHC2sqLbojL9fA" target="_blank" class="btn btn-outline-primary btn-sm">Book Now</a> -->
+                                    </div>   
+                                    <div class="modal-text modal_dtm my-3">
+                                        <select name="" class="form-control" id="modal_dtm_sel">
+                                            <option selected="">Wed Apr 6  02:00 PM - 02:45 PM London Time</option>
+                                            <option>Wed Apr 06 8:00AM - 8:45AM US Central</option>
+                                            <option>Wed Apr 06 2:00PM - 2:45PM London Time</option>
+                                            <option>Wed Apr 06 5:00PM - 5:45PM Dubai Time</option>
+                                            <option>Wed Apr 06 6:30PM - 7:15PM India Time</option>
+                                            <option>Wed Apr 06 9:00PM - 9:45PM Hong Kong</option>
+                                        </select>
+                                    </div>
+                                    <p>Introducing children to your life makes you re-evaluate everything! What is important often changes with the introduction of someone else to live for and most of us are too busy thinking about them to really consider ourselves! Becoming a parent brings new skills as well as challenges. Reflecting on you, what you want and what the ‘new you’ can bring to the world is a great way to be really intentional about how you want to live your life.
+                                    This playful group coaching and reflection session will help you to:
+                                    - Revisit who you are, what is important to you & what mark you want to make on the world.
+                                    - Define your values, and the way you want to live.
+                                    - Use this as your ‘North Star’ for decision making, life and work.</p>
+                                    <p class="card-text my-3"><small class="text-primary speaker"><i><b>Jessamine Ringer</b></i></small></p>
+                                    <p class="card-text my-3">
+                                        <small class="text-muted speaker-info">Jessamine is mum of 2 beautiful girls and lives and works in London. With a history of working in senior positions in HR & L&D in both start up and scale up environments and after her second maternity leave, Jessamine launched her business as a leadership and life coach & facilitator. She is passionate about helping people achieve what matters to them and specialises in developing confidence, and navigating the transition from having children into a balanced and satisfying working life.</small>
+                                    </p>
+                                </div>    
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- Modal -->
                 </div>
             </div>
         </div>
