@@ -5,8 +5,8 @@
           <div class="row justify-content-center">
               <img src="../images/career-banner.jpg" class="banner-hero-img" alt="about-banner"/>
               <div class="banner-tarea">
-                  <h2 class="banner-text">early years, reimagined</h2>
-                  <a href="/" class="btn-banner">Find a nursery near you</a>
+                  <h2 class="banner-text">Start your, Career at Kido</h2>
+                  <a href="#roles" class="btn-banner">View opportunities</a>
               </div>
         </div>
       </div>
@@ -161,18 +161,18 @@
     </section>
 
     
-    <section class="what-we-look pt-5">
+    <section class="what-we-look pt-5" id="roles">
       <div class="container">
         <div class="row justify-content-center py-3">
           <div class="col-lg-10">
             <h1 class="head-text-blue text-center mb-4">Roles</h1>
             <p class="description text-center">Innovation and a progressive approach to early years education is part of our DNA, so we look for people who share in this vision. Most importantly, we look for people who CARE, about…</p>
             <div class="my-2 text-center">
-              <ul>
-                <li class="text-center">The service they provide to families.</li>
-                <li class="text-center">The impact they have on young people’s learning and development experience.</li>
-                <li class="text-center">The way they treat their colleagues and peers.</li>
-                <li class="text-center">Their own personal development & growth.</li>
+              <ul class="list-unstyled">
+                <li class="text-center"><b>*</b> The service they provide to families.</li>
+                <li class="text-center"><b>*</b> The impact they have on young people’s learning and development experience.</li>
+                <li class="text-center"><b>*</b> The way they treat their colleagues and peers.</li>
+                <li class="text-center"><b>*</b> Their own personal development & growth.</li>
               </ul>
             </div>
             <p class="description text-center">Here are some of the roles we regularly recruit for. There are also roles in the Hub Team across a range of departments including Finance, HR, Sales & Marketing, Operations and Training.</p>
@@ -181,7 +181,57 @@
       </div>
     </section> 
 
-    <section class="openings pt-5" id="openings">
+    <section class="openings pt-3 pb-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="openings-collaspe border shadow-sm p-4">
+              <div class="accordion" id="accordionExample">
+                <div class="card1 student-well-being">
+                    <div class="card-header card-header1 bg-light" id="headingOne">
+                        <h2 class="card-text mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Nursery Manager
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body bg-white">
+                        <p class="pl-3"><strong>Qualifications:</strong> Full and relevant Level 3 (or above) Early Years Qualification or QTS (Qualified Teacher Status).</p>
+                        <p class="pl-3"><strong>Responsibilities:</strong> As a Nursery Manager at Kido you will be an ambassador for our values and a gatekeeper for our culture. You will take great pride, overall ownership & accountability for your school. Oversee the planning and operations for each room whilst working collaboratively to provide fantastic service and outstanding education. You will be responsible for implementing, monitoring systems, confidently delivering our curriculum, the EYFS & exceeding Ofsted requirements.</p>
+                        <p class="pl-3"><strong>Working pattern:</strong> Full time.</p>
+                      </div>
+                    </div>
+                    <hr/>
+                </div>
+                <div class="card1 admissions">
+                    <div class="card-header card-header1 bg-light" id="headingTwo">
+                    <h2 class="card-text mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Deputy Manager
+                        </button>
+                    </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body bg-white">
+                        <p class="pl-3"><strong>Qualifications:</strong> Full and relevant Level 3 (or above) Early Years Qualification or QTS (Qualified Teacher Status).</p>
+                        <p class="pl-3"><strong>Responsibilities:</strong> As a Nursery Manager at Kido you will be an ambassador for our values and a gatekeeper for our culture. You will take great pride, overall ownership & accountability for your school. Oversee the planning and operations for each room whilst working collaboratively to provide fantastic service and outstanding education. You will be responsible for implementing, monitoring systems, confidently delivering our curriculum, the EYFS & exceeding Ofsted requirements.</p>
+                        <p class="pl-3"><strong>Working pattern:</strong> Full time.</p>
+                      </div>
+                    </div>
+                    <hr/>
+                </div>
+              </div>
+              <div class="text-center mt-4">
+                <a href="https://apply.workable.com/kidoschools/" class="my-btn btn-primary btn-sm center" id="" target="_blank">Apply Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="openings pt-5" id="openings">
       <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">
@@ -676,7 +726,7 @@
         </div>
       </div>
       </div>
-    </section>
+    </section> -->
 <?php include 'footer.php';?>
 <script>
         $('select').on('change', function() {
