@@ -5,7 +5,7 @@
           <div class="row justify-content-center">
               <img src="../images/career-banner.jpg" class="banner-hero-img" alt="about-banner"/>
               <div class="banner-tarea">
-                  <h2 class="banner-text">Start your, Career at Kido</h2>
+                  <h2 class="banner-text">Start your Career at Kido</h2>
                   <a href="#roles" class="btn-banner">View opportunities</a>
               </div>
         </div>
@@ -197,9 +197,11 @@
                     </div>
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="card-body bg-white">
+                        <p class="pl-3"><strong>Role:</strong> <strong><a href="https://apply.workable.com/kidoschools/j/F4C6307A3A/" class="text-secondary" target="_blank">Recruitment Assistant.</a></strong></p>
                         <p class="pl-3"><strong>Qualifications:</strong> Full and relevant Level 3 (or above) Early Years Qualification or QTS (Qualified Teacher Status).</p>
                         <p class="pl-3"><strong>Responsibilities:</strong> As a Nursery Manager at Kido you will be an ambassador for our values and a gatekeeper for our culture. You will take great pride, overall ownership & accountability for your school. Oversee the planning and operations for each room whilst working collaboratively to provide fantastic service and outstanding education. You will be responsible for implementing, monitoring systems, confidently delivering our curriculum, the EYFS & exceeding Ofsted requirements.</p>
                         <p class="pl-3"><strong>Working pattern:</strong> Full time.</p>
+                        <p class="pl-3"><strong>Work location:</strong> Khar.</p>
                       </div>
                     </div>
                     <hr/>
