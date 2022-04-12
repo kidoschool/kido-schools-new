@@ -43,7 +43,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="about.php">About</a>
                   <a class="dropdown-item" href="curriculum.php">Curriculum</a>
-                  <a class="dropdown-item" href="/kido-events">Blog</a>
+                  <!-- <a class="dropdown-item" href="/kido-events">Blog</a> -->
                 </div>
               </li>
               <li class="nav-item">
@@ -53,7 +53,7 @@
                 <a class="nav-link pl-4" href="careers.php">Careers</a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link pl-4" href="/contact-us">Contact</a>
+                <a class="nav-link pl-4" href="contact.php">Contact</a>
               </li>
             </ul>
           </div>

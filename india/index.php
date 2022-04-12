@@ -26,30 +26,30 @@ $uri_segments = explode('/', $uri_path);
     <section class="home-banner-area">
         <div class="container-fluid">
             <div class="row justify-content-center">
-                    <div id="carouselExampleSlidesOnly mobile-banner-carousel" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleSlidesOnly mobile-banner-carousel" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item active" data-interval="2000">
                         <div class="banner-tarea">
                             <h2 class="banner-text">early years, reimagined</h2>
                             <a href="/" class="btn-banner">Find a nursery near you</a>
                         </div>
                             <img src="https://storage.googleapis.com/kido-assets/Website-Hero-1.jpg" class="banner-hero-img" alt="banner-img">
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-interval="2000">
                         <div class="banner-tarea">
                             <h2 class="banner-text">early years, reimagined</h2>
                             <a href="/" class="btn-banner">Find a nursery near you</a>
                         </div>
                         <img src="https://storage.googleapis.com/kido-assets/Website-Hero-2.jpg" class="banner-hero-img" alt="banner-img">
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-interval="2000">
                         <div class="banner-tarea">
                             <h2 class="banner-text">early years, reimagined</h2>
                             <a href="/" class="btn-banner">Find a nursery near you</a>
                         </div>
                         <img src="https://storage.googleapis.com/kido-assets/Website-Hero-3.jpg" class="banner-hero-img" alt="banner-img">
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-interval="2000">
                         <div class="banner-tarea">
                             <h2 class="banner-text">early years, reimagined</h2>
                             <a href="/" class="btn-banner">Find a nursery near you</a>

@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 
-<section class="about-banner">
+<section class="careers-banner">
       <div class="container-fluid">
           <div class="row justify-content-center">
               <img src="../images/career-banner.jpg" class="banner-hero-img" alt="about-banner"/>
@@ -21,7 +21,7 @@
             <p class="description text-center">We take elements from Montessori, Reggio Emilia and Waldorf Steiner, and combine them with beautiful learning spaces and 21st-century technology. Our customized experiences are the most effective way for children to develop their cognitive, social, physical and creative abilities.</p>
             <p class="description text-center">Our vision is to create a truly modern Early Years environment that meets the needs of both children and their parents. Above all, we have one of the best benefits packages in the industry, including free childcare for anyone that works with us.</p>
             <!-- <p class="description text-center">Visit our website to learn more about us, explore our nurseries and our research-driven, cutting-edge pedagogy.</p> -->
-            <p class="description text-center"><strong> <a href="#" class="text-secondary">Browse our current job openings to apply now!</a></strong></p>
+            <p class="description text-center"><strong> <a href="#roles" class="text-secondary">Browse our current job openings to apply now!</a></strong></p>
           </div>
        </div>
       </div>

@@ -188,11 +188,11 @@ $post_cont =  json_decode($json);
                 <div class="nursery-desc">
 
                     <div class="nur-cat d-flex justify-content-between my-4">
-                        <?php if(strlen($post_cont->ageRange)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/age-range.svg" alt="" width="50"><h6>Age range</h6><small><?php echo $post_cont->ageRange; ?></small></div> <?php }; ?>
-                        <?php if(strlen($post_cont->lang_taught)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/language.svg" alt="" width="50"><h6>Languages taught</h6><small><?php echo $post_cont->lang_taught; ?></small></div> <?php } ?>
-                        <?php if(strlen($post_cont->opening_hours)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/hours.svg" alt="" width="50"><h6>Opening hours</h6><small><?php echo $post_cont->opening_hours; ?></small></div> <?php } ?>
-                        <?php if(strlen($post_cont->play_area)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/Outdoor-Space-03.svg" alt="" width="50"><h6>Outdoor Play Area</h6><small><?php echo $post_cont->play_area; ?></small></div> <?php } ?>
-                        <?php if(strlen($post_cont->transportation)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/transportation1.svg" alt="" width="50"><h6>Transportation</h6><small><?php echo $post_cont->transportation; ?></small></div> <?php } ?>
+                        <?php if(strlen($post_cont->ageRange)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/age-range.svg" alt="" width="50"><h6 class="mt-3">Age range</h6><small><?php echo $post_cont->ageRange; ?></small></div> <?php }; ?>
+                        <?php if(strlen($post_cont->lang_taught)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/language.svg" alt="" width="50"><h6 class="mt-3">Languages taught</h6><small><?php echo $post_cont->lang_taught; ?></small></div> <?php } ?>
+                        <?php if(strlen($post_cont->opening_hours)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/hours.svg" alt="" width="50"><h6 class="mt-3">Opening hours</h6><small><?php echo $post_cont->opening_hours; ?></small></div> <?php } ?>
+                        <?php if(strlen($post_cont->play_area)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/Outdoor-Space-03.svg" alt="" width="50"><h6 class="mt-3">Outdoor Play Area</h6><small><?php echo $post_cont->play_area; ?></small></div> <?php } ?>
+                        <?php if(strlen($post_cont->transportation)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/transportation1.svg" alt="" width="50"><h6 class="mt-3">Transportation</h6><small><?php echo $post_cont->transportation; ?></small></div> <?php } ?>
                     </div>
                     <p>
                         <?php 
@@ -268,13 +268,22 @@ $post_cont =  json_decode($json);
         <div class="row">
             <div class="col-lg-12">
             <h2 class="nury-head-title head-text-blue mb-4">Location</h2>
-            <div class="map-area">
-                    <div id="googleMap" style="width:100%;height:500px;"></div>
+                <div class="map-area">
+                    <div id="googleMap" style="width:100%;height:600px;"></div>
+                    <div class="address row">
+                        <div class="col-lg-6 border p-3 bg-light shadow">
+                            <h3 class="head-blue">Juhu International Preschool & Day Care</h3>
+                            <p><small>Seema Plot No 287/6, Gulmohar Road No 1, Opp Irla Masjid, J.V.P.D. Scheme, Vile Parle (W), Mumbai 400049, India, India</small></p>
+                            <p><small>tel +919987840606</small></p>
+                            <p><small>email juhu@kido.school</small></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 <section class="faq mt-5">
     <div class="container">
