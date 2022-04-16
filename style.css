@@ -626,6 +626,7 @@ a.faq-link{
   top: 12%;
   right: 29%;
 }
+
 /*--------footer-area start---------*/
 .footer-area{
   background-color: #00356b;
@@ -874,6 +875,11 @@ a.faq-link{
     font-size: 13px;
     color: #fff;
     text-align: center;
+}
+
+iframe{
+  width: 100%;
+  height: auto;
 }
 
 }

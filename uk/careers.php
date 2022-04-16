@@ -1,120 +1,239 @@
 <?php include 'header.php';?>
 
-<section class="about-banner">
+<section class="careers-banner">
       <div class="container-fluid">
           <div class="row justify-content-center">
-              <img src="../images/hiring-banner.png" class="img-fluid w-100" alt="about-banner"/>
-              <div class="career-banner-btn">
-                <a href="#openings" class="btn-banner">Apply for the job</a>
+              <img src="../images/career-banner.jpg" class="banner-hero-img" alt="about-banner"/>
+              <div class="banner-tarea">
+                  <h2 class="banner-text">Start your Career at Kido</h2>
+                  <a href="#roles" class="btn-banner">View opportunities</a>
               </div>
         </div>
       </div>
 </section>
 
-<section class="what-we-look pt-5">
+    <section class="what-we-look pt-5">
       <div class="container">
         <div class="row justify-content-center py-3">
           <div class="col-lg-10">
-            <h1 class="head-text-blue text-center mb-4">What we look for</h1>
-            <p class="description text-center">We believe in innovation and modern thinking. Our schools, from the students to the staff, are energized by our playful, child-led learning approach.</p>
-            <p class="description text-center">We’re looking for people who share our vision for early childhood education. We offer an exciting career with plenty of opportunity for progression for those who wish to join our team.</p>
+            <h1 class="head-text-blue text-center mb-4">Careers at Kido UK</h1>
+            <p class="description text-center">Kido is a network of innovative international nurseries. At Kido, people are our greatest strength, and we go to great lengths to ensure that you are highly trained, motivated and engaged. Joining Kido means that you’ll be welcomed into a people-driven, ambitious and caring team. We’re global in our scope and ambition, but our core values mean that we can create a nurturing and safe environment where ambitious motivated people can grow. </p>
+            <p class="description text-center">We take elements from Montessori, Reggio Emilia and Waldorf Steiner, and combine them with beautiful learning spaces and 21st-century technology. Our customized experiences are the most effective way for children to develop their cognitive, social, physical and creative abilities.</p>
+            <p class="description text-center">Our vision is to create a truly modern Early Years environment that meets the needs of both children and their parents. Above all, we have one of the best benefits packages in the industry, including free childcare for anyone that works with us.</p>
+            <!-- <p class="description text-center">Visit our website to learn more about us, explore our nurseries and our research-driven, cutting-edge pedagogy.</p> -->
+            <p class="description text-center"><strong> <a href="#roles" class="text-secondary">Browse our current job openings to apply now!</a></strong></p>
           </div>
        </div>
       </div>
     </section> 
 
-<!-- <section class="main-banner py-5">
-      <div class="container-fluid">
+  
+    <section class="careers-fw-img pt-5">
+      <div class="container">
         <div class="row justify-content-center">
-            <div class="career-head col-lg-10">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div class="col-lg-12">
+            <div class="full-w-img text-center">
+              <img src="../images/career-fw-img1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="what-we-look pt-5">
+      <div class="container">
+        <div class="row justify-content-center py-3">
+          <div class="col-lg-10">
+            <h1 class="head-text-blue text-center mb-4">Culture, Vision & Values</h1>
+            <p class="description text-center">We aim to create workplaces where you can have fun and enjoy your day, whilst also being challenged and feeling supported. We know that this is how you’ll be able to perform at your best and deliver the highest level of service to our families – so it’s win, win.</p>         
+            <p class="description text-center">As an organization, Kido is big enough to offer fantastic training, benefits and career progression opportunities but small enough to treat you as an individual - with unique skills, strengths, personal circumstances and aspirations.</p>
+          </div>
+       </div>
+      </div>
+    </section> 
+
+    <section class="careers-fw-img pt-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="full-w-img text-center">
+              <img src="../images/career-fw-img2.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="what-we-look pt-5">
+      <div class="container">
+        <div class="row justify-content-center py-3">
+          <div class="col-lg-10">
+            <h1 class="head-text-blue text-center mb-4">Learning and Development</h1>
+            <p class="description text-center">As an employer in the Early Years sector, what really sets us apart is the learning and development opportunities we provide every team member. For those wishing to qualify in the profession for the first time, or enhance existing qualifications; we offer:</p>
+            <div class="my-2 text-center">
+              <ul>
+                <li>Full time apprenticeships and part time CACHE courses in partnership with certified training providers.</li>
+                <li>A route to full Early Years Teacher status in partnership with Greenwich University.</li>
+              </ul>
+            </div>
+            <p class="description text-center">In addition, we provide flexibility and limitless career progression opportunities with a wide range of roles and working patterns at every career level, including unqualified, qualified and management, full and part-time. Download our training and development brochure to learn more.</p>
+            <div class="text-center mt-4">
+              <a href="https://f.hubspotusercontent10.net/hubfs/9397213/HR%20Training%20Booklet%20(N)%20Digital.pdf" class="my-btn btn-primary btn-sm center" id="" target="_blank">Learn More</a>
+            </div>
+          </div>
+       </div>
+      </div>
+    </section> 
+
+    <section class="what-we-look pt-5">
+      <div class="container">
+        <div class="row justify-content-center py-3">
+          <div class="col-lg-10">
+            <h1 class="head-text-blue text-center mb-4">Benefits</h1>
+            <p class="description text-center">We pride ourselves on providing one of the best benefits packages in the sector, including a competitive holiday allowance, excellent career progression and 100% free childcare for those with nursery aged children! </p>         
+            <div class="text-center mt-4">
+              <a href="https://f.hubspotusercontent10.net/hubfs/9397213/Kido%20Benefits-3.pdf" class="my-btn btn-primary btn-sm center" id="" target="_blank">Learn More</a>
+            </div>
+          </div>
+       </div>
+      </div>
+    </section> 
+
+    <section class="testimonial py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <!-- <h1 class="head-text-blue text-center my-4">What our parents say about our schools</h1> -->
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Carousel indicators -->
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                </ol>
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                  <li data-target="#myCarousel" data-slide-to="4"></li>
+                  <li data-target="#myCarousel" data-slide-to="5"></li>
+                </ol>   
+                <!-- Wrapper for carousel items -->
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block img-fluid w-100 shadow" src="../images/Career-banner1.jpg" alt="First slide"/>
+                    <div class="img-box"><img src="../images/career-testi1.png" class="img-fluid" alt="testimonial-img"></div>
+                    <p class="testimonial text-center">At Kido I have had the pleasure of working with some of the most creative and passionate practitioners in the industry. It has been a joy to lead and help both practitioners and parents to understand the best way to support all children.</p>
+                    <p class="overview float-right"><b>Sean</b>, Deputy manager</p>
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block img-fluid w-100" src="../images/Career-banner2.jpg" alt="Second slide"/>
+                    <div class="img-box"><img src="../images/career-testi2.jpeg" class="img-fluid" alt="testimonial-img"></div>
+                    <p class="testimonial text-center">At Kido, I don’t feel like it is work. I enjoy coming in everyday and being part of an amazing, fast growing company committed to people and children.</p>
+                    <p class="overview float-right"><b>Daniel</b>, Room Leader</p>
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block img-fluid w-100" src="../images/Career-banner3.jpg" alt="Third slide"/>
+                    <div class="img-box"><img src="../images/career-testi3.jpeg" class="img-fluid" alt="testimonial-img"></div>
+                    <p class="testimonial text-center"><p>The team at Kido are really friendly, I love helping to support the children’s development in preschool and I have learnt so much in my time here so far.</p>
+                    <p class="overview float-right"><b>Diane</b>, Apprentice</p>
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block img-fluid w-100" src="../images/Career-banner4.jpg" alt="Fourth slide"/>
+                    <div class="img-box"><img src="../images/career-testi4.jpg" class="img-fluid" alt="testimonial-img"></div>
+                    <p class="testimonial text-center">The company is supportive in helping my confidence grow within my role, and always offer room for future progression within the company.</p>
+                    <p class="overview float-right"><b>Amy</b>, Acting Nursery Manager</p>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-box"><img src="../images/career-testi5.jpeg" class="img-fluid" alt="testimonial-img"></div>
+                    <p class="testimonial text-center">I love the strong relationships you build here at Kido, not only at your nursery setting but as a company. Everyone is always there to support.</p>
+                    <p class="overview float-right"><b>Paeng</b>, Parent Relationship Manager</p>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-box"><img src="../images/career-testi6.jpg" class="img-fluid" alt="testimonial-img"></div>
+                    <p class="testimonial text-center">Joining Kïdo feels like I've come home. &nbsp;We grow and develop each day as a team and as a result, we're a strong, close knit group with similar passions and goals.</p>
+                    <p class="overview float-right"><b>Sarah</b>, Nursery manager</p>
                   </div>
                 </div>
-                <a class="carousel-control-prev d-none" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
+                <!-- Carousel controls -->
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                  <i class="fa fa-angle-left"></i>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                  <i class="fa fa-angle-right"></i>
                 </a>
               </div>
             </div>
-       </div>
-      </div>
-     
-    </section> -->
+          </div>
+        </div>
+    </section>
 
-  
-
-    <section class="carrer-about pt-5">
+    
+    <section class="what-we-look pt-5" id="roles">
       <div class="container">
-        <div class="our-values row justify-content-center pb-5">
-          <div class="col-lg-5">
-            <img src="../images/career-about1.jpg" class="img-fluid our-values-img" alt="our-values"/>
-          </div>
-          <div class="col-lg-5">
-            <h1 class="head-text-blue text-center mb-4">Our values</h1>
-            <p class="description text-center">We have a vision of your career: to have fun and grow at the same time.</p>
-            <p class="description text-center" text-center>Respect between colleagues is crucial. We want to know what our people care about so we always listen to the feedback of our teams, students and their parents.</p>
-            <p class="description text-center">We want our staff to develop as much as they can, because if we don’t progress, then the children won’t take us as an example. We have only a few boundaries in the classroom, as our staff are always challenging themselves to learn more about the world.</p>
-            <p class="description text-center">Our unique way of thinking makes us a leader in the early childhood education sector. We encourage being happy and confident in your work and private life.</p>
-          </div>
-       </div>
-       <div class="work-in-our-preschool row justify-content-center py-5">
-          <div class="col-lg-5">
-            <h1 class="head-text-blue text-center mb-4">Work in our preschools</h1>
-            <p class="description text-center">A career at Kïdo is like no other. Our schools are energized by our playful, child-led learning approach. We provide the best benefits in the industry, including full childcare, and an environment that fosters continuous learning and development.</p>
-            <p class="description text-center">We offer different levels, such as day care, play groups, half and full day Kindergarten.</p>
-            <p class="description text-center">You just need to find the program that suits you best – and of course, we’ll help you along the way.</p>
-          </div>
-          <div class="col-lg-5">
-            <img src="../images/career-about2.jpg" class="img-fluid" alt="our-values"/>
-          </div>
-       </div>
-       <div class="work-in-our-hubs row justify-content-center py-5">
-          <div class="col-lg-5">
-            <img src="../images/career-about3.jpg" class="img-fluid" alt="our-values"/>
-          </div>
-          <div class="col-lg-5">
-            <h1 class="head-text-blue text-center mb-4">Work in our hubs</h1>
-            <p class="description text-center">We’re always working hard behind the scenes so that our early childhood educators can focus on the children.</p>
-            <p class="description text-center">From marketing to accounting and beyond, all our departments share a common goal: to meet and exceed the demands of each Kïdo Kindergarten.</p>
-          </div>
-       </div>
-       <div class="learning-development row justify-content-center py-5">
-          <div class="col-lg-5">
-            <h1 class="head-text-blue text-center mb-4">Learning &amp; development</h1>
-            <p class="description text-center">When you join Kïdo preschools, your learning won’t stop, as we live and promote lifelong learning for our colleague.</p>
-            <p class="description text-center">At Kïdo, we fully support continued professional development, transparency, and honesty, to make development and learning a part of our daily life.</p>
-            <p class="description text-center">In addition to training on the job through mentoring and coaching with your team, we also offer professional development through new qualifications, please just approach us!</p>
-          </div>
-          <div class="col-lg-5">
-            <img src="../images/career-about4.jpg" class="img-fluid" alt="our-values"/>
+        <div class="row justify-content-center py-3">
+          <div class="col-lg-10">
+            <h1 class="head-text-blue text-center mb-4">Roles</h1>
+            <p class="description text-center">Innovation and a progressive approach to early years education is part of our DNA, so we look for people who share in this vision. Most importantly, we look for people who CARE, about…</p>
+            <div class="my-2 text-center">
+              <ul class="list-unstyled">
+                <li class="text-center"><b>*</b> The service they provide to families.</li>
+                <li class="text-center"><b>*</b> The impact they have on young people’s learning and development experience.</li>
+                <li class="text-center"><b>*</b> The way they treat their colleagues and peers.</li>
+                <li class="text-center"><b>*</b> Their own personal development & growth.</li>
+              </ul>
+            </div>
+            <p class="description text-center">Here are some of the roles we regularly recruit for. There are also roles in the Hub Team across a range of departments including Finance, HR, Sales & Marketing, Operations and Training.</p>
           </div>
        </div>
       </div>
     </section> 
 
-    <section class="openings pb-5" id="openings">
+    <section class="openings pt-3 pb-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="openings-collaspe border shadow-sm p-4">
+              <div class="accordion" id="accordionExample">
+                <div class="card1 student-well-being">
+                    <div class="card-header card-header1 bg-light" id="headingOne">
+                        <h2 class="card-text mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Nursery Manager
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body bg-white">
+                        <p class="pl-3"><strong>Role:</strong> <strong><a href="https://apply.workable.com/kidoschools/j/F4C6307A3A/" class="text-secondary" target="_blank">Recruitment Assistant.</a></strong></p>
+                        <p class="pl-3"><strong>Qualifications:</strong> Full and relevant Level 3 (or above) Early Years Qualification or QTS (Qualified Teacher Status).</p>
+                        <p class="pl-3"><strong>Responsibilities:</strong> As a Nursery Manager at Kido you will be an ambassador for our values and a gatekeeper for our culture. You will take great pride, overall ownership & accountability for your school. Oversee the planning and operations for each room whilst working collaboratively to provide fantastic service and outstanding education. You will be responsible for implementing, monitoring systems, confidently delivering our curriculum, the EYFS & exceeding Ofsted requirements.</p>
+                        <p class="pl-3"><strong>Working pattern:</strong> Full time.</p>
+                        <p class="pl-3"><strong>Work location:</strong> Khar.</p>
+                      </div>
+                    </div>
+                    <hr/>
+                </div>
+                <div class="card1 admissions">
+                    <div class="card-header card-header1 bg-light" id="headingTwo">
+                    <h2 class="card-text mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Deputy Manager
+                        </button>
+                    </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body bg-white">
+                        <p class="pl-3"><strong>Qualifications:</strong> Full and relevant Level 3 (or above) Early Years Qualification or QTS (Qualified Teacher Status).</p>
+                        <p class="pl-3"><strong>Responsibilities:</strong> As a Nursery Manager at Kido you will be an ambassador for our values and a gatekeeper for our culture. You will take great pride, overall ownership & accountability for your school. Oversee the planning and operations for each room whilst working collaboratively to provide fantastic service and outstanding education. You will be responsible for implementing, monitoring systems, confidently delivering our curriculum, the EYFS & exceeding Ofsted requirements.</p>
+                        <p class="pl-3"><strong>Working pattern:</strong> Full time.</p>
+                      </div>
+                    </div>
+                    <hr/>
+                </div>
+              </div>
+              <div class="text-center mt-4">
+                <a href="https://apply.workable.com/kidoschools/" class="my-btn btn-primary btn-sm center" id="" target="_blank">Apply Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="openings pt-5" id="openings">
       <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">
@@ -609,7 +728,7 @@
         </div>
       </div>
       </div>
-    </section>
+    </section> -->
 <?php include 'footer.php';?>
 <script>
         $('select').on('change', function() {

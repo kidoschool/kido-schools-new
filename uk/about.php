@@ -3,7 +3,7 @@
     <section class="about-banner">
       <div class="container-fluid">
         <div class="row justify-content-center">
-            <img src="../images/About-banner.jpg" class="img-fluid w-100" alt="about-banner"/>
+            <img src="../images/About-banner.jpg" class="banner-hero-img" alt="about-banner"/>
        </div>
       </div>
     </section>
@@ -32,7 +32,7 @@
                 <p class="text-center">Our curriculum is developed in house and supported by a world renowned panel of advisors. Our pedagogical leadership team has over 200 years of combined experience in early years teaching, research and pedagogy across more than ten countries, and in multiple languages.</p>
             </div>
 
-            <div class="row justify-content-center pt-5">
+            <div class="desktop-view row justify-content-center pt-5">
               <div class="col-lg-3 col-6">
                 <div class="card shadow" style="width:100%;height:95%;">
                   <img class="card-img-top" src="../images/about-person1.jpg" alt="pedagogical leaders"/>
@@ -93,9 +93,91 @@
                 <div class="card shadow" style="width:100%;height:95%;">
                   <img class="card-img-top" src="../images/about-person8.png" alt="pedagogical leaders"/>
                   <div class="card-body text-center">
-                    <small class="card-title">Anjali Motiani, Curriculum Coordinator, Uk</small>
+                    <small class="card-title">Anjali Motiani, Curriculum Coordinator, India</small>
                   </div>
                 </div>
+              </div>
+            </div>
+
+
+            <div class="mobile-view row justify-content-center mt-5">
+              <div class="col-lg-12 text-center">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card shadow" style="width:100%;height:95%;">
+                      <img class="card-img-top" src="../images/about-person1.jpg" alt="pedagogical leaders"/>
+                      <div class="card-body text-center">
+                        <small class="card-title">Dr Robert Swartz, Advisor</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card shadow" style="width:100%;height:95%;">
+                      <img class="card-img-top" src="../images/about-person2.jpg" alt="pedagogical leaders"/>
+                      <div class="card-body text-center">
+                        <small class="card-title">Dr Yuuko Tonkovich, Advisor</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card shadow" style="width:100%;height:95%;">
+                      <img class="card-img-top" src="../images/about-person3.jpg" alt="pedagogical leaders"/>
+                      <div class="card-body text-center">
+                        <small class="card-title">Fruzsina Benyei, Curriculum & Training, Asia</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card shadow" style="width:100%;height:95%;">
+                      <img class="card-img-top" src="../images/about-person4.jpg" alt="pedagogical leaders"/>
+                      <div class="card-body text-center">
+                        <small class="card-title">Emma Phillips, Curriculum & Operations, UK</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card shadow" style="width:100%;height:95%;">
+                      <img class="card-img-top" src="../images/about-person5.jpg" alt="pedagogical leaders"/>
+                      <div class="card-body text-center">
+                        <small class="card-title">Azah Rahman, Curriculum Coordinator, UAE</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card shadow" style="width:100%;height:95%;">
+                      <img class="card-img-top" src="../images/about-person6.jpg" alt="pedagogical leaders"/>
+                      <div class="card-body text-center">
+                        <small class="card-title">Karen Norris, Curriculum Coordinator, Hong Kong</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card shadow" style="width:100%;height:95%;">
+                      <img class="card-img-top" src="../images/about-person7.jpg" alt="pedagogical leaders"/>
+                      <div class="card-body text-center">
+                        <small class="card-title">Tez Razzaq, Curriculum & Training, UK</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card shadow" style="width:100%;height:95%;">
+                      <img class="card-img-top" src="../images/about-person8.png" alt="pedagogical leaders"/>
+                      <div class="card-body text-center">
+                        <small class="card-title">Anjali Motiani, Curriculum Coordinator, India</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </button>
+              </div>
               </div>
             </div>
 
@@ -104,7 +186,20 @@
       </div>
     </section>
 
-    <section class="our-program bg-light py-5">
+    <section class="our-global-map py-5">
+      <div class="container">
+      <h1 class="head-text-blue text-center mb-4">Our Global Network</h1>
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <div class="map">
+                  <div id="googleMap" style="width:100%;height:100vh;"></div>
+              </div>
+            </div>
+       </div>
+      </div>
+    </section>
+
+    <section class="our-program py-5">
       <div class="container">
       <h1 class="head-text-blue text-center mb-2">Our Curriculum</h1>
         <div class="row justify-content-center">

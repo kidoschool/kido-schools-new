@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.0/css/lightgallery.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://storage.googleapis.com/kido-assets/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body>
@@ -28,9 +30,9 @@
           
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Search...">
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link pl-5" activeclass="selected" href="search.php">Our Nurseries</a>
               </li>
@@ -41,17 +43,17 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="about.php">About</a>
                   <a class="dropdown-item" href="curriculum.php">Curriculum</a>
-                  <a class="dropdown-item" href="/news-events">Blog</a>
+                  <!-- <a class="dropdown-item" href="/kido-events">Blog</a> -->
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link pl-4" href="/contact-us">Events</a>
+                <a class="nav-link pl-4" href="kido-events.php">Events</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link pl-4" href="careers.php">Careers</a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link pl-4" href="/contact-us">Contact</a>
+                <a class="nav-link pl-4" href="contact.php">Contact</a>
               </li>
             </ul>
           </div>

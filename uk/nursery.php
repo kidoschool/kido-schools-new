@@ -76,24 +76,6 @@ $post_cont =  json_decode($json);
 </section>
 <section class="nursery-gallery-grid mt-5">
     <div class="container">
-        <!-- <div class="row desktop-nur-gallery">
-            <div class="col-lg-6 padding-0">
-                <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="img-fluid" alt="...">
-            </div>
-            <div class="col-lg-3 padding-0">
-                <img src="https://kido.school/wp-content/uploads/2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="img-fluid" alt="...">
-                <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid mt-2" alt="..."> 
-            </div>
-            <div class="col-lg-3 padding-0">
-                <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-London-Wandsworth-Classroom_01.jpg" class="img-fluid" alt="...">
-                <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="img-fluid mt-2" alt="..."> 
-                <div class="show-more-position">
-                    <button id="modalActivate" type="button" class="show-more-btn btn btn-sm" data-toggle="modal" data-target="#exampleModalPreview">
-                    <i class="fa fa-th mr-3" aria-hidden="true"></i>Show all photos
-                    </button>
-                </div>
-            </div>
-        </div> -->
         <div class="row desktop-nur-gallery">
             <div class="col-lg-6 padding-0">
                 <img src="<?php echo $post_cont->galimg[0]; ?>" class="lg-nur-gal-img" alt="">
@@ -145,44 +127,49 @@ $post_cont =  json_decode($json);
     </div>
 </section>
 
+
 <section class="pop-up-gallery">
   <!-- Modal start -->
     <!-- Modal -->
     <div class="modal fade right" id="exampleModalPreview" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
         <div class="modal-dialog-full-width modal-dialog momodel modal-fluid" role="document">
             <div class="modal-content-full-width modal-content">
-                <div class=" modal-header-full-width  modal-header text-center">
-                    <h2 class="modal-title head-text-blue w-100" id="exampleModalPreviewLabel">Bandra International Preschool & Day Care</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span style="font-size: 1.3em;" aria-hidden="true">&times;</span>
-                    </button>
-                </div>
                 <div class="modal-body">
-                    <div class="container">
-                        <div class="row full-width-gallery">
-                            <div class="col-lg-12 padding-0 mb-2">
-                                <img src="<?php echo $post_cont->galimg[0]; ?>" class="lg-inner-nur-gal-img" alt="...">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span style="font-size: 2em;" class="text-white" aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                        <div class="col-lg-12 text-center">
+                            <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+
+                                <?php
+                                    foreach ($post_cont->galimg as $k => $v) {
+                                        $act = ($k == 0) ? "active" : "";
+                                        echo '<div class="carousel-item '.$act.'">
+                                                <img src="'.$v.'" class="inner-nur-gal-img" alt="...">
+                                            </div>';
+                                    }
+                                ?>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls2" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#carouselExampleControls2" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
                             </div>
                         </div>
-                        <div class="row">
-                        <?php
-                            foreach (array_slice($post_cont->galimg, 1) as $k => $v) {
-                                echo '<div class="col-lg-6 padding-0 mt-3">
-                                        <img src="'.$v.'" class="inner-nur-gal-img" alt="...">
-                                    </div>';
-                            }
-                        ?>
-                        </div>
                     </div>
-                </div>
-                <div class="modal-footer-full-width  modal-footer">
-                    <!-- <button type="button" class="btn btn-danger btn-md btn-rounded" data-dismiss="modal">Close</button> -->
+                    </div>
                 </div>
             </div>
         </div>
     </div>    
 </section>
-
 <section>
     <div class="sticky-contact">
         <div class="p-2 shadow">
@@ -201,11 +188,11 @@ $post_cont =  json_decode($json);
                 <div class="nursery-desc">
 
                     <div class="nur-cat d-flex justify-content-between my-4">
-                        <?php if(strlen($post_cont->ageRange)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/age-range.svg" alt="" width="50"><h6>Age range</h6><small><?php echo $post_cont->ageRange; ?></small></div> <?php }; ?>
-                        <?php if(strlen($post_cont->lang_taught)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/language.svg" alt="" width="50"><h6>Languages taught</h6><small><?php echo $post_cont->lang_taught; ?></small></div> <?php } ?>
-                        <?php if(strlen($post_cont->opening_hours)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/hours.svg" alt="" width="50"><h6>Opening hours</h6><small><?php echo $post_cont->opening_hours; ?></small></div> <?php } ?>
-                        <?php if(strlen($post_cont->play_area)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/Outdoor-Space-03.svg" alt="" width="50"><h6>Outdoor Play Area</h6><small><?php echo $post_cont->play_area; ?></small></div> <?php } ?>
-                        <?php if(strlen($post_cont->transportation)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/transportation1.svg" alt="" width="50"><h6>Transportation</h6><small><?php echo $post_cont->transportation; ?></small></div> <?php } ?>
+                        <?php if(strlen($post_cont->ageRange)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/age-range.svg" alt="" width="50"><h6 class="mt-3">Age range</h6><small><?php echo $post_cont->ageRange; ?></small></div> <?php }; ?>
+                        <?php if(strlen($post_cont->lang_taught)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/language.svg" alt="" width="50"><h6 class="mt-3">Languages taught</h6><small><?php echo $post_cont->lang_taught; ?></small></div> <?php } ?>
+                        <?php if(strlen($post_cont->opening_hours)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/hours.svg" alt="" width="50"><h6 class="mt-3">Opening hours</h6><small><?php echo $post_cont->opening_hours; ?></small></div> <?php } ?>
+                        <?php if(strlen($post_cont->play_area)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/Outdoor-Space-03.svg" alt="" width="50"><h6 class="mt-3">Outdoor Play Area</h6><small><?php echo $post_cont->play_area; ?></small></div> <?php } ?>
+                        <?php if(strlen($post_cont->transportation)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/transportation1.svg" alt="" width="50"><h6 class="mt-3">Transportation</h6><small><?php echo $post_cont->transportation; ?></small></div> <?php } ?>
                     </div>
                     <p>
                         <?php 
@@ -275,18 +262,29 @@ $post_cont =  json_decode($json);
         </div>
     </div>
 </section>
-<!-- <section class="life-kido mt-5">
+
+<section class="map-sec mt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-            <h2 class="nury-head-title mb-4">Life at Kido</h2>
-            <div class="gallery-area">
-                    
+            <h2 class="nury-head-title head-text-blue mb-4">Location</h2>
+                <div class="map-area">
+                    <div id="googleMap" style="width:100%;height:600px;"></div>
+                    <div class="address row">
+                        <div class="col-lg-6 border p-3 bg-light shadow">
+                            <h3 class="head-blue">Juhu International Preschool & Day Care</h3>
+                            <p><small>Seema Plot No 287/6, Gulmohar Road No 1, Opp Irla Masjid, J.V.P.D. Scheme, Vile Parle (W), Mumbai 400049, India, India</small></p>
+                            <p><small>tel +919987840606</small></p>
+                            <p><small>email juhu@kido.school</small></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section> -->
+</section>
+
+
 <section class="faq mt-5">
     <div class="container">
         <div class="row">
@@ -319,18 +317,7 @@ $post_cont =  json_decode($json);
         </div>
     </div>
 </section>
-<section class="map-sec mt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-            <h2 class="nury-head-title head-text-blue mb-4">Location</h2>
-            <div class="map-area">
-                    <div id="googleMap" style="width:100%;height:500px;"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <section class="near-by-nursery my-5">
     <div class="container">
         <div class="row">
