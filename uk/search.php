@@ -17,7 +17,7 @@
             </div> -->
             <div class="col-lg-12">
             <div class="form-group">
-                <input type="number" class="form-control" id="pincode" placeholder="enter Country code">
+                <input type="number" class="form-control" id="pincode" placeholder="Enter Postal code">
             </div>
             </div>
         </div>
