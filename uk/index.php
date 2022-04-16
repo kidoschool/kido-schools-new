@@ -159,7 +159,7 @@ $uri_segments = explode('/', $uri_path);
 
     <section class="near-by-nursery py-5">
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="desktop-view row justify-content-center">
             <div class="col-lg-12">
             <h1 class="nury-head-title head-text-blue text-center mb-2">Where to find our UK Nurseries</h1>
             <!-- <div class="getlocation-btn">
@@ -218,6 +218,70 @@ $uri_segments = explode('/', $uri_path);
 
         </div>
     </div>
+
+    <div class="mobile-view row justify-content-center mt-5">
+              <div class="col-lg-12 text-center">
+            <h1 class="nury-head-title head-text-blue text-center mb-2">Where to find our UK Nurseries</h1>
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card shadow allprenurcard">
+                        <img src="https://kido.school/wp-content/uploads/2020/11/Borivali-centre.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h1 class="subhead-text-blue">Chiswick</h1>
+                            <!-- <small>8 preschools</small> -->
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card  shadow allprenurcard">
+                        <img src="https://kido.school/wp-content/uploads/2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h1 class="subhead-text-blue">Greenwich</h1>
+                            <!-- <small>2 preschools</small> -->
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card shadow allprenurcard">
+                        <img src="https://kido.school/wp-content/uploads/2019/04/3A3A5650.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h1 class="subhead-text-blue">Camden</h1>
+                            <!-- <small>3 preschools</small> -->
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card shadow allprenurcard">
+                        <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Trivandrum-Outdoor-Playarea_02.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h1 class="subhead-text-blue">Crouch End</h1>
+                            <!-- <small>1 preschools</small> -->
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card shadow allprenurcard">
+                        <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Tooting-High-Res-Render-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h1 class="subhead-text-blue">St Patricks</h1>
+                            <!-- <small>2 preschools</small> -->
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </button>
+              </div>
+              </div>
+            </div>
+
 </section>
 <section class="testimonial py-5">
 <div class="container">
