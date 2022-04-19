@@ -34,7 +34,7 @@
                   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Search...">
               </li> -->
               <li class="nav-item">
-                <a class="nav-link pl-5" activeclass="selected" href="search.php">Our Nurseries</a>
+                <a class="nav-link pl-4" activeclass="selected" href="search.php">Our Nurseries</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link pl-4 dropdown-toggle" href="about.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

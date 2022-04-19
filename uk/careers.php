@@ -15,7 +15,7 @@
     <section class="what-we-look pt-5">
       <div class="container">
         <div class="row justify-content-center py-3">
-          <div class="col-lg-10">
+          <div class="col-lg-8">
             <h1 class="head-text-blue text-center mb-4">Careers at Kido UK</h1>
             <p class="description text-center">Kido is a network of innovative international nurseries. At Kido, people are our greatest strength, and we go to great lengths to ensure that you are highly trained, motivated and engaged. Joining Kido means that you’ll be welcomed into a people-driven, ambitious and caring team. We’re global in our scope and ambition, but our core values mean that we can create a nurturing and safe environment where ambitious motivated people can grow. </p>
             <p class="description text-center">We take elements from Montessori, Reggio Emilia and Waldorf Steiner, and combine them with beautiful learning spaces and 21st-century technology. Our customized experiences are the most effective way for children to develop their cognitive, social, physical and creative abilities.</p>
@@ -31,7 +31,7 @@
     <section class="careers-fw-img pt-5">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-12">
+          <div class="col-lg-8">
             <div class="full-w-img text-center">
               <img src="../images/career-fw-img1.jpg" class="img-fluid" alt="">
             </div>
@@ -43,7 +43,7 @@
     <section class="what-we-look pt-5">
       <div class="container">
         <div class="row justify-content-center py-3">
-          <div class="col-lg-10">
+          <div class="col-lg-8">
             <h1 class="head-text-blue text-center mb-4">Culture, Vision & Values</h1>
             <p class="description text-center">We aim to create workplaces where you can have fun and enjoy your day, whilst also being challenged and feeling supported. We know that this is how you’ll be able to perform at your best and deliver the highest level of service to our families – so it’s win, win.</p>         
             <p class="description text-center">As an organization, Kido is big enough to offer fantastic training, benefits and career progression opportunities but small enough to treat you as an individual - with unique skills, strengths, personal circumstances and aspirations.</p>
@@ -55,7 +55,7 @@
     <section class="careers-fw-img pt-5">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-12">
+          <div class="col-lg-8">
             <div class="full-w-img text-center">
               <img src="../images/career-fw-img2.jpg" class="img-fluid" alt="">
             </div>
@@ -67,10 +67,10 @@
     <section class="what-we-look pt-5">
       <div class="container">
         <div class="row justify-content-center py-3">
-          <div class="col-lg-10">
+          <div class="col-lg-8">
             <h1 class="head-text-blue text-center mb-4">Learning and Development</h1>
             <p class="description text-center">As an employer in the Early Years sector, what really sets us apart is the learning and development opportunities we provide every team member. For those wishing to qualify in the profession for the first time, or enhance existing qualifications; we offer:</p>
-            <div class="my-2 text-center">
+            <div class="my-2 role-list">
               <ul>
                 <li>Full time apprenticeships and part time CACHE courses in partnership with certified training providers.</li>
                 <li>A route to full Early Years Teacher status in partnership with Greenwich University.</li>
@@ -88,7 +88,7 @@
     <section class="what-we-look pt-5">
       <div class="container">
         <div class="row justify-content-center py-3">
-          <div class="col-lg-10">
+          <div class="col-lg-8">
             <h1 class="head-text-blue text-center mb-4">Benefits</h1>
             <p class="description text-center">We pride ourselves on providing one of the best benefits packages in the sector, including a competitive holiday allowance, excellent career progression and 100% free childcare for those with nursery aged children! </p>         
             <div class="text-center mt-4">
@@ -164,15 +164,15 @@
     <section class="what-we-look pt-5" id="roles">
       <div class="container">
         <div class="row justify-content-center py-3">
-          <div class="col-lg-10">
+          <div class="col-lg-8">
             <h1 class="head-text-blue text-center mb-4">Roles</h1>
             <p class="description text-center">Innovation and a progressive approach to early years education is part of our DNA, so we look for people who share in this vision. Most importantly, we look for people who CARE, about…</p>
-            <div class="my-2 text-center">
-              <ul class="list-unstyled">
-                <li class="text-center"><b>*</b> The service they provide to families.</li>
-                <li class="text-center"><b>*</b> The impact they have on young people’s learning and development experience.</li>
-                <li class="text-center"><b>*</b> The way they treat their colleagues and peers.</li>
-                <li class="text-center"><b>*</b> Their own personal development & growth.</li>
+            <div class="my-2 role-list">
+              <ul>
+                <li>The service they provide to families.</li>
+                <li>The impact they have on young people’s learning and development experience.</li>
+                <li>The way they treat their colleagues and peers.</li>
+                <li>Their own personal development & growth.</li>
               </ul>
             </div>
             <p class="description text-center">Here are some of the roles we regularly recruit for. There are also roles in the Hub Team across a range of departments including Finance, HR, Sales & Marketing, Operations and Training.</p>
@@ -184,7 +184,7 @@
     <section class="openings pt-3 pb-5">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-12">
+          <div class="col-lg-8">
             <div class="openings-collaspe border shadow-sm p-4">
               <div class="accordion" id="accordionExample">
                 <div class="card1 student-well-being">

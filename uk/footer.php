@@ -18,7 +18,7 @@
                     <div class="col-md-2 my-1">
                             <div class="footer-widget footer-info">
                                 <h4 class="widget-title pb-3">CENTRES</h4>
-                                <ul class="list-unstyled">
+                                <ul class="list-unstyled mobile-list">
                                   <li><a href="/ourcentres?srch-trm=dubai">Dubai</a></li>
                                   <li><a href="/ourcentres?srch-trm=greater-london">Greater London</a></li>
                                   <li><a href="/ourcentres?srch-trm=houshrefn">Houston</a></li>
@@ -32,7 +32,7 @@
                         <div class="col-md-2 my-1">
                             <div class="footer-widget footer-info">
                             <h4 class="widget-title pb-3">ABOUT KIDO</h4>
-                                <ul class="list-unstyled">
+                                <ul class="list-unstyled mobile-list">
                                   <li><a href="https://www.kidoholdings.com/" target="_blank">Corporate</a></li>
                                   <li><a href="/faq">FAQ</a></li>
                                   <li><a href="https://www.kidofranchise.com/" target="_blank">Franchise</a></li>
@@ -202,6 +202,11 @@ $('.upcoming-evnts').owlCarousel({
 $('.past-evnts').owlCarousel({
     loop:true,margin:25,nav: true,dots:true,
     responsive:{0:{items:1},600:{items:2},1000:{items:3},1300:{items:3}},
+});
+
+$('.near-by-nurseries-owl').owlCarousel({
+    loop:false,margin:25,nav: true,dots:true,
+    responsive:{0:{items:1},600:{items:1},1000:{items:4},1300:{items:3}},
 });
 
 });

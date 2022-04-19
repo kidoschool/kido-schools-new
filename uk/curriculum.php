@@ -11,8 +11,8 @@
     <section class="days-at-kido pt-5">
       <div class="container">
         <div class="row justify-content-center py-3">
-          <div class="col-lg-10 text-center">
-            <h1 class="head-text-blue mb-4">Days at Kido UK</h1>
+          <div class="col-lg-8 text-center">
+            <h1 class="head-text-blue mb-4">Days at Kido</h1>
             <p class="description text-center">Our international team of experts has created a comprehensive pedagogy, known as the Kido Early Years Program. This innovative system incorporates the best practices from teaching philosophies from around the world, such as Montessori, Reggio Emilia and the theory of Multiple Intelligences. The result is a play-based learning experience that combines child and teacher-led activities with free and structured play in inspirational settings. The program is customised to the developmental ability of each child. Our program adheres to the EYFS, and incorporates proprietary STEM, Art, Literacy and Numeracy programs.</p>
           </div>
        </div>
@@ -21,9 +21,9 @@
 
     <section class="photo-gallery my-4">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <iframe width="1100" height="600" src="https://www.youtube.com/embed/qC6lDWoJadc" title="The importance of early years education" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <iframe width="800" height="400" src="https://www.youtube.com/embed/qC6lDWoJadc" title="The importance of early years education" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -33,14 +33,14 @@
     <section class="who-we-teach pt-5">
       <div class="container">
         <div class="row justify-content-center">
-        <div class="col-lg-10 text-center">
+        <div class="col-lg-8 text-center">
           <h1 class="head-text-blue mb-4">Who we teach</h1>
             <div class="who-we-teach-para">
                 <p class="text-center">Our program is split into four levels. While each level roughly corresponds to an age group, in practice we usually move children to the next level when we feel they are ready.</p>
             </div>
 
             <div class="row justify-content-center desktop-view pt-5">
-              <div class="col-lg-4">
+              <div class="col-lg-6">
                 <div class="card shadow">
                   <img class="card-img-top-khome img-fluid" src="../images/programs-card-img1.jpg" alt="kido highlights"/>
                   <div class="card-body text-center">
@@ -51,7 +51,7 @@
                     </a>
                     </div>
                     <hr/>
-                    <p class="card-text">Age range &nbsp;|&nbsp; <strong>6 - 15 months</strong></p>
+                    <p class="card-text" style="text-align: center;">Age range &nbsp;|&nbsp; <strong>6 - 15 months</strong></p>
                   </div>
                   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -70,7 +70,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-6">
                 <div class="card shadow">
                   <img class="card-img-top-khome img-fluid" src="../images/programs-card-img2.jpg" alt="kido highlights"/>
                   <div class="card-body text-center">
@@ -81,7 +81,7 @@
                       </a>
                     </div>
                     <hr/>
-                    <p class="card-text">Age range &nbsp;|&nbsp; <strong>12 - 27 months</strong></p>
+                    <p class="card-text" style="text-align: center;">Age range &nbsp;|&nbsp; <strong>12 - 27 months</strong></p>
                   </div>
                    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -100,7 +100,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-6 py-4">
                 <div class="card shadow">
                   <img class="card-img-top-khome img-fluid" src="../images/programs-card-img3.jpg" alt="kido highlights"/>
                   <div class="card-body text-center">
@@ -111,7 +111,7 @@
                       </a>
                     </div>
                     <hr/>
-                    <p class="card-text">Age range &nbsp;|&nbsp; <strong>24-39 months</strong></p>
+                    <p class="card-text" style="text-align: center;">Age range &nbsp;|&nbsp; <strong>24-39 months</strong></p>
                   </div>
                    <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -130,7 +130,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4  py-4">
+              <div class="col-lg-6  py-4">
                 <div class="card shadow">
                   <img class="card-img-top-khome img-fluid" src="../images/programs-card-img4.jpg" alt="kido highlights"/>
                   <div class="card-body text-center">
@@ -141,7 +141,7 @@
                       </a>
                     </div>
                     <hr/>
-                    <p class="card-text">Age range &nbsp;|&nbsp; <strong>36-51 months</strong></p>
+                    <p class="card-text" style="text-align: center;">Age range &nbsp;|&nbsp; <strong>36-51 months</strong></p>
                   </div>
                    <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -237,7 +237,7 @@
                             </a>
                             </div>
                             <hr/>
-                            <p class="card-text">Age range &nbsp;|&nbsp; <strong>6 - 15 months</strong></p>
+                            <p class="card-text" style="text-align: center;">Age range &nbsp;|&nbsp; <strong>6 - 15 months</strong></p>
                           </div>
                           <div class="modal fade" id="exampleModalCentermbl" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -267,7 +267,7 @@
                               </a>
                             </div>
                             <hr/>
-                            <p class="card-text">Age range &nbsp;|&nbsp; <strong>12 - 27 months</strong></p>
+                            <p class="card-text" style="text-align: center;">Age range &nbsp;|&nbsp; <strong>12 - 27 months</strong></p>
                           </div>
                           <div class="modal fade" id="exampleModalCentermbl2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -297,7 +297,7 @@
                               </a>
                             </div>
                             <hr/>
-                            <p class="card-text">Age range &nbsp;|&nbsp; <strong>24-39 months</strong></p>
+                            <p class="card-text" style="text-align: center;">Age range &nbsp;|&nbsp; <strong>24-39 months</strong></p>
                           </div>
                           <div class="modal fade" id="exampleModalCentermbl3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -327,7 +327,7 @@
                               </a>
                             </div>
                             <hr/>
-                            <p class="card-text">Age range &nbsp;|&nbsp; <strong>36-51 months</strong></p>
+                            <p class="card-text" style="text-align: center;">Age range &nbsp;|&nbsp; <strong>36-51 months</strong></p>
                           </div>
                           <div class="modal fade" id="exampleModalCentermbl4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -426,9 +426,9 @@
 
     <section class="photo-gallery my-4">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <iframe width="1100" height="600" src="https://www.youtube.com/embed/45gZK9qqfkE" title="YDr Robert Swartz on Thinking Based Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <iframe width="800" height="400" src="https://www.youtube.com/embed/45gZK9qqfkE" title="YDr Robert Swartz on Thinking Based Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -439,19 +439,19 @@
     <section class="how-we-teach pt-5">
       <div class="container">
         <div class="row justify-content-center py-3">
-          <div class="col-lg-10">
+          <div class="col-lg-8">
             <h1 class="head-text-blue text-center mb-4">How we teach</h1>
             <p class="description text-center">Weeks in Kido are divided into Skills Days and Explorer Days. Throughout the program we integrate project based learning, and thinking based learning into our approach.</p>
                 <div class="row justify-content-center pt-4">
                   <div class="col-lg-6">
-                    <div class="we-teach-data bg-white border shadow p-4">
+                    <div class="we-teach-data bg-white border text-center shadow p-4">
                         <img src="../images/programs-icon1.svg" class="img-fluid" width="50"/>
                         <h3 class="teact-head pt-4 pb-2">Skills Days</h3>
                         <p>These days are dedicated to our proprietary modules in literacy, STEM, art and much else. We use different learning stations for each activity, and combine sensory play, guided learning and workbook activities.	</p>
                     </div>
                   </div>
                   <div class="col-lg-6">
-                    <div class="we-teach-data bg-white border shadow p-4">
+                    <div class="we-teach-data bg-white border text-center shadow p-4">
                         <img src="../images/programs-icon2.svg" class="img-fluid" width="50"/>
                         <h3 class="teact-head pt-4 pb-2">Explorer Days</h3>
                         <p>Children tackle child and adult-led project, problem and inquiry-based learning programs, which integrate the knowledge they learn during the Skills Days. Over the course of six weeks, children will develop a project through arts and crafts, math, science, literacy or music-related activities.</p>
@@ -467,7 +467,7 @@
     <section class="what-we-teach py-5">
       <div class="container">
         <div class="row justify-content-center py-3">
-          <div class="col-lg-10">
+          <div class="col-lg-8">
             <h1 class="head-text-blue text-center mb-4">What we teach</h1>
             <p class="description text-center">Find out what your little ones will be learning at our schools. The majority of our learning centers utilise KEYS, our proprietary curriculum. In locations where KEYS is unavailable, we teach an equivalent curriculum that follows the relevant national framework.</p>
 
