@@ -193,7 +193,8 @@ a.btn-banner {
   margin-left: auto;
   margin-right: auto;
   width: 100vw;
-  height: auto;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .banner-tarea{

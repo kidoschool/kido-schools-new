@@ -206,7 +206,7 @@ $('.past-evnts').owlCarousel({
 
 $('.near-by-nurseries-owl').owlCarousel({
     loop:false,margin:25,nav: true,dots:true,
-    responsive:{0:{items:1},600:{items:1},1000:{items:4},1300:{items:3}},
+    responsive:{0:{items:1},600:{items:1},1000:{items:4},1300:{items:4}},
 });
 
 });
