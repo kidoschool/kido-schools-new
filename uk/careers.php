@@ -17,11 +17,11 @@
         <div class="row justify-content-center py-3">
           <div class="col-lg-8">
             <h1 class="head-text-blue text-center mb-4">Careers at Kido UK</h1>
-            <p class="description text-center">Kido is a network of innovative international nurseries. At Kido, people are our greatest strength, and we go to great lengths to ensure that you are highly trained, motivated and engaged. Joining Kido means that you’ll be welcomed into a people-driven, ambitious and caring team. We’re global in our scope and ambition, but our core values mean that we can create a nurturing and safe environment where ambitious motivated people can grow. </p>
-            <p class="description text-center">We take elements from Montessori, Reggio Emilia and Waldorf Steiner, and combine them with beautiful learning spaces and 21st-century technology. Our customized experiences are the most effective way for children to develop their cognitive, social, physical and creative abilities.</p>
-            <p class="description text-center">Our vision is to create a truly modern Early Years environment that meets the needs of both children and their parents. Above all, we have one of the best benefits packages in the industry, including free childcare for anyone that works with us.</p>
+            <p class="description">Kido is a network of innovative international nurseries. At Kido, people are our greatest strength, and we go to great lengths to ensure that you are highly trained, motivated and engaged. Joining Kido means that you’ll be welcomed into a people-driven, ambitious and caring team. We’re global in our scope and ambition, but our core values mean that we can create a nurturing and safe environment where ambitious motivated people can grow. </p>
+            <p class="description">We take elements from Montessori, Reggio Emilia and Waldorf Steiner, and combine them with beautiful learning spaces and 21st-century technology. Our customized experiences are the most effective way for children to develop their cognitive, social, physical and creative abilities.</p>
+            <p class="description">Our vision is to create a truly modern Early Years environment that meets the needs of both children and their parents. Above all, we have one of the best benefits packages in the industry, including free childcare for anyone that works with us.</p>
             <!-- <p class="description text-center">Visit our website to learn more about us, explore our nurseries and our research-driven, cutting-edge pedagogy.</p> -->
-            <p class="description text-center"><strong> <a href="#roles" class="text-secondary">Browse our current job openings to apply now!</a></strong></p>
+            <p class="description text-center mt-4"><strong> <a href="#roles" class="text-secondary">Browse our current job openings to apply now!</a></strong></p>
           </div>
        </div>
       </div>
@@ -45,8 +45,8 @@
         <div class="row justify-content-center py-3">
           <div class="col-lg-8">
             <h1 class="head-text-blue text-center mb-4">Culture, Vision & Values</h1>
-            <p class="description text-center">We aim to create workplaces where you can have fun and enjoy your day, whilst also being challenged and feeling supported. We know that this is how you’ll be able to perform at your best and deliver the highest level of service to our families – so it’s win, win.</p>         
-            <p class="description text-center">As an organization, Kido is big enough to offer fantastic training, benefits and career progression opportunities but small enough to treat you as an individual - with unique skills, strengths, personal circumstances and aspirations.</p>
+            <p class="description">We aim to create workplaces where you can have fun and enjoy your day, whilst also being challenged and feeling supported. We know that this is how you’ll be able to perform at your best and deliver the highest level of service to our families – so it’s win, win.</p>         
+            <p class="description">As an organization, Kido is big enough to offer fantastic training, benefits and career progression opportunities but small enough to treat you as an individual - with unique skills, strengths, personal circumstances and aspirations.</p>
           </div>
        </div>
       </div>
@@ -69,14 +69,14 @@
         <div class="row justify-content-center py-3">
           <div class="col-lg-8">
             <h1 class="head-text-blue text-center mb-4">Learning and Development</h1>
-            <p class="description text-center">As an employer in the Early Years sector, what really sets us apart is the learning and development opportunities we provide every team member. For those wishing to qualify in the profession for the first time, or enhance existing qualifications; we offer:</p>
-            <div class="my-2 role-list">
+            <p class="description">As an employer in the Early Years sector, what really sets us apart is the learning and development opportunities we provide every team member. For those wishing to qualify in the profession for the first time, or enhance existing qualifications; we offer:</p>
+            <div class="my-2">
               <ul>
                 <li>Full time apprenticeships and part time CACHE courses in partnership with certified training providers.</li>
                 <li>A route to full Early Years Teacher status in partnership with Greenwich University.</li>
               </ul>
             </div>
-            <p class="description text-center">In addition, we provide flexibility and limitless career progression opportunities with a wide range of roles and working patterns at every career level, including unqualified, qualified and management, full and part-time. Download our training and development brochure to learn more.</p>
+            <p class="description">In addition, we provide flexibility and limitless career progression opportunities with a wide range of roles and working patterns at every career level, including unqualified, qualified and management, full and part-time. Download our training and development brochure to learn more.</p>
             <div class="text-center mt-4">
               <a href="https://f.hubspotusercontent10.net/hubfs/9397213/HR%20Training%20Booklet%20(N)%20Digital.pdf" class="my-btn btn-primary btn-sm center" id="" target="_blank">Learn More</a>
             </div>
@@ -90,7 +90,7 @@
         <div class="row justify-content-center py-3">
           <div class="col-lg-8">
             <h1 class="head-text-blue text-center mb-4">Benefits</h1>
-            <p class="description text-center">We pride ourselves on providing one of the best benefits packages in the sector, including a competitive holiday allowance, excellent career progression and 100% free childcare for those with nursery aged children! </p>         
+            <p class="description">We pride ourselves on providing one of the best benefits packages in the sector, including a competitive holiday allowance, excellent career progression and 100% free childcare for those with nursery aged children! </p>         
             <div class="text-center mt-4">
               <a href="https://f.hubspotusercontent10.net/hubfs/9397213/Kido%20Benefits-3.pdf" class="my-btn btn-primary btn-sm center" id="" target="_blank">Learn More</a>
             </div>
@@ -166,8 +166,8 @@
         <div class="row justify-content-center py-3">
           <div class="col-lg-8">
             <h1 class="head-text-blue text-center mb-4">Roles</h1>
-            <p class="description text-center">Innovation and a progressive approach to early years education is part of our DNA, so we look for people who share in this vision. Most importantly, we look for people who CARE, about…</p>
-            <div class="my-2 role-list">
+            <p class="description">Innovation and a progressive approach to early years education is part of our DNA, so we look for people who share in this vision. Most importantly, we look for people who CARE, about…</p>
+            <div class="my-2">
               <ul>
                 <li>The service they provide to families.</li>
                 <li>The impact they have on young people’s learning and development experience.</li>
@@ -175,7 +175,7 @@
                 <li>Their own personal development & growth.</li>
               </ul>
             </div>
-            <p class="description text-center">Here are some of the roles we regularly recruit for. There are also roles in the Hub Team across a range of departments including Finance, HR, Sales & Marketing, Operations and Training.</p>
+            <p class="description">Here are some of the roles we regularly recruit for. There are also roles in the Hub Team across a range of departments including Finance, HR, Sales & Marketing, Operations and Training.</p>
           </div>
        </div>
       </div>

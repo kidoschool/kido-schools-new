@@ -106,7 +106,7 @@ a.text-secondary:hover {
 
 a.btn-banner {
   border: none;
-  font-size: 1.1em;
+  font-size: 90%;
   font-weight: 500;
   border-radius: 30px;
   letter-spacing: .20px;
@@ -173,7 +173,7 @@ a.btn-banner {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url('https://storage.googleapis.com/kido-assets/nav0.svg');
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 428, 491, 1' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 /*--------section header end---------*/
@@ -341,7 +341,7 @@ a.btn-banner {
 }
 .testimonial .carousel .carousel-item {
 	color: #999;
-	font-size: 14px;
+	font-size: 1em;
 	text-align: center;
 	overflow: hidden;
 	min-height: 290px;
@@ -468,11 +468,6 @@ a.btn-banner {
   background-color: #000 !important 
 }
 
-/* .show-more-position{
-    position: absolute;
-    top: 565px;
-    right: 80px;
-} */
 
 .nursery-gallery-grid .show-more-btn{
     position: absolute;
@@ -566,38 +561,10 @@ a.faq-link{
   object-fit: cover;
 }
 
-.MultiCarousel .allprenurcard img{
-  object-fit: cover;
-  width: 100%;
-  height: 150px;
-  border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
-
-}
-
-.MultiCarousel .MultiCarousel-inner .allprenurcard {
-  width: 200px !important;
-  margin-right: 20px;
-  height: 250px;
-}
-
-.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
-.MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
-.MultiCarousel .MultiCarousel-inner .item { float: left;}
-.MultiCarousel .MultiCarousel-inner .item > div { text-align: center;}
-.MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
-.MultiCarousel .leftLst { left:0; }
-.MultiCarousel .rightLst { right:0; }
-.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
-.MultiCarousel img {
+.photo-gal-owl img{
   width: 200px;
   height: 200px;
   object-fit: cover;
-}
-.MultiCarousel .btn-info{
-  color: #fff;
-  background-color: #bd5319;
-  border-color: #bd5319;
 }
 
 .mobile-view{
@@ -706,14 +673,14 @@ a.faq-link{
 }
 
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 830px) {
 
-      .banner-tarea {
-        position: absolute;
-        top: 60%;
-        right: 20%;
-        text-align: center;
-    }
+    .banner-tarea {
+      position: absolute;
+      top: 70%;
+      right: 56%;
+      text-align: center;
+  }
 
     .banner-tarea-careers {
       position: absolute;
@@ -736,7 +703,7 @@ a.faq-link{
 
     .nursery-list-img{
       width: 100%;
-      height: 400px;
+      height: 200px;
       border-radius: 5%;
       object-fit: cover;
     }
@@ -764,6 +731,9 @@ a.faq-link{
     h1, .h1 {
         font-size: 1.5em;
     }
+
+    p {color: #444; font-size: 1em; text-align: justify; margin: 0 10px}
+
 
     .btn-primary {
       background-color: #bd5319;
@@ -794,9 +764,10 @@ a.faq-link{
       }
 
     .banner-tarea {
-        position: absolute;
-        top: 60%;
-        right: 12%;
+      position: absolute;
+      top: 60%;
+      right: 0%;
+      left: 0%;
     }
 
     .banner-tarea-careers {
@@ -820,7 +791,7 @@ a.faq-link{
 
     .nursery-list-img{
       width: 100%;
-      height: 200px;
+      height: 250px;
       border-radius: 5%;
       object-fit: cover;
     }
@@ -876,11 +847,11 @@ a.faq-link{
     height: 312px;
   }
 
-  .MultiCarousel img {
-    width: 300px;
-    height: 300px;
+  .photo-gal-owl img {
+    width: 200px;
+    height: 250px;
     object-fit: cover;
-}
+  }
 
   .desktop-view{
     display: none;
@@ -904,19 +875,19 @@ a.faq-link{
     padding-bottom: 10px;
     font-size: 13px;
     color: #fff;
-    text-align: center;
+    text-align: justify;
     margin-left: 10px
-}
+  }
 
-iframe{
-  width: 100%;
-  height: 200px;
-}
+    iframe{
+      width: 100%;
+      height: 200px;
+    }
 
-.role-list {
-  margin-right: 20px;
-  margin-left: 0px;
-}
+    .role-list {
+      margin-right: 20px;
+      margin-left: 0px;
+    }
 
 }
 

@@ -123,7 +123,7 @@
 
 
             if (bodyWidth >= 1200) {
-                incno = itemsSplit[2];
+                incno = itemsSplit[1];
                 itemWidth = sampwidth / incno;
                 console.log(incno);
             }
@@ -196,17 +196,23 @@ $(document).ready(function(){
 
 $('.upcoming-evnts').owlCarousel({
     loop:false,margin:25,nav: true,dots:true,
-    responsive:{0:{items:1},600:{items:2},1000:{items:3},1300:{items:3}},
+    responsive:{0:{items:1},600:{items:2},1000:{items:2},1300:{items:2}},
 });
 
 $('.past-evnts').owlCarousel({
     loop:true,margin:25,nav: true,dots:true,
-    responsive:{0:{items:1},600:{items:2},1000:{items:3},1300:{items:3}},
+    responsive:{0:{items:1},600:{items:2},1000:{items:2},1300:{items:2}},
 });
 
 $('.near-by-nurseries-owl').owlCarousel({
-    loop:false,margin:25,nav: true,dots:true,
-    responsive:{0:{items:1},600:{items:1},1000:{items:4},1300:{items:4}},
+    loop:false,margin:15,nav:true,dots:true,autoplay:true,
+    responsive:{0:{items:1},600:{items:2},1000:{items:3},1300:{items:3}},
+});
+
+
+$('.photo-gal-owl').owlCarousel({
+    loop:false,margin:15,nav:true,dots:true,autoplay:true,
+    responsive:{0:{items:1},600:{items:3},1000:{items:3},1300:{items:4}},
 });
 
 });

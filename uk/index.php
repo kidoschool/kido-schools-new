@@ -68,7 +68,7 @@ $uri_segments = explode('/', $uri_path);
                 <div class="col-lg-8">
                     <div class="data text-center">
                         <h1 class="head-text-blue mb-4">Welcome to Kido</h1>
-                        <p class="text-center">We’re integrating advances in design, technology and pedagogy and creating the highest quality nurseries and preschools across the world. Magical places, where children play, learn, grow and thrive. We’ve combined classical philosophies like Montessori and Reggio Emilia with latest research and created the most advanced early years program anywhere. Our exceptional people, program and nurseries nurture and enhance every child’s innate curiosity, creativity, and ability to be a lifelong learner. Since 2014, over 15,000 families across the world have entrusted their children to Kido nurseries for our customised and unique early childhood education and care programs</p>
+                        <p>We’re integrating advances in design, technology and pedagogy and creating the highest quality nurseries and preschools across the world. Magical places, where children play, learn, grow and thrive. We’ve combined classical philosophies like Montessori and Reggio Emilia with latest research and created the most advanced early years program anywhere. Our exceptional people, program and nurseries nurture and enhance every child’s innate curiosity, creativity, and ability to be a lifelong learner. Since 2014, over 15,000 families across the world have entrusted their children to Kido nurseries for our customised and unique early childhood education and care programs</p>
                     </div>
                 </div>
             </div>
@@ -76,8 +76,8 @@ $uri_segments = explode('/', $uri_path);
                 <div class="col-lg-8">
                     <div class="data text-center">
                         <div class="d-flex justify-content-center pt-4">
-                            <div class="col-lg-2"><img src="../images/day-nurseries-award.png"  width="80" class="img-fluid" alt=""></div>
-                            <div class="col-lg-2"><img src="../images/ofsted-award.png" width="70" class="img-fluid" alt=""></div>
+                            <div class="mx-3"><img src="../images/day-nurseries-award.png"  width="70" class="img-fluid" alt=""></div>
+                            <div class="mx-3"><img src="../images/ofsted-award.png" width="70" class="img-fluid" alt=""></div>
                         </div>
                     </div>
                 </div>
@@ -88,13 +88,9 @@ $uri_segments = explode('/', $uri_path);
     <section class="welcome-text py-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-12">
+                <div class="col-lg-8">
                     <div class="data text-center">
-                        <!-- <video width="1200" id="vid"  class="img-fluid" controls autoPlay loop muted>
-                            <source src="https://storage.googleapis.com/kido-assets/banner-video-Mp4.mp4" type="video/mp4"/>
-                            Your browser does not support HTML video.
-                        </video>  -->
-                        <iframe width="800" height="400" src="https://www.youtube.com/embed/NgoodAfg0Sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="710" height="400" src="https://www.youtube.com/embed/NgoodAfg0Sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -102,67 +98,49 @@ $uri_segments = explode('/', $uri_path);
                 <div class="col-lg-8">
                     <div class="data text-center">
                         <h1 class="head-text-blue mb-4">Our Pedagogy</h1>
-                        <p class="text-center">We believe that a combination of free and structured play, an engaging and interactive environment, and an abundance of love, care and attention provide the most solid foundation in the early years. We include thinking based, project based and problem based learning for the first time in the early years, developing the full potential of each child. Proprietary curricula in art, physical development, literacy, mathematics and much more ensure that children are more than school ready when they leave our nurseries</p>
+                        <p>We believe that a combination of free and structured play, an engaging and interactive environment, and an abundance of love, care and attention provide the most solid foundation in the early years. We include thinking based, project based and problem based learning for the first time in the early years, developing the full potential of each child. Proprietary curricula in art, physical development, literacy, mathematics and much more ensure that children are more than school ready when they leave our nurseries</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="photo-gallery py-5">
-    <div class="container">
-      <div class="row justify-content-center">
-      <div class="col-lg-12">
-        <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
-                <div class="MultiCarousel-inner">
-                    <div class="item">
-                        <div class="pad15">
+    <section class="photo-gallery pt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel photo-gal-owl">
+                        <div class="item">
                             <img src="https://kido.school/wp-content/uploads/2020/11/Kido-Greenwich_internal-scaled.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="pad15">
-                        <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
+                        <div class="item">
+                            <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="pad15">
+                        <div class="item">
                             <img src="https://kido.school/wp-content/uploads/2019/09/Crouch-End-Centre-Pages-2-1.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="pad15">
+                        <div class="item">
                             <img src="https://kido.school/wp-content/uploads/2020/04/Windsor-Centre-Pages-Header-1.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="pad15">
+                        <div class="item">
                             <img src="https://kido.school/wp-content/uploads/2020/04/Golders-Green-Centre-Pages-Header-3.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="pad15">
+                        <div class="item">
                             <img src="https://kido.school/wp-content/uploads/2021/08/Large-shutterstock_238308907.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="pad15">
+                        <div class="item">
                             <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
                         </div>
                     </div>
                 </div>
-                <button class="btn btn-info leftLst"><</button>
-                <button class="btn btn-info rightLst">></button>
             </div>
         </div>
-      </div>
-    </div>
     </section>
 
     <section class="near-by-nursery pt-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-12">
+                <div class="col-lg-8">
                     <h1 class="nury-head-title head-text-blue text-center mb-5">Where to find Our Nurseries</h1>
                     <?php include 'nearby-nurseries.php';?> 
                 </div>

@@ -12,11 +12,11 @@
 <section class="event-title mt-5">
     <div class="container"> 
         <div class="row justify-content-center">
-            <div class="col-lg-10">
+            <div class="col-lg-8">
                 <div class="data text-center">
                     <h1 class="head-text-blue mb-4">Kido Events</h1>
-                    <p class="text-center">At Kido, we’re passionate about helping families successfully navigate early parenthood – by feeling connected, informed and empowered. Kido Events are carefully curated to provide help and support on the subjects that matter most to you as parents. We have curated events and lined up experts from around the world for you to be entertained and inspired from the comfort of your home!</p>
-                    <p class="text-center">Events include workshops, talks, join-in sessions, family support and expert guidance and health and wellbeing events. Browse for the event and time of your liking and book a session online!</p>
+                    <p>At Kido, we’re passionate about helping families successfully navigate early parenthood – by feeling connected, informed and empowered. Kido Events are carefully curated to provide help and support on the subjects that matter most to you as parents. We have curated events and lined up experts from around the world for you to be entertained and inspired from the comfort of your home!</p>
+                    <p>Events include workshops, talks, join-in sessions, family support and expert guidance and health and wellbeing events. Browse for the event and time of your liking and book a session online!</p>
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@
 <section class="upcoming-events mt-5">
     <div class="container"> 
         <div class="row justify-content-center">
-            <div class="col-lg-12">
+            <div class="col-lg-8">
                 <div class="data">
                     <h1 class="head-text-blue text-center mb-4">Upcoming Events</h1>
                     <div class="owl-carousel upcoming-evnts">
@@ -159,7 +159,7 @@
 <section class="past-events mt-5">
     <div class="container"> 
         <div class="row justify-content-center">
-            <div class="col-lg-12">
+            <div class="col-lg-8">
                 <div class="data">
                     <h1 class="head-text-blue text-center mb-4">Past Events</h1>
                     <div class="owl-carousel past-evnts">

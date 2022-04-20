@@ -13,7 +13,7 @@
         <div class="row justify-content-center py-3">
           <div class="col-lg-8 text-center">
             <h1 class="head-text-blue mb-4">Days at Kido</h1>
-            <p class="description text-center">Our international team of experts has created a comprehensive pedagogy, known as the Kido Early Years Program. This innovative system incorporates the best practices from teaching philosophies from around the world, such as Montessori, Reggio Emilia and the theory of Multiple Intelligences. The result is a play-based learning experience that combines child and teacher-led activities with free and structured play in inspirational settings. The program is customised to the developmental ability of each child. Our program adheres to the EYFS, and incorporates proprietary STEM, Art, Literacy and Numeracy programs.</p>
+            <p class="description">Our international team of experts has created a comprehensive pedagogy, known as the Kido Early Years Program. This innovative system incorporates the best practices from teaching philosophies from around the world, such as Montessori, Reggio Emilia and the theory of Multiple Intelligences. The result is a play-based learning experience that combines child and teacher-led activities with free and structured play in inspirational settings. The program is customised to the developmental ability of each child. Our program adheres to the EYFS, and incorporates proprietary STEM, Art, Literacy and Numeracy programs.</p>
           </div>
        </div>
       </div>
@@ -23,7 +23,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <iframe width="800" height="400" src="https://www.youtube.com/embed/qC6lDWoJadc" title="The importance of early years education" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="710" height="400" src="https://www.youtube.com/embed/qC6lDWoJadc" title="The importance of early years education" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -36,7 +36,7 @@
         <div class="col-lg-8 text-center">
           <h1 class="head-text-blue mb-4">Who we teach</h1>
             <div class="who-we-teach-para">
-                <p class="text-center">Our program is split into four levels. While each level roughly corresponds to an age group, in practice we usually move children to the next level when we feel they are ready.</p>
+                <p>Our program is split into four levels. While each level roughly corresponds to an age group, in practice we usually move children to the next level when we feel they are ready.</p>
             </div>
 
             <div class="row justify-content-center desktop-view pt-5">
@@ -428,7 +428,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <iframe width="800" height="400" src="https://www.youtube.com/embed/45gZK9qqfkE" title="YDr Robert Swartz on Thinking Based Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="710" height="400" src="https://www.youtube.com/embed/45gZK9qqfkE" title="YDr Robert Swartz on Thinking Based Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -441,16 +441,16 @@
         <div class="row justify-content-center py-3">
           <div class="col-lg-8">
             <h1 class="head-text-blue text-center mb-4">How we teach</h1>
-            <p class="description text-center">Weeks in Kido are divided into Skills Days and Explorer Days. Throughout the program we integrate project based learning, and thinking based learning into our approach.</p>
-                <div class="row justify-content-center pt-4">
-                  <div class="col-lg-6">
+            <p class="description">Weeks in Kido are divided into Skills Days and Explorer Days. Throughout the program we integrate project based learning, and thinking based learning into our approach.</p>
+                <div class="row justify-content-center">
+                  <div class="col-lg-6 mt-4">
                     <div class="we-teach-data bg-white border text-center shadow p-4">
                         <img src="../images/programs-icon1.svg" class="img-fluid" width="50"/>
                         <h3 class="teact-head pt-4 pb-2">Skills Days</h3>
                         <p>These days are dedicated to our proprietary modules in literacy, STEM, art and much else. We use different learning stations for each activity, and combine sensory play, guided learning and workbook activities.	</p>
                     </div>
                   </div>
-                  <div class="col-lg-6">
+                  <div class="col-lg-6 mt-4">
                     <div class="we-teach-data bg-white border text-center shadow p-4">
                         <img src="../images/programs-icon2.svg" class="img-fluid" width="50"/>
                         <h3 class="teact-head pt-4 pb-2">Explorer Days</h3>
@@ -469,7 +469,7 @@
         <div class="row justify-content-center py-3">
           <div class="col-lg-8">
             <h1 class="head-text-blue text-center mb-4">What we teach</h1>
-            <p class="description text-center">Find out what your little ones will be learning at our schools. The majority of our learning centers utilise KEYS, our proprietary curriculum. In locations where KEYS is unavailable, we teach an equivalent curriculum that follows the relevant national framework.</p>
+            <p class="description">Find out what your little ones will be learning at our schools. </p>
 
             <div class="row justify-content-center pt-4">
                   <div class="col-lg-6">
