@@ -142,7 +142,53 @@ $uri_segments = explode('/', $uri_path);
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <h1 class="nury-head-title head-text-blue text-center mb-5">Where to find Our Nurseries</h1>
-                    <?php include 'nearby-nurseries.php';?> 
+                   
+                    <div class="uk-nur">
+                        <?php include 'nearby-nurseries.php';?> 
+                        <div class="text-center">
+                            <a href="search.php" class="my-btn btn-primary btn-sm center" id="" target="_blank">Find all preschools</a>
+                        </div>
+                    </div>
+<!-- 
+                    <div class="india-nur">
+                        <div class="owl-carousel near-by-nurseries-india">
+                        <div class="card shadow-sm allprenurcard">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Borivali-centre.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h1 class="subhead-text-blue">Mumbai</h1>
+                            </div>
+                        </div>
+                        <div class="card  shadow-sm allprenurcard">
+                            <img src="https://kido.school/wp-content/uploads/2021/12/Facebook-Kido-Dubai-Meydan-Classroom_12.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h1 class="subhead-text-blue">Pune</h1>
+                            </div>
+                        </div>
+                        <div class="card shadow-sm allprenurcard">
+                            <img src="https://kido.school/wp-content/uploads/2019/04/3A3A5650.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h1 class="subhead-text-blue">Banglore</h1>
+                            </div>
+                        </div>
+                        <div class="card shadow-sm allprenurcard">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Trivandrum-Outdoor-Playarea_02.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h1 class="subhead-text-blue">Kerala</h1>
+                            </div>
+                        </div>
+                        <div class="card shadow-sm allprenurcard">
+                            <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Tooting-High-Res-Render-3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h1 class="subhead-text-blue">Gurgaon</h1>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="text-center">
+                            <a href="search.php" class="my-btn btn-primary btn-sm center" id="" target="_blank">Find all preschools</a>
+                        </div>
+                    </div> -->
+               
+
                 </div>
             </div>
         </div>

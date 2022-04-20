@@ -1,4 +1,4 @@
-<div class="owl-carousel near-by-nurseries-owl">
+<div class="owl-carousel near-by-nurseries-us">
     <div class="other-nury-list card shadow-sm">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">

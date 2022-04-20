@@ -567,6 +567,14 @@ a.faq-link{
   object-fit: cover;
 }
 
+.near-by-nurseries-india img{
+  width: 200px;
+  height: 150px;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  object-fit: cover;
+}
+
 .mobile-view{
   display: none;
 }
@@ -708,6 +716,14 @@ a.faq-link{
       object-fit: cover;
     }
 
+    .near-by-nurseries-india img {
+      width: 200px;
+      height: 200px;
+      border-top-right-radius: 10%;
+      border-top-left-radius: 10%;
+      object-fit: cover;
+    }
+
     .mobile-nur-gallery .show-more-btn {
       display: none;
     }
@@ -802,6 +818,13 @@ a.faq-link{
       object-fit: cover;
     }
 
+    .near-by-nurseries-india img {
+      width: 200px;
+      height: 230px;
+      border-top-right-radius: 10%;
+      border-top-left-radius: 10%;
+      object-fit: cover;
+  }
 
     .address {
       position: absolute;
