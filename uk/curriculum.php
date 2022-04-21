@@ -23,7 +23,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <iframe width="710" height="400" src="https://www.youtube.com/embed/qC6lDWoJadc" title="The importance of early years education" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe style="width : 100%" height="400" src="https://www.youtube.com/embed/qC6lDWoJadc" title="The importance of early years education" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -222,7 +222,7 @@
               </div> -->
             </div>
 
-            <div class="mobile-view row pt-5">
+            <div class="mobile-view row pt-5 mx-2">
               <div class="col-lg-12">
                   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
@@ -428,7 +428,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <iframe width="710" height="400" src="https://www.youtube.com/embed/45gZK9qqfkE" title="YDr Robert Swartz on Thinking Based Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe style="width : 100%"  height="400" src="https://www.youtube.com/embed/45gZK9qqfkE" title="YDr Robert Swartz on Thinking Based Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>

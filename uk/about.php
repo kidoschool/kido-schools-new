@@ -84,7 +84,7 @@
             </div>
 
 
-            <div class="mobile-view row justify-content-center mt-5">
+            <div class="mobile-view row justify-content-center mx-2 mt-5">
               <div class="col-lg-12 text-center">
               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">

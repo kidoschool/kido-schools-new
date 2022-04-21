@@ -61,7 +61,7 @@ a {color: #666; text-decoration: none !important;  transition: 0.3s; cursor: poi
   padding: 10px 20px;
   line-height: 128%;
   margin-bottom: 20px;
-  width: 50%;
+  width: 100%;
 }
 
 .btn-primary:hover{
@@ -251,7 +251,7 @@ a.btn-banner {
 }
 
 .nursery-body{
-  padding-top: 80px;
+  padding-top: 110px;
 }
 
 .map{
@@ -260,7 +260,7 @@ a.btn-banner {
 }
 
 .nursery-listing-box{
-    height: 230px;
+    height: 255px;
 }
 
 .nursery-list-img{
@@ -268,6 +268,10 @@ a.btn-banner {
     height: 180px;
     border-radius: 5%;
     object-fit: cover;
+}
+
+.uk-search-head{
+  margin-left: 140px;
 }
 
 .nursery-head{
@@ -579,6 +583,10 @@ a.faq-link{
   display: none;
 }
 
+.mobile-search{
+  display: none;
+}
+
 .owl-nav .owl-prev,.owl-nav .owl-next{
   height: 47px;width: 47px;background-position: 0 0;cursor: pointer;margin:10px 5px;
 }
@@ -614,7 +622,7 @@ a.faq-link{
 .address{
   position: absolute;
   top: 12%;
-  right: 29%;
+  left: 6%;
 }
 
 .role-list{
@@ -677,7 +685,15 @@ a.faq-link{
     height: 200px;
     border-radius: 5%;
     object-fit: cover;
-}
+  }
+
+  .nursery-listing-box{
+    height: 245px;
+  }
+
+  .uk-search-head{
+    margin-left: 200px;
+  }
 }
 
 
@@ -698,7 +714,7 @@ a.faq-link{
   }
 
     .nursery-body {
-      padding-top: 212px;
+      padding-top: 108px;
     }
 
     .desktop-nur-gallery{
@@ -714,6 +730,10 @@ a.faq-link{
       height: 200px;
       border-radius: 5%;
       object-fit: cover;
+    }
+
+    .uk-search-head {
+      margin-left: 0px;
     }
 
     .near-by-nurseries-india img {
@@ -733,6 +753,14 @@ a.faq-link{
       height: 500px;
     }
 
+    .address {
+      position: absolute;
+      top: 13%;
+      width: 88%;
+      left: 8%;
+    }
+
+
     .desktop-view{
       display: none;
     }
@@ -748,7 +776,7 @@ a.faq-link{
         font-size: 1.5em;
     }
 
-    p {color: #444; font-size: 1em; text-align: justify; margin: 0 10px}
+    p {color: #444; font-size: 1em; text-align: justify; margin: 0 25px}
 
 
     .btn-primary {
@@ -797,17 +825,33 @@ a.faq-link{
     }
 
     .nursery-body {
-      padding-top: 148px;
+      padding-top: 108px;
     }
 
     .map-mobile{
       padding: 40px 0px;
     }
 
+    .near-by-nursery{
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+
+    .near-by-nursery p.card-text{
+     margin: 0px 0px;
+    }
+    
+    .uk-search-head {
+      margin-left: 0px;
+    }
+
+    .testimonial p {
+     margin: 0px 0px;
+    }
 
     .nursery-list-img{
       width: 100%;
-      height: 250px;
+      height: 225px;
       border-radius: 5%;
       object-fit: cover;
     }
@@ -829,8 +873,8 @@ a.faq-link{
     .address {
       position: absolute;
       top: 11%;
-      right: 10%;
       width: 88%;
+      left: 10%;
     }
 
     .desktop-nur-gallery{
@@ -881,6 +925,16 @@ a.faq-link{
   }
   .mobile-view{
     display: block;
+  }
+
+  .desktop-search{
+    display: none;
+  }
+
+  .mobile-search{
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .footer-area{

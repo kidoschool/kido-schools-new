@@ -23,7 +23,7 @@
     </div>
 </section>
 
-<section class="upcoming-events mt-5">
+<section class="upcoming-events mt-5 mx-4">
     <div class="container"> 
         <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -156,7 +156,7 @@
 </section>
 
 
-<section class="past-events mt-5">
+<section class="past-events mt-5 mx-4">
     <div class="container"> 
         <div class="row justify-content-center">
             <div class="col-lg-8">

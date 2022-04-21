@@ -35,9 +35,13 @@ $post_cont =  json_decode($json);
 <section class="nursery-head-title mt-5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-6">
+                <h1 class="head-text-blue">Kido Camden Nursery & Day Care</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
                 <div class="title">
-                    <h1 class="head-text-blue">Kido Camden Nursery & Day Care</h1>
                     <p>
                        <?php echo strlen($post_cont->country) ? $post_cont->country."," : ""; ?>
                        <?php echo strlen($post_cont->state) ? $post_cont->state."," : ""; ?> 
@@ -78,7 +82,7 @@ $post_cont =  json_decode($json);
     <div class="container">
         <div class="row desktop-nur-gallery">
             <div class="col-lg-6 padding-0">
-                <img src="<?php echo $post_cont->galimg[0]; ?>" class="lg-nur-gal-img" alt="">
+                <img src="https://kido.school/wp-content/uploads/2020/11/Facebook-Kido-Clerkenwell-Upstairs-Classroom_02.jpg" class="lg-nur-gal-img" alt="">
             </div>
             <div class="col-lg-3 padding-0">
                 <img src="<?php echo isset($post_cont->galimg[1]) ? $post_cont->galimg[1] : "https://www.pacificfoodmachinery.com.au/media/catalog/product/placeholder/default/no-product-image-400x400.png"; ?>" class="nur-gal-imgs" alt="">
@@ -183,16 +187,16 @@ $post_cont =  json_decode($json);
 </section>
 <section class="nursery-data mt-5">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-7">
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
                 <div class="nursery-desc">
 
                     <div class="nur-cat d-flex justify-content-between my-4">
-                        <?php if(strlen($post_cont->ageRange)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/age-range.svg" alt="" width="50"><h6 class="mt-3">Age range</h6><small><?php echo $post_cont->ageRange; ?></small></div> <?php }; ?>
-                        <?php if(strlen($post_cont->lang_taught)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/language.svg" alt="" width="50"><h6 class="mt-3">Languages taught</h6><small><?php echo $post_cont->lang_taught; ?></small></div> <?php } ?>
-                        <?php if(strlen($post_cont->opening_hours)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/hours.svg" alt="" width="50"><h6 class="mt-3">Opening hours</h6><small><?php echo $post_cont->opening_hours; ?></small></div> <?php } ?>
-                        <?php if(strlen($post_cont->play_area)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/Outdoor-Space-03.svg" alt="" width="50"><h6 class="mt-3">Outdoor Play Area</h6><small><?php echo $post_cont->play_area; ?></small></div> <?php } ?>
-                        <?php if(strlen($post_cont->transportation)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/transportation1.svg" alt="" width="50"><h6 class="mt-3">Transportation</h6><small><?php echo $post_cont->transportation; ?></small></div> <?php } ?>
+                        <?php if(strlen($post_cont->ageRange)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/age-range.svg" alt="" width="40"><h6 class="mt-3"><small class="font-weight-bold">Age range</small></h6><small><?php echo $post_cont->ageRange; ?></small></div> <?php }; ?>
+                        <?php if(strlen($post_cont->lang_taught)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/language.svg" alt="" width="40"><h6 class="mt-3"><small class="font-weight-bold">Languages taught</small></h6><small><?php echo $post_cont->lang_taught; ?></small></div> <?php } ?>
+                        <?php if(strlen($post_cont->opening_hours)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/hours.svg" alt="" width="40"><h6 class="mt-3"><small class="font-weight-bold">Opening hours</small></h6><small><?php echo $post_cont->opening_hours; ?></small></div> <?php } ?>
+                        <?php if(strlen($post_cont->play_area)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/Outdoor-Space-03.svg" alt="" width="40"><h6 class="mt-3"><small class="font-weight-bold">Outdoor Play Area</small></h6><small><?php echo $post_cont->play_area; ?></small></div> <?php } ?>
+                        <?php if(strlen($post_cont->transportation)){ ?> <div class="lang text-center"><img src="https://storage.googleapis.com/kido-assets/transportation1.svg" alt="" width="40"><h6 class="mt-3"><small class="font-weight-bold">Transportation</small></h6><small><?php echo $post_cont->transportation; ?></small></div> <?php } ?>
                     </div>
                     <p>
                         <?php 
@@ -203,7 +207,7 @@ $post_cont =  json_decode($json);
                 </div>
                 <div class="Brochure-download mt-5">
                     <h2 class="nury-head-title head-text-blue mb-4">Our Brochure</h2>
-                    <a class="btn-sm btn btn-primary "><i class="fa fa-download pr-3"></i>Download Our Brochure</a>
+                    <a class="btn-sm btn btn-primary"><i class="fa fa-download pr-3"></i>Download Our Brochure</a>
                 </div>
                 <div class="school-details mt-5">
                     <h2 class="nury-head-title head-text-blue mb-4">School details</h2>
@@ -245,7 +249,7 @@ $post_cont =  json_decode($json);
 
 
             </div>
-            <div class="col-lg-4 offset-lg-1">
+            <div class="col-lg-4">
                 <div class="nursery-contact">
                     <div class="nur-cont border p-4 shadow text-center bg-white">
                         <h3 class="my-4">Contact <?php echo $post->post_title; ?></h3>
@@ -265,8 +269,8 @@ $post_cont =  json_decode($json);
 
 <section class="map-sec mt-5">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
             <h2 class="nury-head-title head-text-blue mb-4">Location</h2>
                 <div class="map-area">
                     <div id="googleMap" style="width:100%;height:600px;"></div>
@@ -287,8 +291,8 @@ $post_cont =  json_decode($json);
 
 <section class="faq mt-5">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
             <h2 class="nury-head-title head-text-blue mb-4">FAQs</h2>
                 <div class="gallery-area">
                     <div class="accordion" id="accordionExample">
@@ -320,8 +324,8 @@ $post_cont =  json_decode($json);
 
 <section class="near-by-nursery my-5">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
                 <h2 class="nury-head-title head-text-blue mb-4">Other Nurseries Nearby</h2>
                     <?php include 'nearby-nurseries.php';?>
             </div>

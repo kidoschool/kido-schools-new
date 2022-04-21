@@ -73,6 +73,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
 <script src="https://storage.googleapis.com/kido-assets/owl.carousel.min.js"></script>
+<script src="https://res.cloudinary.com/dxfq3iotg/raw/upload/v1556817331/lightgallery-all.min.js"></script>
 <script>
     function myMap() {
     var mapProp= {
@@ -81,6 +82,10 @@
         };
         var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     }
+
+    $(document).ready(function() {
+        $('#lightgallery').lightGallery();
+    });
 
 $(document).ready(function(){
 
@@ -111,6 +116,12 @@ $('.photo-gal-owl').owlCarousel({
     loop:false,margin:15,nav:true,dots:true,autoplay:true,
     responsive:{0:{items:1},600:{items:3},1000:{items:3},1300:{items:4}},
 });
+
+$('.mobile-search').owlCarousel({
+    loop:false,margin:15,nav:true,dots:true,autoplay:true,
+    responsive:{0:{items:1}},
+});
+
 
 });
 

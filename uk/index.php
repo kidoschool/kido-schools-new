@@ -109,28 +109,28 @@ $uri_segments = explode('/', $uri_path);
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <div class="owl-carousel photo-gal-owl">
-                        <div class="item">
-                            <img src="https://kido.school/wp-content/uploads/2020/11/Kido-Greenwich_internal-scaled.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="https://kido.school/wp-content/uploads/2019/09/Crouch-End-Centre-Pages-2-1.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="https://kido.school/wp-content/uploads/2020/04/Windsor-Centre-Pages-Header-1.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="https://kido.school/wp-content/uploads/2020/04/Golders-Green-Centre-Pages-Header-3.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="https://kido.school/wp-content/uploads/2021/08/Large-shutterstock_238308907.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="https://kido.school/wp-content/uploads/2021/06/What-else-do-we-do.jpg" alt="">
-                        </div>
+                    <div class="owl-carousel photo-gal-owl" id="lightgallery">
+                        <a href="../images/gal-img1.png" >
+                            <img src="../images/gal-img1.png" alt="">
+                        </a>
+                        <a href="../images/gal-img2.png" >
+                            <img src="../images/gal-img2.png" alt="">
+                        </a>
+                        <a href="../images/gal-img3.jpg" >
+                            <img src="../images/gal-img3.jpg" alt="">
+                        </a>
+                        <a href="../images/gal-img4.jpg" >
+                            <img src="../images/gal-img4.jpg" alt="">
+                        </a>
+                        <a href="../images/gal-img5.jpg" >
+                            <img src="../images/gal-img5.jpg" alt="">
+                        </a>
+                        <a href="../images/gal-img6.jpg" >
+                            <img src="../images/gal-img6.jpg" alt="">
+                        </a>
+                        <a href="../images/gal-img7.jpg" >
+                            <img src="../images/gal-img7.jpg" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
