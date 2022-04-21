@@ -583,7 +583,7 @@ a.faq-link{
   display: none;
 }
 
-.mobile-search{
+.owl-carousel.owl-loaded.mobile-search{
   display: none;
 }
 
@@ -931,10 +931,10 @@ a.faq-link{
     display: none;
   }
 
-  .mobile-search{
+  .owl-carousel.owl-loaded.mobile-search{
     display: block;
-    padding-left: 25px;
-    padding-right: 25px;
+    /* padding-left: 25px;
+    padding-right: 25px; */
   }
 
   .footer-area{
