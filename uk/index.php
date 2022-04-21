@@ -77,6 +77,7 @@ $uri_segments = explode('/', $uri_path);
                     <div class="data text-center">
                         <div class="d-flex justify-content-center pt-4">
                             <div class="mx-3"><img src="../images/day-nurseries-award.png"  width="70" class="img-fluid" alt=""></div>
+                            <div class="mx-3"><img src="../images/Education Investor Award_03.png" width="70" class="img-fluid" alt=""></div>
                             <div class="mx-3"><img src="../images/ofsted-award.png" width="70" class="img-fluid" alt=""></div>
                         </div>
                     </div>
