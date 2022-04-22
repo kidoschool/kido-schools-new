@@ -83,7 +83,7 @@
 
 	    var mapProp= {
 			center:new google.maps.LatLng(51.55992,-0.16716),
-			zoom:13,styles:mapStyle,
+			zoom:9,styles:mapStyle,
 			mapTypeId: google.maps.MapTypeId.ROADMAP,
         };
 		
