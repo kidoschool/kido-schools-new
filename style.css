@@ -583,7 +583,7 @@ a.faq-link{
   display: none;
 }
 
-.owl-carousel.owl-loaded.mobile-search{
+.mobile-search{
   display: none;
 }
 
@@ -931,10 +931,24 @@ a.faq-link{
     display: none;
   }
 
-  .owl-carousel.owl-loaded.mobile-search{
+  .mobile-search .card{
+    border-radius: 20px;
+  }
+
+  .mobile-search{
     display: block;
-    /* padding-left: 25px;
-    padding-right: 25px; */
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .mobile-search p.card-text {
+    margin: 0px 0px;
+  }
+
+  .nursery-head {
+    border-bottom: 1px solid rgb(235, 226, 226);
+    margin-top: 80px;
+    z-index: 10;
   }
 
   .footer-area{

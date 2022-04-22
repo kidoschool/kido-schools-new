@@ -147,7 +147,7 @@ $uri_segments = explode('/', $uri_path);
                     <div class="uk-nur">
                         <?php include 'nearby-nurseries.php';?> 
                         <div class="text-center">
-                            <a href="search.php" class="my-btn btn-primary btn-sm center" id="" target="_blank">Find all preschools</a>
+                            <a href="search.php" class="my-btn btn-primary btn-sm center" id="" target="_blank">Find all nurseries</a>
                         </div>
                     </div>
 <!-- 
