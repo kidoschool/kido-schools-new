@@ -205,12 +205,12 @@ $post_cont =  json_decode($json);
                     </p>
 
                 </div>
-                <div class="Brochure-download mt-5">
+                <div class="Brochure-download text-center mt-5">
                     <h2 class="nury-head-title head-text-blue mb-4">Our Brochure</h2>
                     <a class="btn-sm btn btn-primary"><i class="fa fa-download pr-3"></i>Download Our Brochure</a>
                 </div>
                 <div class="school-details mt-5">
-                    <h2 class="nury-head-title head-text-blue mb-4">School details</h2>
+                    <h2 class="nury-head-title head-text-blue mb-4 text-center">School details</h2>
                     <p>Curriculum <span class="font-weight-bold">EYFS, Kïdo</span></p>
                     <p>Hours <span class="font-weight-bold">7:30 am - 6:30 pm</span></p>
                     <p>Schedule <span class="font-weight-bold">Part time, Full time, 51 weeks/year</span></p>
@@ -221,7 +221,7 @@ $post_cont =  json_decode($json);
 
 
                 <div class="reviews mt-5">
-                    <h2 class="nury-head-title head-text-blue mb-4">Reviews</h2>
+                    <h2 class="nury-head-title head-text-blue text-center mb-4">Reviews</h2>
                     <div class="review-data mt-2">
                         <?php
                         foreach ($post_cont->reviews as $k => $v) {
@@ -271,7 +271,7 @@ $post_cont =  json_decode($json);
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-12">
-            <h2 class="nury-head-title head-text-blue mb-4">Location</h2>
+            <h2 class="nury-head-title head-text-blue text-center mb-4">Location</h2>
                 <div class="map-area">
                     <div id="googleMap" style="width:100%;height:600px;"></div>
                     <div class="address row">
@@ -293,7 +293,7 @@ $post_cont =  json_decode($json);
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-12">
-            <h2 class="nury-head-title head-text-blue mb-4">FAQs</h2>
+            <h2 class="nury-head-title head-text-blue text-center mb-4">FAQs</h2>
                 <div class="gallery-area">
                     <div class="accordion" id="accordionExample">
                         <?php
@@ -326,7 +326,7 @@ $post_cont =  json_decode($json);
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-12">
-                <h2 class="nury-head-title head-text-blue mb-4">Other Nurseries Nearby</h2>
+                <h2 class="nury-head-title head-text-blue text-center mb-4">Other Nurseries Nearby</h2>
                 <div class="owl-carousel near-by-nurseries-search-us">
                     <div class="other-nury-list card shadow-sm">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
