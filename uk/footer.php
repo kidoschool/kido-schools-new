@@ -83,7 +83,7 @@
 
 	    var mapProp= {
 			center:new google.maps.LatLng(51.55992,-0.16716),
-			zoom:9,styles:mapStyle,
+			zoom:13,styles:mapStyle,
 			mapTypeId: google.maps.MapTypeId.ROADMAP,
         };
 		
@@ -96,7 +96,7 @@
 		for (i = 0; i < locations.length; i++) {
 			marker = new google.maps.Marker({
 				position: new google.maps.LatLng(locations[i][1], locations[i][0]),
-				map: map
+				map: map,icon:"../images/mapMarker.svg"
 			});
 			  google.maps.event.addListener(marker, 'click', (function(marker, i) {
 			    return function() {
@@ -159,8 +159,8 @@ $('.near-by-nurseries-search-us').owlCarousel({
 
     
 </script> 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIJkPLyzo5XZODdhxAa_XYbk2ESQpJyZw&callback=myMap"></script>
-<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVtvix8ZhA1BRZLHS_DRSJtFsmQ8FQdf0&callback=myMap"></script> -->
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIJkPLyzo5XZODdhxAa_XYbk2ESQpJyZw&callback=myMap"></script> -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVtvix8ZhA1BRZLHS_DRSJtFsmQ8FQdf0&callback=myMap"></script>
 </body>
 
  </html>
