@@ -35,6 +35,7 @@
             </div>
         </div>
     </div> -->
+    </div>
 </section>
 <section class="nursery-body">
    <div class="container-fluid">

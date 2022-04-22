@@ -419,6 +419,7 @@ a.btn-banner {
   border: 1px solid #ce3b34;
   padding: 8px;
   border-radius: 50%;
+  -webkit-border-radius: 50px;
   color: #fff;
   font-size: 10px;
   text-align: center;
@@ -429,12 +430,12 @@ a.btn-banner {
 
 .lg-nur-gal-img{
   width: 555px;
-  height: 348px;
+  height: 370px;
 }
 
 .nur-gal-imgs{
   width: 270px;
-  height: 170px;
+  height: 180px;
 }
 
 .lg-inner-nur-gal-img{
@@ -475,7 +476,7 @@ a.btn-banner {
 
 .nursery-gallery-grid .show-more-btn{
     position: absolute;
-    top: 309px;
+    top: 326px;
     right: 10px;
     background: #fff;
     color: #00356b;
@@ -692,7 +693,7 @@ a.faq-link{
   }
 
   .uk-search-head{
-    margin-left: 200px;
+    margin-left: 210px;
   }
 }
 
@@ -727,7 +728,7 @@ a.faq-link{
 
     .nursery-list-img{
       width: 100%;
-      height: 200px;
+      height: 350px;
       border-radius: 5%;
       object-fit: cover;
     }
@@ -947,6 +948,15 @@ a.faq-link{
 
   .mobile-search p.card-text {
     margin: 0px 0px;
+  }
+
+  .reviews p{
+    margin: 0px 0px;
+  }
+
+  .Brochure-download, .reviews, .nur-cont, .map-sec, .faq{
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .nursery-head {
