@@ -90,7 +90,7 @@ $uri_segments = explode('/', $uri_path);
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <div class="data text-center">
+                    <div class="you-video text-center">
                         <iframe width="710" height="400" src="https://www.youtube.com/embed/NgoodAfg0Sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>

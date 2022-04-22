@@ -19,7 +19,7 @@
       </div>
     </section> 
 
-    <section class="photo-gallery my-4">
+    <section class="you-video my-4">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -424,7 +424,7 @@
       </div>
     </section>
 
-    <section class="photo-gallery my-4">
+    <section class="you-video my-4">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">

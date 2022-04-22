@@ -328,7 +328,7 @@ $post_cont =  json_decode($json);
             <div class="col-lg-12">
                 <h2 class="nury-head-title head-text-blue text-center mb-4">Other Nurseries Nearby</h2>
                 <div class="owl-carousel near-by-nurseries-search-us">
-                    <div class="other-nury-list card shadow-sm">
+                    <div class="other-nury-list card shadow-sm pb-3">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -388,7 +388,7 @@ $post_cont =  json_decode($json);
                         </div>
                         </div>
                     </div>
-                    <div class="other-nury-list card shadow-sm">
+                    <div class="other-nury-list card shadow-sm pb-3">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -448,7 +448,7 @@ $post_cont =  json_decode($json);
                         </div>
                         </div>
                     </div>
-                    <div class="other-nury-list card shadow-sm">
+                    <div class="other-nury-list card shadow-sm pb-3">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -508,7 +508,7 @@ $post_cont =  json_decode($json);
                         </div>
                         </div>
                     </div>
-                    <div class="other-nury-list card shadow-sm">
+                    <div class="other-nury-list card shadow-sm pb-3">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -568,7 +568,7 @@ $post_cont =  json_decode($json);
                         </div>
                         </div>
                     </div>
-                    <div class="other-nury-list card shadow-sm">
+                    <div class="other-nury-list card shadow-sm pb-3">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">

@@ -176,7 +176,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
               <p> Our international network of schools in the USA, UK, India and China ensures that we bring best practices in operations, training, curriculum and care to each school.</p>
-              <div class="map mt-4">
+              <div class="map map-mobile mt-4">
                   <div id="googleMap" style="width:100%;height:100vh;"></div>
               </div>
             </div>

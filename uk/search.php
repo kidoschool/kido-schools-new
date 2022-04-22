@@ -246,7 +246,7 @@
             <div class="mobile-search">
             <h5 class="head-blue text-center">Explore our Greater London network.</h5>
             <div class="owl-carousel search-nursery">
-                <div class="other-nury-list card shadow-sm">
+                <div class="other-nury-list card shadow-sm pb-3">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
