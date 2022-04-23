@@ -271,7 +271,7 @@ a.btn-banner {
 }
 
 .uk-search-head{
-  margin-left: 140px;
+  margin-left: 12%;
 }
 
 .nursery-head{
@@ -694,7 +694,8 @@ a.faq-link{
   }
 
   .uk-search-head{
-    margin-left: 210px;
+    /* margin-left: 210px; */
+    margin-left: 12%;
   }
 }
 
