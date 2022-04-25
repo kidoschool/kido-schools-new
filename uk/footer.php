@@ -44,9 +44,10 @@
                         <div class="col-md-2 my-1">
                             <div class="footer-widget footer-info">
                                 <h4 class="widget-title pb-3">CONTACT</h4>
-                                <ul class="list-unstyled">
+                                <a href="/contact-us">hello@kido.school</a>
+                                <!-- <ul class="list-unstyled">
                                   <li><a href="/contact-us">hello@kido.school</a></li>
-                                </ul>
+                                </ul> -->
                             </div>
                             <div class="icon-info">
                               <a href="https://www.facebook.com/Kidoeducation" target="_blank" rel="noreferrer"><i class="fab fa-facebook-f pr-3"></i></a>

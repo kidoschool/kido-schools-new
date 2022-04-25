@@ -273,7 +273,7 @@ a.btn-banner {
 }
 
 .uk-search-head{
-  margin-left: 140px;
+  margin-left: 12%;
 }
 
 .nursery-head{
@@ -668,6 +668,7 @@ a.faq-link{
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
+    padding-top: 3%;
 }
 
 .bottom-line {
@@ -696,7 +697,8 @@ a.faq-link{
   }
 
   .uk-search-head{
-    margin-left: 210px;
+    /* margin-left: 210px; */
+    margin-left: 12%;
   }
 }
 
@@ -731,8 +733,8 @@ a.faq-link{
 
     .nursery-list-img{
       width: 100%;
-      height: 350px;
-      border-radius: 5%;
+      height: 31vh;
+      border-radius: 19px;
       object-fit: cover;
     }
 
@@ -859,8 +861,8 @@ a.faq-link{
 
     .nursery-list-img{
       width: 100%;
-      height: 200px;
-      border-radius: 5%;
+      height: 28vh;
+      border-radius: 19px;
       object-fit: cover;
     }
 
@@ -980,10 +982,20 @@ a.faq-link{
     margin: 0px 5px;
   }
 
-  .mobile-list li a{ 
+  /* .mobile-list li a{ 
+    
     border-right: 1px solid #fff;
+    margin: 0px 10px;
+  } */
+
+
+  .mobile-list li:not(:first-child) a:before {
+    /* border-right: 1px solid #fff; */
     /* margin: 0px 10px; */
+    content: "I    ";
   }
+
+
 
   .footer-info li {
     padding-bottom: 0px;
