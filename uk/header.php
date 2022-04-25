@@ -23,7 +23,7 @@
 <body>
 <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light bg-color fixed-top" id="navigation">
-          <a class="navbar-brand pl-4" href="index.php"><img src="https://storage.googleapis.com/kido-assets/kido-logo.jpg" alt="logo"/></a>
+          <a class="navbar-brand pl-4" href="index.php"><img src="https://storage.googleapis.com/kido-assets/kidologo.png" width="100" alt="logo"/></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

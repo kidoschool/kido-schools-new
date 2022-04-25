@@ -49,7 +49,7 @@
                                   <li><a href="/contact-us">hello@kido.school</a></li>
                                 </ul> -->
                             </div>
-                            <div class="icon-info">
+                            <div class="icon-info mt-3">
                               <a href="https://www.facebook.com/Kidoeducation" target="_blank" rel="noreferrer"><i class="fab fa-facebook-f pr-3"></i></a>
                               <a href="https://www.instagram.com/kidoschools/" target="_blank" rel="noreferrer"><i class="fab fa-instagram pr-3"></i></a>
                               <a href="https://www.youtube.com/c/KidoSchools" target="_blank" rel="noreferrer"><i class="fab fa-youtube"></i></a>

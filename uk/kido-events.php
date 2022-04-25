@@ -3,6 +3,9 @@
 <section class="about-banner">
     <div class="container-fluid">
     <div class="row justify-content-center">
+        <div class="banner-tarea">
+            <h2 class="banner-text">Events banner, text</h2>
+        </div>
         <img src="../images/event-banner.jpg" class="banner-hero-img" alt="about-banner"/>
     </div>
     </div>

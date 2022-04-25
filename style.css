@@ -141,7 +141,7 @@ a.btn-banner {
 /*--------section header start---------*/
 
 .nav-link{color: #fff!important; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
-.bg-color{background: rgba(0, 0, 0, 0.2)!important; }
+.bg-color{background: rgba(0, 0, 0, 0)!important; }
 
 .dropdown-item{color: #00356b!important; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
 
@@ -221,7 +221,7 @@ a.btn-banner {
   font-size: 40px;
   color: #fff;
   margin-bottom: 30px;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   text-shadow: 2px 2px #444;
 }
 
@@ -988,7 +988,7 @@ a.faq-link{
   .mobile-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
     margin: 0px 5px;
   }
 
