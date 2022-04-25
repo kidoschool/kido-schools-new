@@ -223,12 +223,14 @@ a.btn-banner {
   color: #00346b;
   font-size: 1.8em;
   font-family: 'Quicksand', sans-serif;
+  text-transform: capitalize;
 }
 
 .subhead-text-blue{
   color: #00346b;
   font-size: 1.4em;
   font-family: 'Quicksand', sans-serif;
+  text-transform: capitalize;
 }
 
 .head-blue{
@@ -778,7 +780,7 @@ a.faq-link{
         font-size: 1.5em;
     }
 
-    p {color: #444; font-size: 1em; text-align: justify; margin: 0 25px}
+    p {color: #444; font-size: 1em; text-align: start; margin: 0 25px}
 
 
     .btn-primary {
@@ -955,7 +957,7 @@ a.faq-link{
     margin: 0px 0px;
   }
 
-  .Brochure-download, .reviews, .nur-cont, .map-sec, .faq, .map-mobile, .you-video, .photo-gallery{
+  .Brochure-download, .reviews, .nur-cont, .map-sec, .faq, .map-mobile, .you-video, .photo-gallery, .full-w-img{
     margin-left: 25px;
     margin-right: 25px;
   }

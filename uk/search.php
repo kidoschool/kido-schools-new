@@ -4,7 +4,7 @@
        <div class="row uk-search-head">
             <div class="col-lg-6">
             <div class="form-group">
-                <input type="number" class="form-control" id="pincode" placeholder="Enter Postal code">
+                <input type="number" class="form-control" id="pincode" placeholder="Enter Post code">
             </div>
             </div>
         </div>
