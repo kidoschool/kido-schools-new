@@ -3,6 +3,9 @@
     <section class="main-banner">
       <div class="container-fluid">
         <div class="row justify-content-center">
+            <div class="banner-tarea">
+                <h2 class="banner-text">curriculam banner, text</h2>
+            </div>
             <img src="../images/Our-Programs-banner.jpg"  class="banner-hero-img" alt="contact-banner"/>
        </div>
       </div>
@@ -13,7 +16,7 @@
         <div class="row justify-content-center py-3">
           <div class="col-lg-8 text-center">
             <h1 class="head-text-blue mb-4">Days at Kido</h1>
-            <p class="description">Our international team of experts has created a comprehensive pedagogy, known as the Kido Early Years Program. This innovative system incorporates the best practices from teaching philosophies from around the world, such as Montessori, Reggio Emilia and the theory of Multiple Intelligences. The result is a play-based learning experience that combines child and teacher-led activities with free and structured play in inspirational settings. The program is customised to the developmental ability of each child. Our program adheres to the EYFS, and incorporates proprietary STEM, Art, Literacy and Numeracy programs.</p>
+            <p class="description"> Our international team of experts has created a comprehensive pedagogy, known as the Kido Early Years Program. This innovative system incorporates the best practices from teaching philosophies from around the world, such as Montessori, Reggio Emilia and the theory of Multiple Intelligences. The result is a play-based learning experience that combines child and teacher-led activities with free and structured play in inspirational settings. The program is customised to the developmental ability of each child. Our program adheres to the EYFS, and incorporates proprietary STEM, Art, Literacy and Numeracy programs.</p>
           </div>
        </div>
       </div>
@@ -469,12 +472,9 @@
         <div class="row justify-content-center py-3">
           <div class="col-lg-8">
             <h1 class="head-text-blue text-center mb-4">What we teach</h1>
-            <p class="description">Find out what your little ones will be learning at our schools. </p>
-
-            <div class="row justify-content-center pt-4">
-                  <div class="col-lg-6">
-                  <div class="accordion" id="accordionExample">
-                    <div class="card1">
+            <p class="description text-center we-teach-desc">Find out what your little ones will be learning at our schools. </p>
+                  <div class="accordion row justify-content-centesr pt-4" id="accordionExample">
+                    <!-- <div class="card1 col-lg-6">
                       <div class="card-header card-header1" id="headingOne">
                         <h2 class="card-text mb-0">
                           <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -493,8 +493,8 @@
                         </ul>
                       </div>
                     </div>
-                  </div><hr/>
-                  <div class="card1">
+                  </div> -->
+                  <div class="card1 col-lg-6">
                     <div class="card-header card-header1" id="headingTwo">
                       <h2 class="card-text mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -513,8 +513,8 @@
                         </ul>
                       </div>
                     </div>
-                  </div><hr/>
-                  <div class="card1">
+                  </div>
+                  <!-- <div class="card1 col-lg-6">
                     <div class="card-header card-header1" id="headingThree">
                       <h2 class="card-text mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -533,8 +533,8 @@
                         </ul>
                       </div>
                     </div>
-                  </div><hr/>
-                  <div class="card1">
+                  </div> -->
+                  <!-- <div class="card1 col-lg-6">
                     <div class="card-header card-header1" id="headingFour">
                       <h2 class="card-text mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -555,8 +555,8 @@
                         </ul>
                       </div>
                     </div>
-                  </div><hr/>
-                  <div class="card1">
+                  </div> -->
+                  <!-- <div class="card1 col-lg-6">
                     <div class="card-header card-header1" id="headingFIve">
                       <h2 class="card-text mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -574,12 +574,8 @@
                         </ul>
                       </div>
                     </div>
-                  </div>
-                </div>
-                  </div>
-                  <div class="col-lg-6">
-                      <div class="accordion" id="accordionExample">
-                        <div class="card1">
+                  </div> -->
+                  <div class="card1 col-lg-6">
                           <div class="card-header card-header1" id="headingOne1">
                             <h2 class="card-text mb-0">
                               <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
@@ -598,8 +594,8 @@
                             </ul>
                           </div>
                         </div>
-                      </div><hr/>
-                      <div class="card1">
+                      </div>
+                      <div class="card1 col-lg-6">
                         <div class="card-header card-header1" id="headingTwo2">
                           <h2 class="card-text mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
@@ -618,8 +614,8 @@
                             </ul>
                           </div>
                         </div>
-                      </div><hr/>
-                      <div class="card1">
+                      </div>
+                      <div class="card1 col-lg-6">
                         <div class="card-header card-header1" id="headingThree3">
                           <h2 class="card-text mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
@@ -638,8 +634,8 @@
                             </ul>
                           </div>
                         </div>
-                      </div><hr/>
-                      <div class="card1">
+                      </div>
+                      <!-- <div class="card1 col-lg-6">
                         <div class="card-header card-header1" id="headingFour4">
                           <h2 class="card-text mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour4" aria-expanded="false" aria-controls="collapseFour4">
@@ -658,12 +654,9 @@
                             </ul>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
+                      </div> -->
                 </div>
           </div>
-
        </div>
       </div>
     </section> 

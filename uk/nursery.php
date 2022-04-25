@@ -32,7 +32,7 @@ $post_cont =  json_decode($json);
 
 
 ?>
-<section class="nursery-detail mt-5">
+<section class="nursery-detail" style="padding-top : 110px">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -181,7 +181,7 @@ $post_cont =  json_decode($json);
             <p><i class="fas fa-phone text-white" title="phone"></i></p>
             <p><i class="fab fa-facebook-f text-white" title="facebook"></i></p>
             <p><i class="fab fa-instagram text-white" title="Instagram"></i></p>
-            <p><i class="fa fa-download text-white" title="Download Brochure"></i></p>
+            <p><i class="fa fa-download text-white" title="Brochure"></i></p>
         </div>
     </div>
 </section>
@@ -258,7 +258,7 @@ $post_cont =  json_decode($json);
                         <button class="btn-sm btn btn-secondary" type="button"><i class="fas fa-phone text-white pr-3"></i>Give us a call</button>
                         <button class="btn-sm btn btn-secondary" type="button"><i class="fab fa-facebook-f text-white pr-3"></i>Facebook</button>
                         <button class="btn-sm btn btn-secondary" type="button"><i class="fab fa-instagram text-white pr-3"></i>Instagram</button>
-                        <button class="btn-sm btn btn-secondary" type="button"><i class="fa fa-download text-white pr-3"></i>Download Our Brochure</button>
+                        <button class="btn-sm btn btn-secondary" type="button"><i class="fa fa-download text-white pr-3"></i>Brochure</button>
                     </div>
                     </div>
                 </div>
@@ -276,10 +276,10 @@ $post_cont =  json_decode($json);
                     <div id="googleMap" style="width:100%;height:600px;"></div>
                     <div class="address row">
                         <div class="col-lg-6 border p-3 bg-light shadow">
-                            <h3 class="head-blue">Juhu International Preschool & Day Care</h3>
-                            <p><small>Seema Plot No 287/6, Gulmohar Road No 1, Opp Irla Masjid, J.V.P.D. Scheme, Vile Parle (W), Mumbai 400049, India, India</small></p>
+                            <h3 class="head-blue">Crouch End Nursery & Preschool</h3>
+                            <p><small>Clements Hall, 141 Central Street, Clerkenwell, London EC1V 8AP, UK, Greater-london</small></p>
                             <p><small>tel +919987840606</small></p>
-                            <p><small>email juhu@kido.school</small></p>
+                            <p><small>email clerkenwell@kido.school</small></p>
                         </div>
                     </div>
                 </div>
@@ -352,14 +352,14 @@ $post_cont =  json_decode($json);
                         </div>
                         <div class="card-body">
                             <div class="d-flex justify-content-between mt-2">
-                                <div><h5 class="text-secondary">India</h5></div>
+                                <div><h5 class="text-secondary">Uk</h5></div>
                                 <div>
                                     <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
                                     <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
                                 </div>
                             </div>
-                        <h5 class="card-title">Bandra International Preschool & Day Care</h5>
-                        <p class="card-text"><small id="demo">Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft ...</small></p>
+                        <h5 class="card-title">Crouch End Nursery & Preschool</h5>
+                        <p class="card-text"><small id="demo">Our Clerkenwell nursery is set in a converted church hall, with large outdoor play spaces and a specially...</small></p>
                         <div class="rating mt-3">
                             <div class="google-rating d-flex justify-content-between mt-2">
                                 <div class="google-rating-logo">
@@ -412,14 +412,14 @@ $post_cont =  json_decode($json);
                         </div>
                         <div class="card-body">
                             <div class="d-flex justify-content-between mt-2">
-                                <div><h5 class="text-secondary">India</h5></div>
+                                <div><h5 class="text-secondary">Uk</h5></div>
                                 <div>
                                     <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
                                     <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
                                 </div>
                             </div>
-                        <h5 class="card-title">Bandra International Preschool & Day Care</h5>
-                        <p class="card-text"><small id="demo">Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft ...</small></p>
+                        <h5 class="card-title">Crouch End Nursery & Preschool</h5>
+                        <p class="card-text"><small id="demo">Our Clerkenwell nursery is set in a converted church hall, with large outdoor play spaces and a specially...</small></p>
                         <div class="rating mt-3">
                             <div class="google-rating d-flex justify-content-between mt-2">
                                 <div class="google-rating-logo">
@@ -472,14 +472,14 @@ $post_cont =  json_decode($json);
                         </div>
                         <div class="card-body">
                             <div class="d-flex justify-content-between mt-2">
-                                <div><h5 class="text-secondary">India</h5></div>
+                                <div><h5 class="text-secondary">Uk</h5></div>
                                 <div>
                                     <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
                                     <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
                                 </div>
                             </div>
-                        <h5 class="card-title">Bandra International Preschool & Day Care</h5>
-                        <p class="card-text"><small id="demo">Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft ...</small></p>
+                        <h5 class="card-title">Crouch End Nursery & Preschool</h5>
+                        <p class="card-text"><small id="demo">Our Clerkenwell nursery is set in a converted church hall, with large outdoor play spaces and a specially...</small></p>
                         <div class="rating mt-3">
                             <div class="google-rating d-flex justify-content-between mt-2">
                                 <div class="google-rating-logo">
@@ -532,14 +532,14 @@ $post_cont =  json_decode($json);
                         </div>
                         <div class="card-body">
                             <div class="d-flex justify-content-between mt-2">
-                                <div><h5 class="text-secondary">India</h5></div>
+                                <div><h5 class="text-secondary">Uk</h5></div>
                                 <div>
                                     <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
                                     <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
                                 </div>
                             </div>
-                        <h5 class="card-title">Bandra International Preschool & Day Care</h5>
-                        <p class="card-text"><small id="demo">Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft ...</small></p>
+                        <h5 class="card-title">Crouch End Nursery & Preschool</h5>
+                        <p class="card-text"><small id="demo">Our Clerkenwell nursery is set in a converted church hall, with large outdoor play spaces and a specially...</small></p>
                         <div class="rating mt-3">
                             <div class="google-rating d-flex justify-content-between mt-2">
                                 <div class="google-rating-logo">
@@ -592,14 +592,14 @@ $post_cont =  json_decode($json);
                         </div>
                         <div class="card-body">
                             <div class="d-flex justify-content-between mt-2">
-                                <div><h5 class="text-secondary">India</h5></div>
+                                <div><h5 class="text-secondary">Uk</h5></div>
                                 <div>
                                     <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
                                     <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
                                 </div>
                             </div>
-                        <h5 class="card-title">Bandra International Preschool & Day Care</h5>
-                        <p class="card-text"><small id="demo">Kido International Preschool and Day Care (Formerly Safari Kid) is a wonderful 3500 sq ft ...</small></p>
+                        <h5 class="card-title">Crouch End Nursery & Preschool</h5>
+                        <p class="card-text"><small id="demo">Our Clerkenwell nursery is set in a converted church hall, with large outdoor play spaces and a specially...</small></p>
                         <div class="rating mt-3">
                             <div class="google-rating d-flex justify-content-between mt-2">
                                 <div class="google-rating-logo">

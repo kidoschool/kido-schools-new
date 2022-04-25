@@ -32,7 +32,7 @@
           <div class="col-lg-8">
           <h1 class="head-text-blue text-center mb-4">Our Pedagogical Leadership</h1>
             <div class="about-para">
-                <p>Our curriculum is developed in house and supported by a world renowned panel of advisors. Our pedagogical leadership team has over 200 years of combined experience in early years teaching, research and pedagogy across more than ten countries, and in multiple languages.</p>
+                <p>Our curriculum is developed in house and supported by a world renowned panel of advisors. Our pedagogical leadership team has over 100 years of combined experience in early years teaching, research and pedagogy across more than ten countries, and in multiple languages.</p>
             </div>
 
             <div class="desktop-view row justify-content-center pt-5">

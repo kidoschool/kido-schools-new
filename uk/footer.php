@@ -70,12 +70,17 @@
     </footer>
     <!-- footer end -->
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="topbtn shadow px-3 py-2 rounded"><i class="fa fa-angle-up"></i></button>
+
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
 <script src="https://storage.googleapis.com/kido-assets/owl.carousel.min.js"></script>
 <script src="https://res.cloudinary.com/dxfq3iotg/raw/upload/v1556817331/lightgallery-all.min.js"></script>
+<script src="../jquery.simplePagination.js"></script>
 <script>
+
+
     function myMap() {
 		var locations = [
             [-0.1396,51.42199],[-0.065616,51.52992],[-0.207357,51.481403],[-0.1581,51.41655],[-0.11082,51.505315],[0.003376,51.48828],[-0.270199,51.494789],[-0.097274,51.527976],[-0.1378577,51.543422],[-0.192741,51.571037],[-0.193057,51.457763],[-0.6089141,51.4772754],[-0.121613,51.580826]
@@ -112,51 +117,99 @@
         $('#lightgallery').lightGallery();
     });
 
-$(document).ready(function(){
-
-// var loop_or_not =  data.length > 3 ? true : false;
-
-$('.upcoming-evnts').owlCarousel({
-    loop:false,margin:25,nav: true,dots:true,
-    responsive:{0:{items:1},600:{items:2},1000:{items:2},1300:{items:2}},
-});
-
-$('.past-evnts').owlCarousel({
-    loop:true,margin:25,nav: true,dots:true,
-    responsive:{0:{items:1},600:{items:2},1000:{items:2},1300:{items:2}},
-});
-
-$('.near-by-nurseries-us').owlCarousel({
-    loop:false,margin:15,nav:true,dots:true,autoplay:true,
-    responsive:{0:{items:1},600:{items:2},1000:{items:3},1300:{items:3}},
-});
-
-$('.near-by-nurseries-india').owlCarousel({
-    loop:false,margin:15,nav:true,dots:true,autoplay:true,
-    responsive:{0:{items:1},600:{items:2},1000:{items:3},1300:{items:3}},
-});
+    // $(function() {
+    //   $("#nur-search-list-datas").pagination({
+    //     items: 10,
+    //     itemsOnPage: 1,
+    //     cssStyle: 'light-theme'
+    //   });
+    // });
 
 
-$('.photo-gal-owl').owlCarousel({
-    loop:false,margin:15,nav:true,dots:true,autoplay:true,
-    responsive:{0:{items:1},600:{items:3},1000:{items:3},1300:{items:4}},
-});
+    $(document).ready(function(){
 
-$('.search-nursery').owlCarousel({
-    loop:false,margin:15,nav:true,dots:true,autoplay:true,
-    responsive:{0:{items:1}},
-});
+    // var loop_or_not =  data.length > 3 ? true : false;
 
-$('.near-by-nurseries-search-us').owlCarousel({
-    loop:false,margin:15,nav:true,dots:true,autoplay:true,
-    responsive:{0:{items:1},600:{items:2},1000:{items:4},1300:{items:4}},
-});
+    $('.upcoming-evnts').owlCarousel({
+        loop:false,margin:25,nav: true,dots:true,
+        responsive:{0:{items:1},600:{items:2},1000:{items:2},1300:{items:2}},
+    });
+
+    $('.past-evnts').owlCarousel({
+        loop:true,margin:25,nav: true,dots:true,
+        responsive:{0:{items:1},600:{items:2},1000:{items:2},1300:{items:2}},
+    });
+
+    $('.near-by-nurseries-us').owlCarousel({
+        loop:false,margin:15,nav:true,dots:true,autoplay:true,
+        responsive:{0:{items:1},600:{items:2},1000:{items:3},1300:{items:3}},
+    });
+
+    $('.near-by-nurseries-india').owlCarousel({
+        loop:false,margin:15,nav:true,dots:true,autoplay:true,
+        responsive:{0:{items:1},600:{items:2},1000:{items:3},1300:{items:3}},
+    });
+
+
+    $('.photo-gal-owl').owlCarousel({
+        loop:false,margin:15,nav:true,dots:true,autoplay:true,
+        responsive:{0:{items:1},600:{items:3},1000:{items:3},1300:{items:4}},
+    });
+
+    $('.search-nursery').owlCarousel({
+        loop:false,margin:15,nav:true,dots:true,autoplay:true,
+        responsive:{0:{items:1}},
+    });
+
+    $('.near-by-nurseries-search-us').owlCarousel({
+        loop:false,margin:15,nav:true,dots:true,autoplay:true,
+        responsive:{0:{items:1},600:{items:2},1000:{items:4},1300:{items:4}},
+    });
 
 
 
 
-});
+    });
 
+
+      // //Get the button
+      var mybutton = document.getElementById("myBtn");
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+
+      /**
+     * Listen to scroll to change header opacity class
+     */
+        function checkScroll(){
+            var startY = window.innerHeight; //The point where the navbar changes in px
+
+            if($(window).scrollTop() > startY){
+                $('.navbar').addClass("scrolled");
+            }else{
+                $('.navbar').removeClass("scrolled");
+            }
+        }
+
+        if($('.banner-hero-img').length > 0){
+            $(window).on("scroll load resize", function(){
+                checkScroll();
+            });
+        }else{
+          $('.navbar').addClass("scrolled");
+
+        }
 
     
 </script> 

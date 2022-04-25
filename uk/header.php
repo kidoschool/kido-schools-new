@@ -17,11 +17,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.0/css/lightgallery.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://storage.googleapis.com/kido-assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../simplePagination.css" />
     <link rel="stylesheet" type="text/css" href="../style.css?v=0.1">
 </head>
 <body>
 <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-color fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-color fixed-top" id="navigation">
           <a class="navbar-brand pl-4" href="index.php"><img src="https://storage.googleapis.com/kido-assets/kido-logo.jpg" alt="logo"/></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

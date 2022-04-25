@@ -3,7 +3,7 @@ body{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     line-height: 1.5;
     background-color: #fff;
 }
@@ -61,7 +61,7 @@ a {color: #666; text-decoration: none !important;  transition: 0.3s; cursor: poi
   padding: 10px 20px;
   line-height: 128%;
   margin-bottom: 20px;
-  width: 50%;
+  width: 40%;
 }
 
 .btn-primary:hover{
@@ -141,7 +141,7 @@ a.btn-banner {
 /*--------section header start---------*/
 
 .nav-link{color: #fff!important; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
-.bg-color{background: #00356b!important; }
+.bg-color{background: rgba(0, 0, 0, 0.2)!important; }
 
 .dropdown-item{color: #00356b!important; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
 
@@ -160,6 +160,12 @@ a.btn-banner {
  }
 
 #search select {font-size: 14px;}
+
+.navbar.scrolled {
+  background: #00356b !important; /* NON-IE */
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+}
 
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
@@ -253,7 +259,7 @@ a.btn-banner {
 }
 
 .nursery-body{
-  padding-top: 110px;
+  padding-top: 160px;
 }
 
 .map{
@@ -700,6 +706,7 @@ a.faq-link{
     /* margin-left: 210px; */
     margin-left: 12%;
   }
+
 }
 
 
@@ -720,7 +727,7 @@ a.faq-link{
   }
 
     .nursery-body {
-      padding-top: 108px;
+      padding-top: 150px;
     }
 
     .desktop-nur-gallery{
@@ -733,7 +740,7 @@ a.faq-link{
 
     .nursery-list-img{
       width: 100%;
-      height: 31vh;
+      height: 20vh;
       border-radius: 19px;
       object-fit: cover;
     }
@@ -784,7 +791,6 @@ a.faq-link{
 
     p {color: #444; font-size: 1em; text-align: start; margin: 0 25px}
 
-
     .btn-primary {
       background-color: #bd5319;
       border-color: #bd5319;
@@ -831,7 +837,7 @@ a.faq-link{
     }
 
     .nursery-body {
-      padding-top: 108px;
+      padding-top: 150px;
     }
 
     .map-mobile{
@@ -845,6 +851,10 @@ a.faq-link{
 
     .near-by-nursery p.card-text{
      margin: 0px 0px;
+    }
+
+    .nursery-details{
+      margin-top: 110px !important;
     }
 
     .nursery-detail p{
@@ -982,20 +992,23 @@ a.faq-link{
     margin: 0px 5px;
   }
 
-  /* .mobile-list li a{ 
-    
-    border-right: 1px solid #fff;
-    margin: 0px 10px;
-  } */
+  .we-teach-desc{
+    text-align: start !important;
+  }
 
+  .nur-cat img{
+    width: 35%;
+  }
+
+  .nur-cat h6{
+    font-size: 13px;
+  }
 
   .mobile-list li:not(:first-child) a:before {
     /* border-right: 1px solid #fff; */
     /* margin: 0px 10px; */
     content: "I    ";
   }
-
-
 
   .footer-info li {
     padding-bottom: 0px;
