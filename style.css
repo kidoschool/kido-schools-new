@@ -1001,7 +1001,7 @@ a.faq-link{
   }
 
   .nur-cat h6{
-    font-size: 13px;
+    font-size: 75%;
   }
 
   .mobile-list li:not(:first-child) a:before {
