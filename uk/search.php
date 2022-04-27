@@ -4,7 +4,7 @@
        <div class="row uk-search-head">
             <div class="col-lg-6">
             <div class="form-group">
-                <input type="number" class="form-control" id="pincode" placeholder="Enter Post code">
+                <input type="number" class="form-control" id="pincode" placeholder="Enter Postcode">
             </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
                 </div>
                 <div class="col-lg-7 col-md-6">
                     <div class="d-flex justify-content-between mt-2">
-                    <div><h5 class="text-secondary">UK</h5></div>
+                    <div><h5 class="text-secondary">Greater London</h5></div>
                     <div>
                         <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
                         <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
@@ -138,7 +138,7 @@
                 </div>
                 <div class="col-lg-7 col-md-6">
                     <div class="d-flex justify-content-between">
-                        <div><h5 class="text-secondary">UK</h5></div>
+                        <div><h5 class="text-secondary">Greater London</h5></div>
                         <div>
                             <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
                             <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
@@ -204,7 +204,7 @@
                 </div>
                 <div class="col-lg-7 col-md-6">
                     <div class="d-flex justify-content-between">
-                        <div><h5 class="text-secondary">UK</h5></div>
+                        <div><h5 class="text-secondary">Greater London</h5></div>
                         <div>
                             <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
                             <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
@@ -270,7 +270,7 @@
                 </div>
                 <div class="col-lg-7 col-md-6">
                     <div class="d-flex justify-content-between">
-                        <div><h5 class="text-secondary">UK</h5></div>
+                        <div><h5 class="text-secondary">Greater London</h5></div>
                         <div>
                             <i class="fa fa-phone text-primary" aria-hidden="true" style="cursor : pointer"></i>
                             <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
