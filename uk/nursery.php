@@ -36,7 +36,7 @@ $post_cont =  json_decode($json);
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <h1 class="head-text-blue">Kido Camden Nursery & Day Care</h1>
+                <h1 class="head-text-blue">Kido Greenwich Nursery & Day Care</h1>
             </div>
         </div>
         <div class="row">
@@ -276,8 +276,8 @@ $post_cont =  json_decode($json);
                     <div id="googleMap" style="width:100%;height:600px;"></div>
                     <div class="address row">
                         <div class="col-lg-6 border p-3 bg-light shadow">
-                            <h3 class="head-blue">Crouch End Nursery & Preschool</h3>
-                            <p><small>Clements Hall, 141 Central Street, Clerkenwell, London EC1V 8AP, UK, Greater-london</small></p>
+                            <h3 class="head-blue">Greenwich Nursery & Preschool</h3>
+                            <p><small>Clements Hall, 141 Central Street, Greenwich, London EC1V 8AP, UK, Greater-london</small></p>
                             <p><small>tel +919987840606</small></p>
                             <p><small>email clerkenwell@kido.school</small></p>
                         </div>
@@ -358,7 +358,7 @@ $post_cont =  json_decode($json);
                                     <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
                                 </div>
                             </div>
-                        <h5 class="card-title">Crouch End Nursery & Preschool</h5>
+                        <h5 class="card-title">Clerkenwell Nursery & Preschool</h5>
                         <p class="card-text"><small id="demo">Our Clerkenwell nursery is set in a converted church hall, with large outdoor play spaces and a specially...</small></p>
                         <div class="rating mt-3">
                             <div class="google-rating d-flex justify-content-between mt-2">
@@ -418,7 +418,7 @@ $post_cont =  json_decode($json);
                                     <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
                                 </div>
                             </div>
-                        <h5 class="card-title">Crouch End Nursery & Preschool</h5>
+                        <h5 class="card-title">Camden Nursery & Preschool</h5>
                         <p class="card-text"><small id="demo">Our Clerkenwell nursery is set in a converted church hall, with large outdoor play spaces and a specially...</small></p>
                         <div class="rating mt-3">
                             <div class="google-rating d-flex justify-content-between mt-2">
@@ -538,7 +538,7 @@ $post_cont =  json_decode($json);
                                     <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
                                 </div>
                             </div>
-                        <h5 class="card-title">Crouch End Nursery & Preschool</h5>
+                        <h5 class="card-title">Windsor Nursery & Preschool</h5>
                         <p class="card-text"><small id="demo">Our Clerkenwell nursery is set in a converted church hall, with large outdoor play spaces and a specially...</small></p>
                         <div class="rating mt-3">
                             <div class="google-rating d-flex justify-content-between mt-2">
@@ -598,7 +598,7 @@ $post_cont =  json_decode($json);
                                     <i class="fa fa-envelope text-primary ml-2" aria-hidden="true" style="cursor : pointer"></i>
                                 </div>
                             </div>
-                        <h5 class="card-title">Crouch End Nursery & Preschool</h5>
+                        <h5 class="card-title">Tooting Nursery & Preschool</h5>
                         <p class="card-text"><small id="demo">Our Clerkenwell nursery is set in a converted church hall, with large outdoor play spaces and a specially...</small></p>
                         <div class="rating mt-3">
                             <div class="google-rating d-flex justify-content-between mt-2">
