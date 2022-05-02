@@ -4,9 +4,9 @@
     <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="banner-tarea">
-            <h2 class="banner-text">Events banner, text</h2>
+            <h2 class="banner-text">online, and on site</h2>
         </div>
-        <img src="../images/event-banner.jpg" class="banner-hero-img" alt="about-banner"/>
+        <img src="../images/curriculum-banner.jpg" class="banner-hero-img" alt="about-banner"/>
     </div>
     </div>
 </section>

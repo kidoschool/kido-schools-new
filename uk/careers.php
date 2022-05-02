@@ -3,7 +3,7 @@
 <section class="careers-banner">
       <div class="container-fluid">
           <div class="row justify-content-center">
-              <img src="../images/career-banner.jpg" class="banner-hero-img" alt="about-banner"/>
+              <img src="../images/careers-banner.jpg" class="banner-hero-img" alt="about-banner"/>
               <div class="banner-tarea">
                   <h2 class="banner-text">start your career at Kido</h2>
                   <a href="#roles" class="btn-banner">View opportunities</a>

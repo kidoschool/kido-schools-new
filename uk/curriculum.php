@@ -4,9 +4,9 @@
       <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="banner-tarea">
-                <h2 class="banner-text">curriculam banner, text</h2>
+                <h2 class="banner-text">nursery, meet the future</h2>
             </div>
-            <img src="../images/Our-Programs-banner.jpg"  class="banner-hero-img" alt="contact-banner"/>
+            <img src="../images/event-banner.jpg"  class="banner-hero-img" alt="contact-banner"/>
        </div>
       </div>
     </section>

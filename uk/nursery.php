@@ -36,7 +36,7 @@ $post_cont =  json_decode($json);
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <h1 class="head-text-blue">Kido Greenwich Nursery & Day Care</h1>
+                <h1 class="head-text-blue"><?php echo $post->post_title; ?></h1>
             </div>
         </div>
         <div class="row">
