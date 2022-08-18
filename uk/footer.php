@@ -197,8 +197,10 @@
 
             if($(window).scrollTop() > startY){
                 $('.navbar').addClass("scrolled");
+                $('.dropdown-menu').addClass("drop-scrolled");
             }else{
                 $('.navbar').removeClass("scrolled");
+                $('.dropdown-menu').removeClass("drop-scrolled");
             }
         }
 
@@ -208,7 +210,7 @@
             });
         }else{
           $('.navbar').addClass("scrolled");
-
+          $('.dropdown-menu').addClass("drop-scrolled");
         }
 
     

@@ -143,12 +143,18 @@ a.btn-banner {
 .nav-link{color: #fff!important; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
 .bg-color{background: rgba(0, 0, 0, 0)!important; }
 
-.dropdown-item{color: #00356b!important; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
+.dropdown-item{color: #fff!important; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
 
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item:hover, .dropdown-item:active {
   color: #fff!important;
   text-decoration: none;
   background-color: #00356b;
+}
+
+.navbar-nav .dropdown-menu {
+  background: transparent;
+  position: static;
+  float: none;
 }
 
 .navbar input::placeholder{
@@ -166,6 +172,10 @@ a.btn-banner {
   transition: background-color 0.5s;
   -webkit-transition: background-color 0.5s;
 }
+.navbar-nav .dropdown-menu.drop-scrolled{
+  background: #00356b !important; /* NON-IE */
+}
+
 
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
@@ -789,7 +799,7 @@ a.faq-link{
         font-size: 1.5em;
     }
 
-    p {color: #444; font-size: 1em; text-align: start; margin: 0 25px}
+    p {color: #444; font-size: 1em; text-align: justify; margin: 0 25px}
 
     .btn-primary {
       background-color: #bd5319;
