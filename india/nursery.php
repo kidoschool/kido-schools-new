@@ -178,6 +178,7 @@ $post_cont =  json_decode($json);
             <p><i class="fab fa-facebook-f text-white" title="facebook"></i></p>
             <p><i class="fab fa-instagram text-white" title="Instagram"></i></p>
             <p><i class="fa fa-download text-white" title="Download Brochure"></i></p>
+            <p><i class="fa fa-whatsapp" title="Whatsapp"></i></p>
         </div>
     </div>
 </section>
